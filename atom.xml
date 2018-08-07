@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-07T07:43:04.378Z</updated>
+  <updated>2018-08-07T12:43:31.337Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,23 +17,46 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>markdown note</title>
-    <link href="http://yoursite.com/2018/Markdown-Note.html"/>
-    <id>http://yoursite.com/2018/Markdown-Note.html</id>
-    <published>2018-08-04T13:46:22.000Z</published>
-    <updated>2018-08-07T07:43:04.378Z</updated>
+    <title>隐藏Hexo底部power By Hexo /强驱动</title>
+    <link href="http://yoursite.com/2018/%E9%9A%90%E8%97%8FHexo%E5%BA%95%E9%83%A8power-By-Hexo-%E5%BC%BA%E9%A9%B1%E5%8A%A8.html"/>
+    <id>http://yoursite.com/2018/隐藏Hexo底部power-By-Hexo-强驱动.html</id>
+    <published>2018-08-07T10:03:09.000Z</published>
+    <updated>2018-08-07T12:43:31.337Z</updated>
     
-    <content type="html"><![CDATA[<p>​    <strong>加粗</strong></p><p><em>倾斜</em></p><p><strong><em>倾斜加粗</em></strong></p><p><del>delete line</del></p><h1 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h1><hr><hr><hr><hr><p><img src="https://upload-images.jianshu.io/upload_images/6860761-fd2f51090a890873.jpg?imagemogr2/auto-orient/strip%7cimageview2/2/w/550" alt="mypage" title="qukuailian"></p><p><a href="https://upload-images.jianshu.io/upload_images/6860761-fd2f51090a890873.jpg?imagemogr2/auto-orient/strip%7cimageview2/2/w/550" target="_blank">简书</a></p><blockquote><p>引用</p><blockquote><p>引用</p><blockquote><p>引用</p><blockquote><p>引用</p></blockquote></blockquote></blockquote></blockquote><p><a href="http://www.baidu.com" target="_blank" rel="noopener"><img src="markdown-note/download.jpg" alt="name" title="百度"></a></p><p><img src="markdown-note/download.jpg" alt="helloworld"></p><p><a href="http://www.baidu.com" target="_blank" rel="noopener">helloworld</a></p><p><a href="https://www.baidu.com" target="_blank"><br>baidu</a></p><h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><ul><li>text 1</li><li>text 2</li><li>text 3</li></ul><ol><li>text 1</li><li>text 2</li><li>text 3</li></ol><ul><li><p>Tintin</p><ul><li>A reporter</li><li>Has poofy orange hair</li><li>Friends with the world’s most awesome dog<ul><li>Friends with the world’s most awesome dog</li></ul></li></ul></li><li><p>Haddock</p><ul><li>A sea captain</li><li>Has a fantastic beard</li><li>Loves whiskey<ul><li>Possibly also scotch?</li></ul></li></ul></li></ul><p>$$cos^2(x) + sin^2(x) = 1$$</p><h1 id="code-cite"><a href="#code-cite" class="headerlink" title="code cite"></a>code cite</h1><h2 id="单行"><a href="#单行" class="headerlink" title="单行"></a>单行</h2><p><code>printf(&quot;helloworld&quot;);</code></p><h2 id="多行"><a href="#多行" class="headerlink" title="多行"></a>多行</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">printf(&quot;helloworld&quot;);</span><br><span class="line">printf(&quot;helloworld&quot;);</span><br><span class="line">printf(&quot;helloworld&quot;);</span><br><span class="line">printf(&quot;helloworld&quot;);</span><br></pre></td></tr></table></figure><table><thead><tr><th>Tables</th><th style="text-align:center">Are</th><th style="text-align:right">Cool</th></tr></thead><tbody><tr><td>col 3 is</td><td style="text-align:center">right-aligned</td><td style="text-align:right">$1600</td></tr><tr><td>col 2 is</td><td style="text-align:center">centered</td><td style="text-align:right">$12</td></tr><tr><td>zebra stripes</td><td style="text-align:center">are neat</td><td style="text-align:right">$1</td></tr></tbody></table><p><br></p><table><thead><tr><th>dog</th><th>bird</th><th>cat</th></tr></thead><tbody><tr><td>foo</td><td>foo</td><td>foo</td></tr><tr><td>bar</td><td>bar</td><td>bar</td></tr><tr><td>baz</td><td>baz</td><td>baz</td></tr></tbody></table><p></p><p>质能方程 </p><p><img src="https://s19.postimg.cc/4okd8ygub/download.jpg" alt="download.jpg"></p><p><a href="https://postimg.cc/image/wbx2n220v/" target="_blank" rel="noopener">download.jpg</a></p><p>$x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}$</p><p>$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$</p><p>_斜体_</p><p><strong><em>jiacu heiti</em></strong></p><p><a href="https://postimg.cc/image/wbx2n220v/" target="_blank" rel="noopener"><img src="https://s19.postimg.cc/4okd8ygub/download.jpg" alt="download.jpg"></a></p>]]></content>
+    <content type="html"><![CDATA[<p>修改 <code>themes/next/layout/_partials/footer.swig</code> 文件。</p><p>使用 <strong>_”\&lt;!– *</strong> –&gt;”_** 注释代码段31行到57行。<br>如下图</p><p><img src="https://s19.postimg.cc/flzh2rs9v/hexo.png" alt="hexo 页脚.png"></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;​    &lt;strong&gt;加粗&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;倾斜&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;倾斜加粗&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;del&gt;delete line&lt;/del&gt;&lt;/p&gt;
-&lt;h1 id=&quot;分割线&quot;&gt;&lt;a href=
+        &lt;p&gt;修改 &lt;code&gt;themes/next/layout/_partials/footer.swig&lt;/code&gt; 文件。&lt;/p&gt;
+&lt;p&gt;使用 &lt;strong&gt;_”\&amp;lt;!– *&lt;/strong&gt; –&amp;gt;”_** 注释代码段31行到57行。&lt;br&gt;如下图&lt;/p&gt;
+&lt;p
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+      <category term="power by Hexo" scheme="http://yoursite.com/tags/power-by-Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown Note</title>
+    <link href="http://yoursite.com/2018/Markdown-Note.html"/>
+    <id>http://yoursite.com/2018/Markdown-Note.html</id>
+    <published>2018-08-04T13:46:22.000Z</published>
+    <updated>2018-08-07T12:53:51.910Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p><h2 id="加粗"><a href="#加粗" class="headerlink" title="加粗"></a><strong>加粗</strong></h2><p><em>倾斜</em></p><p><strong><em>倾斜加粗</em></strong></p><p><del>delete line</del></p><h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><hr><hr><hr><hr><p><img src="https://upload-images.jianshu.io/upload_images/6860761-fd2f51090a890873.jpg?imagemogr2/auto-orient/strip%7cimageview2/2/w/550" alt="mypage" title="qukuailian"></p><p><a href="https://upload-images.jianshu.io/upload_images/6860761-fd2f51090a890873.jpg?imagemogr2/auto-orient/strip%7cimageview2/2/w/550" target="_blank">简书</a></p><blockquote><p>引用</p><blockquote><p>引用</p><blockquote><p>引用</p><blockquote><p>引用</p></blockquote></blockquote></blockquote></blockquote><p><a href="http://www.baidu.com" target="_blank" rel="noopener"><img src="markdown-note/download.jpg" alt="name" title="百度"></a></p><p><img src="markdown-note/download.jpg" alt="helloworld"></p><p><a href="http://www.baidu.com" target="_blank" rel="noopener">helloworld</a></p><p><a href="https://www.baidu.com" target="_blank"><br>baidu</a></p><h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><ul><li>text 1</li><li>text 2</li><li>text 3</li></ul><ol><li>text 1</li><li>text 2</li><li>text 3</li></ol><ul><li><p>Tintin</p><ul><li>A reporter</li><li>Has poofy orange hair</li><li>Friends with the world’s most awesome dog<ul><li>Friends with the world’s most awesome dog</li></ul></li></ul></li><li><p>Haddock</p><ul><li>A sea captain</li><li>Has a fantastic beard</li><li>Loves whiskey<ul><li>Possibly also scotch?</li></ul></li></ul></li></ul><p>$$cos^2(x) + sin^2(x) = 1$$</p><h2 id="code-cite"><a href="#code-cite" class="headerlink" title="code cite"></a>code cite</h2><h2 id="单行"><a href="#单行" class="headerlink" title="单行"></a>单行</h2><p><code>printf(&quot;helloworld&quot;);</code></p><h2 id="多行"><a href="#多行" class="headerlink" title="多行"></a>多行</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">printf</span>(<span class="string">"helloworld"</span>);</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"helloworld"</span>);</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"helloworld"</span>);</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"helloworld"</span>);</span><br></pre></td></tr></table></figure><table><thead><tr><th>Tables</th><th style="text-align:center">Are</th><th style="text-align:right">Cool</th></tr></thead><tbody><tr><td>col 3 is</td><td style="text-align:center">right-aligned</td><td style="text-align:right">$1600</td></tr><tr><td>col 2 is</td><td style="text-align:center">centered</td><td style="text-align:right">$12</td></tr><tr><td>zebra stripes</td><td style="text-align:center">are neat</td><td style="text-align:right">$1</td></tr></tbody></table><p><br></p><table><thead><tr><th>dog</th><th>bird</th><th>cat</th></tr></thead><tbody><tr><td>foo</td><td>foo</td><td>foo</td></tr><tr><td>bar</td><td>bar</td><td>bar</td></tr><tr><td>baz</td><td>baz</td><td>baz</td></tr></tbody></table><p></p><p>质能方程 </p><p><img src="https://s19.postimg.cc/4okd8ygub/download.jpg" alt="download.jpg"></p><p><a href="https://postimg.cc/image/wbx2n220v/" target="_blank" rel="noopener">download.jpg</a></p><p>$x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}$</p><p>$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$</p><p>_斜体_</p><p><strong><em>jiacu heiti</em></strong></p><p><a href="https://postimg.cc/image/wbx2n220v/" target="_blank" rel="noopener"><img src="https://s19.postimg.cc/4okd8ygub/download.jpg" alt="download.jpg"></a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#
       
     
     </summary>
@@ -47,30 +70,7 @@
     
       <category term="代码" scheme="http://yoursite.com/tags/%E4%BB%A3%E7%A0%81/"/>
     
-      <category term="java" scheme="http://yoursite.com/tags/java/"/>
-    
       <category term="C++" scheme="http://yoursite.com/tags/C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2018/hello-world.html"/>
-    <id>http://yoursite.com/2018/hello-world.html</id>
-    <published>2018-08-04T09:32:17.594Z</published>
-    <updated>2018-08-07T02:26:30.848Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
     
   </entry>
   
