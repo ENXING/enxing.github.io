@@ -4,51 +4,6 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/test03.html</loc>
-    <lastmod>2018-08-07T09:29:09.724Z</lastmod>
-    <data>
-        <display>
-        <title>test03</title>
-        <pubTime>2018-08-07T09:29:09.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2018/test02.html</loc>
-    <lastmod>2018-08-07T09:29:02.741Z</lastmod>
-    <data>
-        <display>
-        <title>test02</title>
-        <pubTime>2018-08-07T09:29:02.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2018/test01.html</loc>
-    <lastmod>2018-08-07T09:28:47.208Z</lastmod>
-    <data>
-        <display>
-        <title>test01</title>
-        <pubTime>2018-08-07T09:28:47.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/2018/Markdown-Note.html</loc>
     <lastmod>2018-08-07T07:43:04.378Z</lastmod>
     <data>
