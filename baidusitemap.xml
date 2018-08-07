@@ -3,9 +3,28 @@
 
 
     
+    
+    
+    
+    
+  <url>
+    <loc>http://yoursite.com/2018/test01.html</loc>
+    <lastmod>2018-08-07T14:25:27.006Z</lastmod>
+    <data>
+        <display>
+        <title>test01</title>
+        <pubTime>2018-08-07T13:25:59.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>http://yoursite.com/2018/Markdown-Note.html</loc>
-    <lastmod>2018-08-07T12:53:51.910Z</lastmod>
+    <lastmod>2018-08-07T13:09:50.425Z</lastmod>
     <data>
         <display>
         <title>Markdown Note</title>
