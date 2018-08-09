@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ibelieveicanfly.gq/"/>
-  <updated>2018-08-07T14:25:27.006Z</updated>
+  <updated>2018-08-09T12:12:01.692Z</updated>
   <id>https://ibelieveicanfly.gq/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>常用命令和工具</title>
+    <link href="https://ibelieveicanfly.gq/2018/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%92%8C%E5%B7%A5%E5%85%B7.html"/>
+    <id>https://ibelieveicanfly.gq/2018/常用命令和工具.html</id>
+    <published>2018-08-09T12:03:09.000Z</published>
+    <updated>2018-08-09T12:12:01.692Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="vim"><a href="#vim" class="headerlink" title="vim"></a>vim</h1><h2 id="vim-宏录制"><a href="#vim-宏录制" class="headerlink" title="vim 宏录制"></a>vim 宏录制</h2><ol><li>在normal 模式下输入qa，开始记录操作，其中 <strong>_a_</strong>   代表vim下 <strong>_a_</strong> 寄存器（可以改成其他寄存器如 <strong><em>b, c ,d</em></strong> )。</li><li><p>结束录制按 <strong>_q_</strong>。</p></li><li><p>使用宏：normal 模式下 输入 <strong><em>n@a</em></strong> , n 代表使用次数， a 是宏存放的位置。</p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;vim&quot;&gt;&lt;a href=&quot;#vim&quot; class=&quot;headerlink&quot; title=&quot;vim&quot;&gt;&lt;/a&gt;vim&lt;/h1&gt;&lt;h2 id=&quot;vim-宏录制&quot;&gt;&lt;a href=&quot;#vim-宏录制&quot; class=&quot;headerlink&quot; title=&quot;vim 宏录制
+      
+    
+    </summary>
+    
+      <category term="vim" scheme="https://ibelieveicanfly.gq/categories/vim/"/>
+    
+    
+      <category term="vim" scheme="https://ibelieveicanfly.gq/tags/vim/"/>
+    
+      <category term="linux" scheme="https://ibelieveicanfly.gq/tags/linux/"/>
+    
+  </entry>
   
   <entry>
     <title>test01</title>
@@ -72,7 +99,7 @@
     <link href="https://ibelieveicanfly.gq/2018/Markdown-Note.html"/>
     <id>https://ibelieveicanfly.gq/2018/Markdown-Note.html</id>
     <published>2018-08-04T13:46:22.000Z</published>
-    <updated>2018-08-07T13:09:50.425Z</updated>
+    <updated>2018-08-09T12:13:22.187Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p><h2 id="加粗"><a href="#加粗" class="headerlink" title="加粗"></a><strong>加粗</strong></h2><p><em>倾斜</em></p><p><strong><em>倾斜加粗</em></strong></p><p><del>delete line</del></p><h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><hr><hr><hr><hr><p><img src="https://upload-images.jianshu.io/upload_images/6860761-fd2f51090a890873.jpg?imagemogr2/auto-orient/strip%7cimageview2/2/w/550" alt="mypage" title="qukuailian"></p><p><a href="https://upload-images.jianshu.io/upload_images/6860761-fd2f51090a890873.jpg?imagemogr2/auto-orient/strip%7cimageview2/2/w/550" target="_blank">简书</a></p><blockquote><p>引用</p><blockquote><p>引用</p><blockquote><p>引用</p><blockquote><p>引用</p></blockquote></blockquote></blockquote></blockquote><p><a href="http://www.baidu.com" target="_blank" rel="noopener"><img src="markdown-note/download.jpg" alt="name" title="百度"></a></p><p><img src="markdown-note/download.jpg" alt="helloworld"></p><p><a href="http://www.baidu.com" target="_blank" rel="noopener">helloworld</a></p><p><a href="https://www.baidu.com" target="_blank"><br>baidu</a></p><h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><ul><li>text 1</li><li>text 2</li><li>text 3</li></ul><ol><li>text 1</li><li>text 2</li><li>text 3</li></ol><ul><li><p>Tintin</p><ul><li>A reporter</li><li>Has poofy orange hair</li><li>Friends with the world’s most awesome dog<ul><li>Friends with the world’s most awesome dog</li></ul></li></ul></li><li><p>Haddock</p><ul><li>A sea captain</li><li>Has a fantastic beard</li><li>Loves whiskey<ul><li>Possibly also scotch?</li></ul></li></ul></li></ul><p>$$cos^2(x) + sin^2(x) = 1$$</p><h2 id="code-cite"><a href="#code-cite" class="headerlink" title="code cite"></a>code cite</h2><h2 id="单行"><a href="#单行" class="headerlink" title="单行"></a>单行</h2><p><code>printf(&quot;helloworld&quot;);</code></p><h2 id="多行"><a href="#多行" class="headerlink" title="多行"></a>多行</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">printf</span>(<span class="string">"helloworld"</span>);</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"helloworld"</span>);</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"helloworld"</span>);</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">"helloworld"</span>);</span><br></pre></td></tr></table></figure><table><thead><tr><th>Tables</th><th style="text-align:center">Are</th><th style="text-align:right">Cool</th></tr></thead><tbody><tr><td>col 3 is</td><td style="text-align:center">right-aligned</td><td style="text-align:right">$1600</td></tr><tr><td>col 2 is</td><td style="text-align:center">centered</td><td style="text-align:right">$12</td></tr><tr><td>zebra stripes</td><td style="text-align:center">are neat</td><td style="text-align:right">$1</td></tr></tbody></table><p><br></p><table><thead><tr><th>dog</th><th>bird</th><th>cat</th></tr></thead><tbody><tr><td>foo</td><td>foo</td><td>foo</td></tr><tr><td>bar</td><td>bar</td><td>bar</td></tr><tr><td>baz</td><td>baz</td><td>baz</td></tr></tbody></table><p></p><p>质能方程 </p><p><img src="https://s19.postimg.cc/4okd8ygub/download.jpg" alt="download.jpg"></p><p><a href="https://postimg.cc/image/wbx2n220v/" target="_blank" rel="noopener">download.jpg</a></p><p>$x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}$</p><p>$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$</p><p>_斜体_</p><p><strong><em>jiacu heiti</em></strong></p><p><a href="https://postimg.cc/image/wbx2n220v/" target="_blank" rel="noopener"><img src="https://s19.postimg.cc/4okd8ygub/download.jpg" alt="download.jpg"></a></p>]]></content>
     
