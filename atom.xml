@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ibelieveicanfly.gq/"/>
-  <updated>2018-08-09T12:12:01.692Z</updated>
+  <updated>2018-08-09T12:48:23.968Z</updated>
   <id>https://ibelieveicanfly.gq/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://ibelieveicanfly.gq/2018/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%92%8C%E5%B7%A5%E5%85%B7.html"/>
     <id>https://ibelieveicanfly.gq/2018/常用命令和工具.html</id>
     <published>2018-08-09T12:03:09.000Z</published>
-    <updated>2018-08-09T12:12:01.692Z</updated>
+    <updated>2018-08-09T12:48:23.968Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="vim"><a href="#vim" class="headerlink" title="vim"></a>vim</h1><h2 id="vim-宏录制"><a href="#vim-宏录制" class="headerlink" title="vim 宏录制"></a>vim 宏录制</h2><ol><li>在normal 模式下输入qa，开始记录操作，其中 <strong>_a_</strong>   代表vim下 <strong>_a_</strong> 寄存器（可以改成其他寄存器如 <strong><em>b, c ,d</em></strong> )。</li><li><p>结束录制按 <strong>_q_</strong>。</p></li><li><p>使用宏：normal 模式下 输入 <strong><em>n@a</em></strong> , n 代表使用次数， a 是宏存放的位置。</p></li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="vim"><a href="#vim" class="headerlink" title="vim"></a>vim</h1><h2 id="vim-宏录制"><a href="#vim-宏录制" class="headerlink" title="vim 宏录制"></a>vim 宏录制</h2><ol><li>在normal 模式下输入 <strong>_qa_</strong> ，开始记录操作，其中 <strong>_a_</strong>  代表vim下 a 寄存器（可以改成其他寄存器如 <strong><em>b, c ,d</em></strong> )。</li><li><p>结束录制按 <em><strong>q</strong></em>。</p></li><li><p>使用宏：normal 模式下 输入 <strong><em>n@a</em></strong> , n 代表使用次数， a 是宏存放的位置。</p></li></ol>]]></content>
     
     <summary type="html">
     

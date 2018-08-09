@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[常用命令和工具]]></title>
     <url>%2F2018%2F%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%92%8C%E5%B7%A5%E5%85%B7.html</url>
-    <content type="text"><![CDATA[vimvim 宏录制 在normal 模式下输入qa，开始记录操作，其中 _a_ 代表vim下 _a_ 寄存器（可以改成其他寄存器如 b, c ,d )。 结束录制按 _q_。 使用宏：normal 模式下 输入 n@a , n 代表使用次数， a 是宏存放的位置。]]></content>
+    <content type="text"><![CDATA[vimvim 宏录制 在normal 模式下输入 _qa_ ，开始记录操作，其中 _a_ 代表vim下 a 寄存器（可以改成其他寄存器如 b, c ,d )。 结束录制按 q。 使用宏：normal 模式下 输入 n@a , n 代表使用次数， a 是宏存放的位置。]]></content>
       <categories>
         <category>vim</category>
       </categories>
