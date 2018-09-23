@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Numeric-hw02]]></title>
+    <url>%2F2018%2FNumeric-hw02.html</url>
+    <content type="text"><![CDATA[2018年9月23日 Homework02 本次作业的源码下载链接 Problem 1 [Page94, 2.45] Solution不能直接求矩阵$A$的逆矩阵，否则计算量太大了。设$A^{-1}Bc = x$,则有$Ax=Bc$，那么右端一个矩阵乘以一个向量，计算量很小，然后求解线性方程$Ax=b, b= Bc$，可以用LU 分解等等。 problem 2 [Page 95, 2.48] Solution $A^{T} = U^{T} L^{T}$ , $U^{T}$是下三角，而$L^{T}$是上三角，因此只考虑$A=LU, Ax=b$： 如果$A$矩阵已经分解成三角形式$A=LU$，那么可以通过两步过程求解出$x$，首先，设$y=Ux$，然后对$y$解方程组$Ly=b$。因为$L$是三角形的，从这个方程确定$y$仅需要$O(n^2)$运算。一旦$y$已知，上三角方程组$Ux=y$仅需要另外的$O(n^2)$运算来确定解$x$。 problem 3 [Page 95, 2.49] Solution （a）下三角矩阵$Ly=b$只需要$O(n^2 )$计算量，然后置换矩阵$Px =y$只需进行 行交换 可得单位阵而得到求解。 （b）$PLx = b$，这个先对$Py =b$,进行行交换将左端矩阵变成单位阵即可求解，然后 $Lx=y$进行高斯消元只需$O(n^2)$计算量。 problem 4 [Page 95, 2.51] Solution 可能，如 $x = (4, 4), y=(5, 1)$。 problem 4 [Page 95, 2.52] Solution $|A|_1$: 是各列1范数的最大值，这个更加容易计算。 problem 1 [page95, 2.57] Solution A=$\begin{bmatrix}4 &amp; 0 &amp; 0\\ 0 &amp; -6 &amp; 0 \\ 0&amp; 0&amp;2 \end{bmatrix}$ $cond(A) = |A|{1} \cdot |A^{-1}|{1} = 6 * 0.5 = 3$ $cond(A) = |A|{\infty} \cdot |A^{-1}|{\infty} = 6 * 0.5 = 3$]]></content>
+      <categories>
+        <category>Numeric</category>
+      </categories>
+      <tags>
+        <tag>2018-fall</tag>
+        <tag>numeric</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Numeric-hw01]]></title>
     <url>%2F2018%2FNumeric-hw01.html</url>
     <content type="text"><![CDATA[2018年9月19日 Homework01 本次作业的源码下载链接 Problem 1 [Page 45 1.7] Solution 中心差分 可以看出当$k=10^{-8}$ 达到误差最小，是由于其与分子的双精度误差的开方可比拟的缘故。 和例子1.3 很契合。 向前差分 可以看出当$k=10^{-6}$ 达到误差最小，并不和$h \approx \sqrt{\epsilon_{mach}}$ 一致。 Problem 2 [Page 46 1.9] Solution (b)通过计算: $\frac{x^n}{n!}$ 小于 计算机双精度$10^{-16}$作为计算停止准则。 (c)计算结果如下： (d) 对于负数，由于级数相邻两项符号不一致，而且大小在一个数量级上，相减会丢失精度。所以对负数情况可以求对应的正数再取倒数，测试结果如下: (e) 对负数情况进行分组求和，如将正的放在一起和负的放在一起，最后相减(数值结果如下图)，等操作无法改善精度， 归根究底就是两个想近数相减引起的。因此可以下结论，交换重组项无法改善精度。 $$e^{-x} = (\frac{x^{0}}{0!} +\frac{x^{2}}{2!}+ \frac{x^{4}}{4!} +\cdots ) -(\frac{x^{1}}{1!} +\frac{x^{3}}{3!}+ \frac{x^{5}}{5!} +\cdots )$$ Problem 3 [Page 46 1.9] (Matlab test) For $n=500, 1000,2000, 4000, 8000$, generate an $n\times n$ random matrix B, and an $n\times 1$ vector b. Find the symmetric matrix $A=B^{\tau} \cdot B$1) Using function “eig” to test the time cost for eigen decomposition;2) Using $x=A / b$, and $x=A^{-1}\cdot b$ to test the time cost in finding the solution of $Ax=b$;3) Plot all the time costs as a function of n and the power law for the time costs. Solution 1) 计算结果如下：计算时间耗时： 2) 计算结果如下：$t_1$是没有求逆矩阵求解线性方程所用时间。$t_2$是有求逆矩阵求解线性方程所用时间。不同分量对应不同的维数的矩阵求解时间。 3) 如下图：蓝线是有求逆矩阵的维数对时间的 $log$ 曲线。红线是没有求逆矩阵的维数对时间的 $log$ 曲线。]]></content>
