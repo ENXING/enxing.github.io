@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Numeric-hw01]]></title>
+    <url>%2F2018%2FNumeric-hw01.html</url>
+    <content type="text"><![CDATA[2018年9月19日 Homework01 本次作业的源码下载链接 Problem 1 [Page 45 1.7] Solution 中心差分 可以看出当$k=10^{-8}$ 达到误差最小，是由于其与分子的双精度误差的开方可比拟的缘故。 和例子1.3 很契合。 向前差分 可以看出当$k=10^{-6}$ 达到误差最小，并不和$h \approx \sqrt{\epsilon_{mach}}$ 一致。 Problem 2 [Page 46 1.9] Solution 中心差分 dfsafds Problem 3 [Page 46 1.9](Matlab test) For $n=500, 1000,2000, 4000, 8000$, generate an $nn$ random matrix B, and an $n1$ vector b.Find the symmetric matrix $A=B^{\tau} \cdot B$1) Using function “eig” to test the time cost for eigen decomposition;2) Using $x=A / b$, and $x=A^{-1}\cdot b$ to test the time cost in finding the solution of $Ax=b$;3) Plot all the time costs as a function of n and the power law for the time costs. Solution 中心差分]]></content>
+      <categories>
+        <category>Numeric</category>
+      </categories>
+      <tags>
+        <tag>2018-fall</tag>
+        <tag>numeric</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Changchun and Handan]]></title>
+    <url>%2F2018%2F%E9%9A%8F%E7%AC%9401.html</url>
+    <content type="text"><![CDATA[住过四百一天的智选酒店，住过一百一一天如家。这期间感叹甚多。 I lived Holiday Inn Express, 400 RMB a day.And now I live in Home Inn ,110 RMB a day On August 2rd, starting from Shanghai Hongqiao, taking high-speed train G1258 to Changchun took me 11 hours.Stay in Holiday Inn Express and stay there for two weeks.The hotel arranged by Jilin university, I heard that itis four stars hotel, but I search it on the Internet and find nothingabout four stars, and only one about that is the official statement thatour company’s direction of development is between four stars hotel andeconomy hotel. Regardless of the level of Holiday Inn Express, I felt comfortable living there, 400 RMB a day, not to pay by myself. On August 17, i took high-speed train to Handan,不过在那里住的还是很舒服，400块一天，不是自己掏钱倒也享受其中。后来8月17号坐高铁G1276 到邯郸，这下自己掏钱，没有能力住那么贵的 酒店。110一天的如家住三个晚上，对比智选酒店，价格上便宜很多，环境也差很多。感叹一句：有钱真好，多挣钱。邯郸有个路边小吃：驴肉卷。环境好差，8块一卷，而且肉质好差好难吃。这类路边小吃，往往小作坊，卫生状况极差。我看着制作过程，没有手套]]></content>
+      <categories>
+        <category>travel</category>
+      </categories>
+      <tags>
+        <tag>Changchun Handan</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[transport03]]></title>
+    <url>%2F2018%2Ftransport03.html</url>
+    <content type="text"><![CDATA[Boltzmann equation$$ f(t, \vec{x}, \vec{u}) \leftarrow evolution$$ the number of moecules in a $d^3\vec{x}$ volume element and $d^3u\vec{u}$ velecity element compact cas-kinetic scheme(gks) 一个有希望的方向compact 4-rd order GKS]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[transport01]]></title>
+    <url>%2F2018%2Ftransport01.html</url>
+    <content type="text"><![CDATA[Book: 输运理论 黄祖洽 multiscale Transport modeling &amp; computationgas dynamics: navier-stokes equation : $k_n = \frac{l}{L}$ flud element hydrodyamic （宏观） boltzmam equation “particle” mean free path kinetic scale （介观） radiative transfer (optical thick) 光子和物质相互作用 optical thick diffusion plasma -vlasov eqn 无碰撞 + maxwell + two phase flow magnetic-hydrodynamics two fluid model hall MHD ~ ~ ~ idea magnetic-hydrodynamics different level of description microscopic （微观）( resolution to particle ) Hamiltonian - Newton’s Law indiviual paritcle $$P_r = -\frac{\partial H}{\partial q_r}$$ $$q_r = - \frac{\partial H}{\partial p_r}, r = 1,2,…3N$$ $$ H = \sum_{1}^{N} kinetic + potential$$ mesoscopic （介观） (不能跟踪每个粒子 ) mean free path 空间自由程$l_1$ collustion time $\tau_1$ botzmann eqn &amp; distribution function $\rho(x,t,u)$ 7-dim 微观 推导 介观 （BBGKY) 无法给出中间尺度 macroscopic (宏观) Navier-stoks MHD two phase flow multiphase flow $$ \rho , V, T (x, t): 4-dim $$ Newtone -&gt; boltzmann -&gt; NSsingle particle .. 尺度逐渐变大Boltzmann -&gt; NS chapmann enskog expansion burelt supris~ moments – Grad 13, 26, 35 距方程 中间尺度 (非平衡物理 unexplore)： “shock Structure”可能的理论 Difficulties degree of freedom NS (5 degree) conservation law $\rho , \rho v,\rho E$ Boltzmann($\infty$ degree) 不是守恒量的确定方程 自然界没有: $$ \frac{\partial T_x}{\partial t} + ……$$$$ \frac{\partial T_{xy}}{\partial t} + ……$$ Discontinuous Galerkin “DG” 网格有更多自由度提高精度 (相当于对原控制方程求) $$\frac{\partial}{\partial x} : \rho _x + (\rho u)_x =0$$ compact high-order 不是直接建模不可能成功 从Boltzmann 方程直接推出中间尺度 ，难成功 Bolzmann 两体碰撞 trasnsport &amp; collision decouple $\delta t \leq \tau, \delta x \leq l$ 前提 如果$\Delta x \approx 5l, \Delta t \approx 5\tau$ ，未知领域 Numericall metheds macro NS MHD multiphase Numerical PDE Boltzmann DVM SN vlasov particle methods Direct simulation monte carlo (DSMC, bird 1960) 稀波流 稀薄气体 IMC PIC $\Delta x\sim \frac{l}{3}, \Delta t \sim \frac{\tau}{3} , 64nm$ 计算量巨大 multiscale modeling Scale $(\Delta x,\Delta t)$ discrete governing eqn computation (多尺度) $m=10$,飞机头部密度非常大，飞机尾部几乎真空。 空天飞机，网格机头部分粒子很多NS eqn，尾翼粒子稀薄Boltzmann eqn 卫星喷管，箱内密度很高NS方程，喷嘴外真空。 Contents NS eqn continuum mechanics 连续介质流体 用微积分 离散更有优势。 两个粒子黏在一块。 流体微团没有物质交换 Boltzmann Eqn Unified gas Kinetic Scheme rarefied gas raiation Newton transport plasma two phase Particle Version 化学反应 Navier-Stokes Equation : flud gas Navier-Stokes Equation : flud gas$\rho = \frac{\Delta m}{\Delta v}$ kinematic properties: Velocity acceleration vorticity transport properties: viscosity , thermal conductivity Thermodynamic properties: pressure, density temperature location: $X(t),Q(X(t),t)$ $\frac{dQ}{dt} = \frac{\partial Q}{\partial t} + \frac{\partial Q}{\partial X}\frac{\partial X}{\partial t} +\frac{\partial Q}{\partial Y}\frac{\partial Y}{\partial t} + \frac{\partial Q}{\partial Z}*\frac{\partial Z}{\partial t}$ $= \frac{\partial Q}{\partial t} +V \cdot \nabla Q$ $$\frac{DQ}{Dt} = \frac{dQ}{t} = \frac{\partial Q}{\partial t} + \vec{V} \cdot \nabla Q $$$$ \vec{V} \cdot \nabla \vec{V} = \nabla \frac{\vec{V}^2}{2} - \vec{V} \times (\nabla \times \vec{V})$$ $$ \vec{w} = \nabla \times \vec{V}$$ Vorticity: $$ \frac{DV_i}{Dt} = \frac{\partial V_i}{\partial t} + V_j \partial V_i$$ translation (3-degree) rotation (3-degree) extensional strain(3-degree) shear strain(3-degree) Scale Vector second order tensor $$\nabla V = 0.5 (\nabla V + (\nabla V)^T)_ (shear Strain) + 0.5 (\nabla V - (\nabla V)^T)_ (rotation)$$ 反对称张量只有三个自由度 对称张量有六个自由度 $\epsilon_{ij} = 0.5(\partial_j V_i + \partial_i V_j)$ 应变 stress：$\tau_{ij} = f(\epsilon_{ij})$应力 Newton fluid $\tau_{ij} \sim \epsilon_{ij}$ Non Newton fluid $F \sim \alpha \frac{dV}{dy}$ 满足此式是牛顿流体 $\tau_{\alpha \beta}e_{\alpha}e_{\beta}$ $\alpha$ direction of normal $\alpha$ direction of force $f = n \cdot \tau = f_n + f_t$ $f_n = (n \cdot f)$ $f_n = (n \cdot f) n = n \cdot (n \cdot \tau) n = (n n : \tau) n$ $f_t = f - f_n = n \cdot \tau - (nn: \tau) n = f \cdot (I - n n)$ $\tau \sim (\nabla V + (\nabla V)^{T})$ Symmetric tensor $moment = I\frac{dW}{dt} -&gt; 0$ 力矩 $\int\int (r \times f) ds = I \frac{dw}{dt}$ $f = n\cdot \tau$ 流体微团趋于零：$\tau_{ij} = \tau_{ji}$ $$\tau_{ij} = -P \delta_{ij} (hyrostatic Pressure) + \mu[\frac{\partial V_i}{\partial x_j}+\frac{\partial V_i}{\partial x_j} - \frac{2}{3} \nabla \cdot \vec{V}]$$ Equation of compressible Viscous flow mass conservation 流体微团: 跟着流体微团：$\frac{Dm}{Dt} = 0$ $ \frac{D}{Dt} (\rho V) = \rho \frac{DV} {Dt} + V \frac{D\rho }{Dt}= 0$ $=\rho v \nabla v + v \frac{D\rho}{Dt}$ $\frac{D V}{Dt} / V = \nabla \cdot V$ $$V (\rho \nabla \cdot V + \frac{\partial\rho}{\partial t} + V \cdot \nabla \rho) =0$$$$\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho V)= 0$$ monmentum Eq:$$\frac{\rho v V}{Dt} = body force + surface force$$$$\rho v \frac{DV}{Dt} = \rho V g + v V \cdot \tau$$$$\rho \frac{DV}{Dt} = \rho \vec{g} + \nabla \tau$$ $$\frac{\partial \rho V}{\partial t} + V\cdot (\rho VV - \tau) = \rho g$$ $$\vec{f}_{surface} = \int \int \tau \cdot n dt = \int \int \int \nabla \cdot \tau dv = \nabla \cdot \tau V$$ Energy Eqn: (流体微团)1st-laws of thermaodynamics:$$E = \rho \hat{V}(e + 0.5 V^2 - g \cdot r)$$ $m= \rho \hat{V}= const$ $$\frac{DE}{Dt} = \frac{DQ}{Dt} + \frac{DW}{Dt}$$ 热交换 对外做功 $$\frac{DQ}{Dt} = \int\int -q \cdot n dx = -\int \int \int - \nabla \cdot q dV = -\nabla \cdot q \hat{V}$$ Assumption Fourier’s Law : $q = -R \nabla T$ (其中一个假设，可换成其他 不一定对) $$q \approx g$$ $$\frac{DW}{Dt} = \int \int (\tau \cdot n)\cdot V dS = \int \int v \cdot (\tau \cdot n) ds$$ $$= \int \int \int \nabla \cdot (V \cdot \tau)dV = \nabla\cdot (V\cdot \tau)\cdot V$$ (力点乘速度等于功) $$\rho (\frac{De}{Dt} + \frac{D(\frac{1}{2} V^2)}{Dt} + \frac{D}{Dt} (-g \cdot r)) = \nabla \cdot (k \nabla T) + \nabla \cdot (V \cdot \tau)$$ e : internal energy (therinal )for unit mass 粒子3个translation degree ， 粒子内部旋转振动有k个自由度。 each egreee of reedom shares the same amount of energy m: molecula mass $$e = \frac{1}{m} ( k + 3) \frac{1}{2}\hat{k} T$$ $\hat{k}$ : : Boltzomann constant , T temperature $C_v$ specific heat at constant volume $C_p$, at constant pressure $r,R$ $$ \delta Q= C_v dT$$ $$de = \frac{1}{m} \frac{k+3}{2} \hat{k} dT = C_v dT = \frac{k + 3}{2} R dT$$ $$C_v = \frac{k + 3}{2}R , \frac{k}{m} =R$$ 加多少热量保持压力不变： $$\delta Q = C_p dT = C_v dT + P dV = C_vdT + R dT$$ $p = \rho R T , p = \frac{1}{V} RT, PV = RT$ $$C_p = C_v + R = \frac{k + 3 +2 }{2}R$$ $$\gamma = \frac{C_p}{C_v} = \frac{k + 5}{k + 3} = 5/3 ,k =0; 7/5 = 1.4,k=2; isothermal, k= \infty;$$ energy:$$\rho (\frac{De}{Dt} + \frac{D \frac{1}{2}V^2}{Dt}) = \nabla \cdot (V\cdot \tau) \text{流体加速运动} + \nabla\cdot (\hat{k} \nabla T) \text{热量}$$ momentum:$$\rho \frac{DV}{Dt} = \nabla \cdot \tau$$ $$\nabla \cdot (V \cdot \tau) = V \cdot (\nabla \cdot \tau) + \tau_{ij} \frac{\partial V_i}{\partial x_j}$$ thermal energy eqn: $$\rho \frac{De}{Dt} = \nabla \cdot (\hat{k} \nabla T) + \tau_{ij} \frac{\partial u_i}{\partial x_j}$$ $$\tau = -P \delta_{ij} + \sigma_{ij}$$ $$P \nabla \cdot V = -\frac{P}{\rho} \frac{D\rho}{Dt} = \rho \frac{D}{Dt} \frac{p}{\rho} - \frac{D\rho}{Dt}$$ $$\rho \frac{D}{Dt} (e + \frac{p}{\rho}) = \frac{DP}{Dt} + \nabla\cdot (\hat{k} \nabla T) + \sigma_{ij} \frac{\partial V_i}{\partial x_j} (heat)\geq 0$$ $$\rho \frac{Dh}{Dt} = \frac{Dp}{Dt} + \nabla \cdot (\hat{k} \nabla T) + \Phi $$ termodynamic identity: $$dh = C_p T + (1+ 1/\rho (\frac{\partial \rho}{\partial T})_p T \frac{dp}\rho$$ low speed incompressible flow: $$\rho c_p \frac{DT}{Dt} = \nabla \cdot (\hat{k} \nabla T)$$ $$\tau_{ij} = -P \delta_{ij} + \mu [\frac{\partial V_i}{\partial x_j} +\frac{\partial V_j}{\partial x_i}-2/3 \nabla V]+\mu \frac{2k}{3(k+3)} \nabla V +\mu \frac{2k}{3(k+3)} \nabla V\approxT_{rot} -T_t$$ 各个方向的温度 $\approx T_{ij} - T_{eq}$ $\mu$ : dynamic viscosity coefficient$\hat{k}$::heat conduction coefficient $$\mu \approx \frac{1}{3}c l$$ c: 声速, l: mean free path]]></content>
+      <categories>
+        <category>summmer school</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[常用命令和工具]]></title>
     <url>%2F2018%2F%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%92%8C%E5%B7%A5%E5%85%B7.html</url>
     <content type="text"><![CDATA[vimvim 宏录制 在normal 模式下输入 qa ，开始记录操作，其中 a 代表vim下a 寄存器（可以改成其他寄存器如 b, c ,d )。 结束录制按 q。 使用宏：normal 模式下 输入 n@a , n 代表使用次数， a 是宏存放的位置。]]></content>
@@ -10,15 +46,6 @@
       <tags>
         <tag>vim</tag>
         <tag>linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[隐藏Hexo底部power By Hexo /强驱动]]></title>
-    <url>%2F2018%2F%E9%9A%90%E8%97%8FHexo%E5%BA%95%E9%83%A8power-By-Hexo-%E5%BC%BA%E9%A9%B1%E5%8A%A8.html</url>
-    <content type="text"><![CDATA[修改 themes/next/layout/_partials/footer.swig 文件。 使用 _”\&lt;!– * –&gt;”_** 注释代码段31行到57行。如下图]]></content>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>power by Hexo</tag>
       </tags>
   </entry>
   <entry>
