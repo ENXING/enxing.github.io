@@ -110,7 +110,7 @@
 <meta property="og:image" content="http://219.228.123.42:4000/figure/hw02/p08.JPG">
 <meta property="og:image" content="http://219.228.123.42:4000/figure/hw02/p09.JPG">
 <meta property="og:image" content="http://219.228.123.42:4000/figure/hw02/p10.JPG">
-<meta property="og:updated_time" content="2018-09-24T06:33:10.889Z">
+<meta property="og:updated_time" content="2018-10-01T02:29:30.263Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Numeric-hw02">
 <meta name="twitter:description" content="2018年9月23日 Homework02 本次作业的源码下载链接 Problem 1 [Page94, 2.45]   Solution不能直接求矩阵$A$的逆矩阵，否则计算量太大了。设$A^{-1}Bc = x$,则有$Ax=Bc$，那么右端一个矩阵乘以一个向量，计算量很小，然后求解线性方程$Ax=b, b= Bc$，可以用LU 分解等等。  problem 2 [Page 95, 2.48">
@@ -366,8 +366,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-09-24T14:33:10+08:00">
-                2018-09-24
+              <time title="更新于" itemprop="dateModified" datetime="2018-10-01T10:29:30+08:00">
+                2018-10-01
               </time>
             
           </span>
@@ -416,7 +416,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  903
+                  943
                 </span>
               
 
@@ -521,6 +521,10 @@
 <li>显然任意行交换矩阵 可以表示成多个单一行交换矩阵连乘: $P = P_1 P_2 P_3 \cdots P_k， P_i^T = P_i, P_i^ {-1} = P_i$</li>
 <li>那么有 $P^T= P_k^T  P_ {k-1}^T  P_ {k-2}^T \cdots  P_k^T = P_k P_ {k-1} P_{k-2} \cdots P_1$</li>
 <li>$P * P^T =   P_1 P_2 P_3 \cdots P_k \cdot  P_k P_ {k-1} P_{k-2} \cdots P_1 = I$</li>
+<li>(另一种证明) $P = (e_ {i_1}, e_ {i_2}, e_ {i_3} \cdots e_ {i_n}), P^T = (e_ {i_1}^T, e_ {i_2}^T, e_ {i_3}^T \cdots e_ {i_n}^T)^T$ <ul>
+<li>显然： $P*P^T= I$</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -538,7 +542,10 @@
 </ul>
 <h2 id="problem-11"><a href="#problem-11" class="headerlink" title="problem 11"></a>problem 11</h2><p>Computer problem (in C or C++): Using Gaussian elimination to achieve the LU decomposition with and without a column pivoting; Using the two LU decomposition algorithm to solve linear systems in which the coefficient matrix is (1) general nonsingular matrix; (2) positive definite matrix; (3) diagonally dominant matrix.  Compare the numerical accuracy for the two algorithms. The size of the matrices should be greater than 1000. </p>
 <ul>
-<li>Solution</li>
+<li><a href="">code download</a><ul>
+<li>结果：</li>
+</ul>
+</li>
 </ul>
 
       
@@ -560,7 +567,7 @@
   <p><span>本文标题:</span><a href="/2018/Numeric-hw02.html">Numeric-hw02</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 Enxing 的个人博客">Enxing</a></p>
   <p><span>发布时间:</span>2018年09月23日 - 19:09</p>
-  <p><span>最后更新:</span>2018年09月24日 - 14:09</p>
+  <p><span>最后更新:</span>2018年10月01日 - 10:10</p>
 
   <p><span>原始链接:</span><a href="/2018/Numeric-hw02.html" title="Numeric-hw02">https://enxing.github.io/2018/Numeric-hw02.html</a>
   <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://enxing.github.io/2018/Numeric-hw02.html"  aria-label="复制成功！"></i></span>
