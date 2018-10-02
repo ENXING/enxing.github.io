@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[VIM_NOTE]]></title>
+    <url>%2F2018%2FVIM-NOTE.html</url>
+    <content type="text"><![CDATA[MARK1.设置标签ma 在当前位置设立一个标签名字是a，这是一个局部标签，只在当前文件内有效。如果要设置全局标签，在多个文件之间跳转的话，只要将标签名字大写就可，即mA。2.标签跳转`a 跳转到标签a的位置3.标签删除 delmarks a4.查看当前设置的标签 ：marks]]></content>
+      <categories>
+        <category>NOTE</category>
+      </categories>
+      <tags>
+        <tag>NOTE</tag>
+        <tag>VIM</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Numeric-hw03]]></title>
     <url>%2F2018%2FNumeric-hw03.html</url>
-    <content type="text"><![CDATA[problem 1 [ Page ] Solution problem 1 [ Page ] Solution problem 1 [ Page ] Solution problem 1 [ Page ] Solution problem 1 [ Page ] Solution problem 1 [ Page ] Solution problem 1 [ Page ] Solution problem 1 [ Page ] Solution problem 1 [ Page ] Solution]]></content>
+    <content type="text"><![CDATA[problem 1 [ Page 148, 3.30] Solution As the normal vector is: $v = \bf{a} - \alpha \bf{e_1}$, we need avoid cancellation. So the sign should be : $$\bf{-}sign(\bf{a}^T \cdot \bf{e_1})$$ problem 2 [ Page 148, 3.33] Solution LU factorization Of A: if no using partial pivoting, No additional storage of memory is needed except storage of matrix A. if using partial pivoting, the permutation matrix P need to be stored, and only need an extra storage of $(n - 1) \times 2$ array. problem 3 [ Page 149, 3.44] Solution problem 4 [ Page 149, 3.45] Solution problem 1 [ Page ] Solution problem 1 [ Page ] Solution problem 1 [ Page ] Solution problem 1 [ Page ] Solution problem 1 [ Page ] Solution]]></content>
       <categories>
         <category>Numeric</category>
       </categories>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://enxing.github.io/"/>
-  <updated>2018-10-02T12:08:39.894Z</updated>
+  <updated>2018-10-02T14:55:30.325Z</updated>
   <id>https://enxing.github.io/</id>
   
   <author>
@@ -17,19 +17,46 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Numeric-hw03</title>
-    <link href="https://enxing.github.io/2018/Numeric-hw03.html"/>
-    <id>https://enxing.github.io/2018/Numeric-hw03.html</id>
-    <published>2018-10-02T12:04:37.000Z</published>
-    <updated>2018-10-02T12:08:39.894Z</updated>
+    <title>VIM_NOTE</title>
+    <link href="https://enxing.github.io/2018/VIM-NOTE.html"/>
+    <id>https://enxing.github.io/2018/VIM-NOTE.html</id>
+    <published>2018-10-02T14:54:17.000Z</published>
+    <updated>2018-10-02T14:55:30.325Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="problem-1-Page"><a href="#problem-1-Page" class="headerlink" title="problem 1 [ Page ]"></a>problem 1 [ Page ]</h2><p><img src="http://219.228.123.42:4000/figure/hw03/p02.JPG" alt="problem"> </p><ul><li>Solution</li></ul><h2 id="problem-1-Page-1"><a href="#problem-1-Page-1" class="headerlink" title="problem 1 [ Page ]"></a>problem 1 [ Page ]</h2><p><img src="http://219.228.123.42:4000/figure/hw03/p02.JPG" alt="problem"> </p><ul><li>Solution</li></ul><h2 id="problem-1-Page-2"><a href="#problem-1-Page-2" class="headerlink" title="problem 1 [ Page ]"></a>problem 1 [ Page ]</h2><p><img src="http://219.228.123.42:4000/figure/hw03/p02.JPG" alt="problem"> </p><ul><li>Solution</li></ul><h2 id="problem-1-Page-3"><a href="#problem-1-Page-3" class="headerlink" title="problem 1 [ Page ]"></a>problem 1 [ Page ]</h2><p><img src="http://219.228.123.42:4000/figure/hw03/p02.JPG" alt="problem"> </p><ul><li>Solution</li></ul><h2 id="problem-1-Page-4"><a href="#problem-1-Page-4" class="headerlink" title="problem 1 [ Page ]"></a>problem 1 [ Page ]</h2><p><img src="http://219.228.123.42:4000/figure/hw03/p02.JPG" alt="problem"> </p><ul><li>Solution</li></ul><h2 id="problem-1-Page-5"><a href="#problem-1-Page-5" class="headerlink" title="problem 1 [ Page ]"></a>problem 1 [ Page ]</h2><p><img src="http://219.228.123.42:4000/figure/hw03/p02.JPG" alt="problem"> </p><ul><li>Solution</li></ul><h2 id="problem-1-Page-6"><a href="#problem-1-Page-6" class="headerlink" title="problem 1 [ Page ]"></a>problem 1 [ Page ]</h2><p><img src="http://219.228.123.42:4000/figure/hw03/p02.JPG" alt="problem"> </p><ul><li>Solution</li></ul><h2 id="problem-1-Page-7"><a href="#problem-1-Page-7" class="headerlink" title="problem 1 [ Page ]"></a>problem 1 [ Page ]</h2><p><img src="http://219.228.123.42:4000/figure/hw03/p02.JPG" alt="problem"> </p><ul><li>Solution</li></ul><h2 id="problem-1-Page-8"><a href="#problem-1-Page-8" class="headerlink" title="problem 1 [ Page ]"></a>problem 1 [ Page ]</h2><p><img src="http://219.228.123.42:4000/figure/hw03/p02.JPG" alt="problem"> </p><ul><li>Solution</li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="MARK"><a href="#MARK" class="headerlink" title="MARK"></a>MARK</h1><p>1.设置标签<br>ma 在当前位置设立一个标签名字是a，这是一个局部标签，只在当前文件内有效。<br>如果要设置全局标签，在多个文件之间跳转的话，只要将标签名字大写就可，即mA。<br>2.标签跳转<br>`a 跳转到标签a的位置<br>3.标签删除 delmarks a<br>4.查看当前设置的标签 ：marks</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;problem-1-Page&quot;&gt;&lt;a href=&quot;#problem-1-Page&quot; class=&quot;headerlink&quot; title=&quot;problem 1 [ Page ]&quot;&gt;&lt;/a&gt;problem 1 [ Page ]&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http
+        &lt;h1 id=&quot;MARK&quot;&gt;&lt;a href=&quot;#MARK&quot; class=&quot;headerlink&quot; title=&quot;MARK&quot;&gt;&lt;/a&gt;MARK&lt;/h1&gt;&lt;p&gt;1.设置标签&lt;br&gt;ma 在当前位置设立一个标签名字是a，这是一个局部标签，只在当前文件内有效。&lt;br&gt;如果要设置全局标签，
+      
+    
+    </summary>
+    
+      <category term="NOTE" scheme="https://enxing.github.io/categories/NOTE/"/>
+    
+    
+      <category term="NOTE" scheme="https://enxing.github.io/tags/NOTE/"/>
+    
+      <category term="VIM" scheme="https://enxing.github.io/tags/VIM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Numeric-hw03</title>
+    <link href="https://enxing.github.io/2018/Numeric-hw03.html"/>
+    <id>https://enxing.github.io/2018/Numeric-hw03.html</id>
+    <published>2018-10-02T12:04:37.000Z</published>
+    <updated>2018-10-02T13:03:23.846Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="problem-1-Page-148-3-30"><a href="#problem-1-Page-148-3-30" class="headerlink" title="problem 1 [ Page 148, 3.30]"></a>problem 1 [ Page 148, 3.30]</h2><p><img src="http://219.228.123.42:4000/figure/hw03/P01_3_30.JPG" alt="problem"> </p><ul><li>Solution<ul><li>As the normal vector is: $v = \bf{a} - \alpha \bf{e_1}$, we need avoid cancellation. So the sign should be : $$\bf{-}sign(\bf{a}^T \cdot \bf{e_1})$$</li></ul></li></ul><h2 id="problem-2-Page-148-3-33"><a href="#problem-2-Page-148-3-33" class="headerlink" title="problem 2 [ Page 148, 3.33]"></a>problem 2 [ Page 148, 3.33]</h2><p><img src="http://219.228.123.42:4000/figure/hw03/P02_3_33.JPG" alt="problem"> </p><ul><li>Solution<ul><li>LU factorization Of A: if no using partial pivoting, No additional storage of memory is needed except storage of matrix A. if using partial pivoting, the permutation matrix P need to be stored, and only need an extra storage of $(n - 1) \times 2$ array.</li></ul></li></ul><h2 id="problem-3-Page-149-3-44"><a href="#problem-3-Page-149-3-44" class="headerlink" title="problem 3 [ Page 149, 3.44]"></a>problem 3 [ Page 149, 3.44]</h2><p><img src="http://219.228.123.42:4000/figure/hw03/P03_3_44.JPG" alt="problem"> </p><ul><li>Solution</li></ul><h2 id="problem-4-Page-149-3-45"><a href="#problem-4-Page-149-3-45" class="headerlink" title="problem 4 [ Page 149, 3.45]"></a>problem 4 [ Page 149, 3.45]</h2><p><img src="http://219.228.123.42:4000/figure/hw03/P04_3_45.JPG" alt="problem"> </p><ul><li>Solution</li></ul><h2 id="problem-1-Page"><a href="#problem-1-Page" class="headerlink" title="problem 1 [ Page ]"></a>problem 1 [ Page ]</h2><p><img src="http://219.228.123.42:4000/figure/hw03/P02.JPG" alt="problem"> </p><ul><li>Solution</li></ul><h2 id="problem-1-Page-1"><a href="#problem-1-Page-1" class="headerlink" title="problem 1 [ Page ]"></a>problem 1 [ Page ]</h2><p><img src="http://219.228.123.42:4000/figure/hw03/P02.JPG" alt="problem"> </p><ul><li>Solution</li></ul><h2 id="problem-1-Page-2"><a href="#problem-1-Page-2" class="headerlink" title="problem 1 [ Page ]"></a>problem 1 [ Page ]</h2><p><img src="http://219.228.123.42:4000/figure/hw03/P02.JPG" alt="problem"> </p><ul><li>Solution</li></ul><h2 id="problem-1-Page-3"><a href="#problem-1-Page-3" class="headerlink" title="problem 1 [ Page ]"></a>problem 1 [ Page ]</h2><p><img src="http://219.228.123.42:4000/figure/hw03/P02.JPG" alt="problem"> </p><ul><li>Solution</li></ul><h2 id="problem-1-Page-4"><a href="#problem-1-Page-4" class="headerlink" title="problem 1 [ Page ]"></a>problem 1 [ Page ]</h2><p><img src="http://219.228.123.42:4000/figure/hw03/P02.JPG" alt="problem"> </p><ul><li>Solution</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;problem-1-Page-148-3-30&quot;&gt;&lt;a href=&quot;#problem-1-Page-148-3-30&quot; class=&quot;headerlink&quot; title=&quot;problem 1 [ Page 148, 3.30]&quot;&gt;&lt;/a&gt;problem 1 [ P
       
     
     </summary>
