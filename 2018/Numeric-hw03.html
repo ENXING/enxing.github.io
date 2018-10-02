@@ -102,6 +102,7 @@
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://219.228.123.42:4000/figure/hw03/P01_3_30.JPG">
 <meta property="og:image" content="http://219.228.123.42:4000/figure/hw03/P02_3_33.JPG">
+<meta property="og:image" content="http://219.228.123.42:4000/figure/hw03/P03_3_33_2.JPG">
 <meta property="og:image" content="http://219.228.123.42:4000/figure/hw03/P03_3_44.JPG">
 <meta property="og:image" content="http://219.228.123.42:4000/figure/hw03/P04_3_45.JPG">
 <meta property="og:image" content="http://219.228.123.42:4000/figure/hw03/P02.JPG">
@@ -109,7 +110,7 @@
 <meta property="og:image" content="http://219.228.123.42:4000/figure/hw03/P02.JPG">
 <meta property="og:image" content="http://219.228.123.42:4000/figure/hw03/P02.JPG">
 <meta property="og:image" content="http://219.228.123.42:4000/figure/hw03/P02.JPG">
-<meta property="og:updated_time" content="2018-10-02T13:03:23.846Z">
+<meta property="og:updated_time" content="2018-10-02T17:29:39.868Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Numeric-hw03">
 <meta name="twitter:description" content="problem 1 [ Page 148, 3.30]   Solution As the normal vector is: $v = \bf{a} - \alpha \bf{e_1}$, we need avoid cancellation. So the sign should be : $$\bf{-}sign(\bf{a}^T \cdot \bf{e_1})$$    problem 2">
@@ -365,8 +366,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-10-02T21:03:23+08:00">
-                2018-10-02
+              <time title="更新于" itemprop="dateModified" datetime="2018-10-03T01:29:39+08:00">
+                2018-10-03
               </time>
             
           </span>
@@ -415,7 +416,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  121
+                  138
                 </span>
               
 
@@ -461,8 +462,12 @@
 </ul>
 <h2 id="problem-2-Page-148-3-33"><a href="#problem-2-Page-148-3-33" class="headerlink" title="problem 2 [ Page 148, 3.33]"></a>problem 2 [ Page 148, 3.33]</h2><p><img src="http://219.228.123.42:4000/figure/hw03/P02_3_33.JPG" alt="problem"> </p>
 <ul>
-<li>Solution<ul>
+<li>Solution (<a href="https://www.inf.ethz.ch/personal/gander/papers/qrneu.pdf" target="_blank" rel="noopener">reference</a>)<ul>
 <li>LU factorization Of A: if no using partial pivoting, No additional storage of memory is needed except storage of matrix A. if using partial pivoting, the permutation matrix P need to be stored, and only need an extra storage of $(n - 1) \times 2$ array.</li>
+<li>QR factorization of A: only need an extra storage of $m \times 1$ array.<ul>
+<li>Following Graph: <img src="http://219.228.123.42:4000/figure/hw03/P03_3_33_2.JPG" alt="following graph"> </li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -514,7 +519,7 @@
   <p><span>本文标题:</span><a href="/2018/Numeric-hw03.html">Numeric-hw03</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 Enxing 的个人博客">Enxing</a></p>
   <p><span>发布时间:</span>2018年10月02日 - 20:10</p>
-  <p><span>最后更新:</span>2018年10月02日 - 21:10</p>
+  <p><span>最后更新:</span>2018年10月03日 - 01:10</p>
 
   <p><span>原始链接:</span><a href="/2018/Numeric-hw03.html" title="Numeric-hw03">https://enxing.github.io/2018/Numeric-hw03.html</a>
   <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://enxing.github.io/2018/Numeric-hw03.html"  aria-label="复制成功！"></i></span>
@@ -1328,26 +1333,6 @@
   
 
   
-  
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        tex2jax: {
-          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-          processEscapes: true,
-          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-        }
-      });
-    </script>
-
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for (i=0; i < all.length; i += 1) {
-          all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-      });
-    </script>
-    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
   
 
 

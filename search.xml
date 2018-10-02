@@ -15,7 +15,7 @@
   <entry>
     <title><![CDATA[Numeric-hw03]]></title>
     <url>%2F2018%2FNumeric-hw03.html</url>
-    <content type="text"><![CDATA[problem 1 [ Page 148, 3.30] Solution As the normal vector is: $v = \bf{a} - \alpha \bf{e_1}$, we need avoid cancellation. So the sign should be : $$\bf{-}sign(\bf{a}^T \cdot \bf{e_1})$$ problem 2 [ Page 148, 3.33] Solution LU factorization Of A: if no using partial pivoting, No additional storage of memory is needed except storage of matrix A. if using partial pivoting, the permutation matrix P need to be stored, and only need an extra storage of $(n - 1) \times 2$ array. problem 3 [ Page 149, 3.44] Solution problem 4 [ Page 149, 3.45] Solution problem 1 [ Page ] Solution problem 1 [ Page ] Solution problem 1 [ Page ] Solution problem 1 [ Page ] Solution problem 1 [ Page ] Solution]]></content>
+    <content type="text"><![CDATA[problem 1 [ Page 148, 3.30] Solution As the normal vector is: $v = \bf{a} - \alpha \bf{e_1}$, we need avoid cancellation. So the sign should be : $$\bf{-}sign(\bf{a}^T \cdot \bf{e_1})$$ problem 2 [ Page 148, 3.33] Solution (reference) LU factorization Of A: if no using partial pivoting, No additional storage of memory is needed except storage of matrix A. if using partial pivoting, the permutation matrix P need to be stored, and only need an extra storage of $(n - 1) \times 2$ array. QR factorization of A: only need an extra storage of $m \times 1$ array. Following Graph: problem 3 [ Page 149, 3.44] Solution problem 4 [ Page 149, 3.45] Solution problem 1 [ Page ] Solution problem 1 [ Page ] Solution problem 1 [ Page ] Solution problem 1 [ Page ] Solution problem 1 [ Page ] Solution]]></content>
       <categories>
         <category>Numeric</category>
       </categories>
