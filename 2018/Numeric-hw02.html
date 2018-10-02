@@ -110,7 +110,9 @@
 <meta property="og:image" content="http://219.228.123.42:4000/figure/hw02/p08.JPG">
 <meta property="og:image" content="http://219.228.123.42:4000/figure/hw02/p09.JPG">
 <meta property="og:image" content="http://219.228.123.42:4000/figure/hw02/p10.JPG">
-<meta property="og:updated_time" content="2018-10-01T02:29:30.263Z">
+<meta property="og:image" content="http://219.228.123.42:4000/figure/hw02/p11_nonSingluar.JPG">
+<meta property="og:image" content="http://219.228.123.42:4000/figure/hw02/p11_diagonal.JPG">
+<meta property="og:updated_time" content="2018-10-01T06:53:03.571Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Numeric-hw02">
 <meta name="twitter:description" content="2018年9月23日 Homework02 本次作业的源码下载链接 Problem 1 [Page94, 2.45]   Solution不能直接求矩阵$A$的逆矩阵，否则计算量太大了。设$A^{-1}Bc = x$,则有$Ax=Bc$，那么右端一个矩阵乘以一个向量，计算量很小，然后求解线性方程$Ax=b, b= Bc$，可以用LU 分解等等。  problem 2 [Page 95, 2.48">
@@ -366,7 +368,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-10-01T10:29:30+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-10-01T14:53:03+08:00">
                 2018-10-01
               </time>
             
@@ -416,7 +418,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  943
+                  991
                 </span>
               
 
@@ -540,10 +542,11 @@
 </ul>
 </li>
 </ul>
-<h2 id="problem-11"><a href="#problem-11" class="headerlink" title="problem 11"></a>problem 11</h2><p>Computer problem (in C or C++): Using Gaussian elimination to achieve the LU decomposition with and without a column pivoting; Using the two LU decomposition algorithm to solve linear systems in which the coefficient matrix is (1) general nonsingular matrix; (2) positive definite matrix; (3) diagonally dominant matrix.  Compare the numerical accuracy for the two algorithms. The size of the matrices should be greater than 1000. </p>
+<h2 id="problem-11"><a href="#problem-11" class="headerlink" title="problem 11"></a>problem 11</h2><p>Computer problem (in C or C++): Using Gaussian elimination to achieve the LU decomposition with and without a column pivoting; Using the two LU decomposition algorithm to solve linear systems in which the coefficient matrix is (1) general nonsingular matrix; (2) positive definite matrix; (3) diagonally dominant matrix.  Compare the numerical accuracy for the two algorithms. The size of the matrices should be greater than 1000.</p>
 <ul>
-<li><a href="">code download</a><ul>
-<li>结果：</li>
+<li><a href="https://jbox.sjtu.edu.cn/l/toTTdY" target="_blank" rel="noopener">code download</a><ul>
+<li>nonsingular  matrix : 选偏主元与否会影响精度，如下图：（选主元的误差会比不选主元的误差小三倍左右）<br> <img src="http://219.228.123.42:4000/figure/hw02/p11_nonSingluar.JPG" alt="nonsinglur"></li>
+<li>Diagonally dominant matrix: 选偏主元与否不影响精度。<br>  <img src="http://219.228.123.42:4000/figure/hw02/p11_diagonal.JPG" alt="diagonal"></li>
 </ul>
 </li>
 </ul>
@@ -567,7 +570,7 @@
   <p><span>本文标题:</span><a href="/2018/Numeric-hw02.html">Numeric-hw02</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 Enxing 的个人博客">Enxing</a></p>
   <p><span>发布时间:</span>2018年09月23日 - 19:09</p>
-  <p><span>最后更新:</span>2018年10月01日 - 10:10</p>
+  <p><span>最后更新:</span>2018年10月01日 - 14:10</p>
 
   <p><span>原始链接:</span><a href="/2018/Numeric-hw02.html" title="Numeric-hw02">https://enxing.github.io/2018/Numeric-hw02.html</a>
   <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://enxing.github.io/2018/Numeric-hw02.html"  aria-label="复制成功！"></i></span>
@@ -636,6 +639,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/Numeric-hw03.html" rel="prev" title="Numeric-hw03">
+                Numeric-hw03 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -716,7 +723,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">8</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -870,7 +877,7 @@
 -->
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共3.8k字</span>
+  <span class="post-count">博客全站共3.9k字</span>
 </div>
         
 
