@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://enxing.github.io/"/>
-  <updated>2018-10-02T14:55:30.325Z</updated>
+  <updated>2018-10-02T14:56:18.368Z</updated>
   <id>https://enxing.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://enxing.github.io/2018/VIM-NOTE.html"/>
     <id>https://enxing.github.io/2018/VIM-NOTE.html</id>
     <published>2018-10-02T14:54:17.000Z</published>
-    <updated>2018-10-02T14:55:30.325Z</updated>
+    <updated>2018-10-02T14:56:18.368Z</updated>
     
     <content type="html"><![CDATA[<h1 id="MARK"><a href="#MARK" class="headerlink" title="MARK"></a>MARK</h1><p>1.设置标签<br>ma 在当前位置设立一个标签名字是a，这是一个局部标签，只在当前文件内有效。<br>如果要设置全局标签，在多个文件之间跳转的话，只要将标签名字大写就可，即mA。<br>2.标签跳转<br>`a 跳转到标签a的位置<br>3.标签删除 delmarks a<br>4.查看当前设置的标签 ：marks</p>]]></content>
     
