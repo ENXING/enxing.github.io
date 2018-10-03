@@ -111,7 +111,7 @@
 <meta property="og:image" content="http://219.228.123.42:4000/figure/hw03/P08_3_31.JPG">
 <meta property="og:image" content="http://219.228.123.42:4000/figure/hw03/P09_3_32.JPG">
 <meta property="og:image" content="http://219.228.123.42:4000/figure/hw03/P10_3_8_0.JPG">
-<meta property="og:updated_time" content="2018-10-03T08:26:22.829Z">
+<meta property="og:updated_time" content="2018-10-03T09:50:42.548Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Numeric-hw03">
 <meta name="twitter:description" content="problem 1 [ Page 148, 3.30]   Solution As the normal vector is: $v = \bf{a} - \alpha \bf{e_1}$, we need avoid cancellation. So the sign should be : $$\bf{-}sign(\bf{a}^T \cdot \bf{e_1})$$    problem 2">
@@ -367,7 +367,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-10-03T16:26:22+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-10-03T17:50:42+08:00">
                 2018-10-03
               </time>
             
@@ -417,7 +417,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  245
+                  501
                 </span>
               
 
@@ -433,7 +433,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  2
+                  3
                 </span>
               
             </div>
@@ -492,17 +492,44 @@
 <h2 id="problem-5-Page-149-3-1"><a href="#problem-5-Page-149-3-1" class="headerlink" title="problem 5 [ Page 149, 3.1 ]"></a>problem 5 [ Page 149, 3.1 ]</h2><p><img src="http://219.228.123.42:4000/figure/hw03/P05_3_1.JPG" alt="problem"> </p>
 <ul>
 <li>Solution<ul>
-<li>$</li>
+<li>$\begin{bmatrix}1 &amp; 10 \  1 &amp; 15  \ 1&amp; 20 \end{bmatrix}  \begin{bmatrix}x_1\x_2\end{bmatrix}=\begin{bmatrix}11.60\ 11.85\ 12.25 \end{bmatrix}$</li>
+<li>inconstitent. <ul>
+<li>$x_1 = 11.10 ,\  x_2 = 0.05 (eqn \ 1 \ and \ 2)$ </li>
+<li>$x_1 = 10.65,\  x_2 = 0.08 (eqn \ 2 \ and \ 3)$</li>
+<li>There is no reason to prefer any one of these result.</li>
+</ul>
+</li>
+<li>normal equation:<ul>
+<li>$A = \begin{bmatrix}1 &amp; 10 \  1 &amp; 15  \ 1&amp; 20 \end{bmatrix}$<br>  ; $b= \begin{bmatrix}11.60\ 11.85\ 12.25 \end{bmatrix}$</li>
+<li>$A^{T} \cdot A x = A^T b$</li>
+<li>$x_1 = 10.9250, \ x_2 = 0.0650$ </li>
+<li>the result got by normal equation is better than those obtain in part b, and that seems to be certain average of possible pair of values obtained by selecting  any two of the equation from the system.</li>
 </ul>
 </li>
 </ul>
-<h2 id="problem-6-Page-149-3-2"><a href="#problem-6-Page-149-3-2" class="headerlink" title="problem 6 [ Page 149, 3.2 ]"></a>problem 6 [ Page 149, 3.2 ]</h2><p><img src="http://219.228.123.42:4000/figure/hw03/P06_3_2.JPG" alt="problem"> </p>
+</li>
+</ul>
+<h2 id="problem-6-Page-149-3-3"><a href="#problem-6-Page-149-3-3" class="headerlink" title="problem 6 [ Page 149, 3.3 ]"></a>problem 6 [ Page 149, 3.3 ]</h2><p><img src="http://219.228.123.42:4000/figure/hw03/P06_3_2.JPG" alt="problem"> </p>
 <ul>
-<li>Solution</li>
+<li>Solution<ul>
+<li>$\begin{bmatrix}1 &amp; e \  2 &amp; e^2 \ 3 &amp; e^3 \end{bmatrix}  \begin{bmatrix}x_1\x_2\end{bmatrix}=\begin{bmatrix}2\ 3\ 5 \end{bmatrix}$</li>
+<li>$A = \begin{bmatrix}1 &amp; e \  2 &amp; e^2 \ 3 &amp; e^3 \end{bmatrix}$; $b = \begin{bmatrix}2\ 3\ 5 \end{bmatrix}$</li>
+<li>normal equation:  $A^{T} \cdot A x = A^T b$</li>
+<li>$(x_1,\  x_2) =  ( 1.5942, \ 0.0088)$</li>
+</ul>
+</li>
 </ul>
 <h2 id="problem-7-Page-150-3-14"><a href="#problem-7-Page-150-3-14" class="headerlink" title="problem 7 [ Page 150, 3.14 ]"></a>problem 7 [ Page 150, 3.14 ]</h2><p><img src="http://219.228.123.42:4000/figure/hw03/P07_3_14.JPG" alt="problem"> </p>
 <ul>
-<li>Solution</li>
+<li>Solution<ul>
+<li>orthogonal : $H^T* H =  I$<ul>
+<li>$H^T <em> H = [I - 2 \frac{vv^T}{v^T v}]^T </em>  [I - 2 \frac{vv^T}{v^T v}]$</li>
+<li>$=I - 2 \frac{vv^T}{v^T v} - 2 [\frac{vv^T}{v^T v}]^T +4 [\frac{vv^T}{v^T v}]^T * [\frac{vv^T}{v^T v}] = I$</li>
+</ul>
+</li>
+<li>symmetric: $H^T = H$ ; Obviously.</li>
+</ul>
+</li>
 </ul>
 <h2 id="problem-8-Page-152-3-31"><a href="#problem-8-Page-152-3-31" class="headerlink" title="problem 8 [ Page 152, 3.31 ]"></a>problem 8 [ Page 152, 3.31 ]</h2><p><img src="http://219.228.123.42:4000/figure/hw03/P08_3_31.JPG" alt="problem"> </p>
 <ul>
@@ -536,7 +563,7 @@
   <p><span>本文标题:</span><a href="/2018/Numeric-hw03.html">Numeric-hw03</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 Enxing 的个人博客">Enxing</a></p>
   <p><span>发布时间:</span>2018年10月02日 - 20:10</p>
-  <p><span>最后更新:</span>2018年10月03日 - 16:10</p>
+  <p><span>最后更新:</span>2018年10月03日 - 17:10</p>
 
   <p><span>原始链接:</span><a href="/2018/Numeric-hw03.html" title="Numeric-hw03">https://enxing.github.io/2018/Numeric-hw03.html</a>
   <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://enxing.github.io/2018/Numeric-hw03.html"  aria-label="复制成功！"></i></span>
@@ -790,7 +817,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-1-Page-148-3-30"><span class="nav-number">1.</span> <span class="nav-text">problem 1 [ Page 148, 3.30]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-2-Page-148-3-33"><span class="nav-number">2.</span> <span class="nav-text">problem 2 [ Page 148, 3.33]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-3-Page-149-3-44"><span class="nav-number">3.</span> <span class="nav-text">problem 3 [ Page 149, 3.44]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-4-Page-149-3-45"><span class="nav-number">4.</span> <span class="nav-text">problem 4 [ Page 149, 3.45]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-5-Page-149-3-1"><span class="nav-number">5.</span> <span class="nav-text">problem 5 [ Page 149, 3.1 ]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-6-Page-149-3-2"><span class="nav-number">6.</span> <span class="nav-text">problem 6 [ Page 149, 3.2 ]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-7-Page-150-3-14"><span class="nav-number">7.</span> <span class="nav-text">problem 7 [ Page 150, 3.14 ]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-8-Page-152-3-31"><span class="nav-number">8.</span> <span class="nav-text">problem 8 [ Page 152, 3.31 ]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-9-Page-152-3-32"><span class="nav-number">9.</span> <span class="nav-text">problem 9 [ Page 152, 3.32 ]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-10"><span class="nav-number">10.</span> <span class="nav-text">problem 10</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-1-Page-148-3-30"><span class="nav-number">1.</span> <span class="nav-text">problem 1 [ Page 148, 3.30]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-2-Page-148-3-33"><span class="nav-number">2.</span> <span class="nav-text">problem 2 [ Page 148, 3.33]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-3-Page-149-3-44"><span class="nav-number">3.</span> <span class="nav-text">problem 3 [ Page 149, 3.44]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-4-Page-149-3-45"><span class="nav-number">4.</span> <span class="nav-text">problem 4 [ Page 149, 3.45]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-5-Page-149-3-1"><span class="nav-number">5.</span> <span class="nav-text">problem 5 [ Page 149, 3.1 ]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-6-Page-149-3-3"><span class="nav-number">6.</span> <span class="nav-text">problem 6 [ Page 149, 3.3 ]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-7-Page-150-3-14"><span class="nav-number">7.</span> <span class="nav-text">problem 7 [ Page 150, 3.14 ]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-8-Page-152-3-31"><span class="nav-number">8.</span> <span class="nav-text">problem 8 [ Page 152, 3.31 ]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-9-Page-152-3-32"><span class="nav-number">9.</span> <span class="nav-text">problem 9 [ Page 152, 3.32 ]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-10"><span class="nav-number">10.</span> <span class="nav-text">problem 10</span></a></li></ol></div>
             
 
           </div>
@@ -843,7 +870,7 @@
 -->
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共4.2k字</span>
+  <span class="post-count">博客全站共4.5k字</span>
 </div>
         
 
