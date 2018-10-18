@@ -4,6 +4,27 @@
 
     
   <url>
+    <loc>https://ibelieveicanfly.gq/2018/LearnCode.html</loc>
+    <lastmod>2018-10-18T13:54:42.864Z</lastmod>
+    <data>
+        <display>
+        <title>LearnCode</title>
+        <pubTime>2018-10-05T08:08:28.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Code" url="https://ibelieveicanfly.gq/categories/Code/"/>
+          
+             
+              <breadCrumb title="C++" url="https://ibelieveicanfly.gq/categories/Code/C/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://ibelieveicanfly.gq/2018/Numeric-hw03.html</loc>
     <lastmod>2018-10-11T14:38:23.876Z</lastmod>
     <data>
@@ -63,27 +84,6 @@
            
              
               <breadCrumb title="Numeric" url="https://ibelieveicanfly.gq/categories/Numeric/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://ibelieveicanfly.gq/2018/LearnCode.html</loc>
-    <lastmod>2018-10-11T14:30:47.731Z</lastmod>
-    <data>
-        <display>
-        <title>LearnCode</title>
-        <pubTime>2018-10-05T08:08:28.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Code" url="https://ibelieveicanfly.gq/categories/Code/"/>
-          
-             
-              <breadCrumb title="C++" url="https://ibelieveicanfly.gq/categories/Code/C/"/>
           
         </display>
     </data>
