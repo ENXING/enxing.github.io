@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ibelieveicanfly.gq/"/>
-  <updated>2018-10-18T14:07:57.257Z</updated>
+  <updated>2018-10-22T10:52:39.682Z</updated>
   <id>https://ibelieveicanfly.gq/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Numeric-hw04</title>
+    <link href="https://ibelieveicanfly.gq/2018/Numeric-hw04.html"/>
+    <id>https://ibelieveicanfly.gq/2018/Numeric-hw04.html</id>
+    <published>2018-10-22T10:27:17.000Z</published>
+    <updated>2018-10-22T10:52:39.682Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="problem-1-Page-148-3-30"><a href="#problem-1-Page-148-3-30" class="headerlink" title="problem 1 [ Page 148, 3.30]"></a>problem 1 [ Page 148, 3.30]</h2><p><img src="https://ibelieveicanfly.gq/figure/hw03/P01_3_30.JPG" alt="problem"> </p><ul><li>Solution<ul><li>As the normal vector is: $v = \bf{a} - \alpha \bf{e_1}$, we need avoid cancellation. So the sign should be : $$\bf{-}sign(\bf{a}^T \cdot \bf{e_1})$$</li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;problem-1-Page-148-3-30&quot;&gt;&lt;a href=&quot;#problem-1-Page-148-3-30&quot; class=&quot;headerlink&quot; title=&quot;problem 1 [ Page 148, 3.30]&quot;&gt;&lt;/a&gt;problem 1 [ P
+      
+    
+    </summary>
+    
+      <category term="Numeric" scheme="https://ibelieveicanfly.gq/categories/Numeric/"/>
+    
+    
+      <category term="2018-fall" scheme="https://ibelieveicanfly.gq/tags/2018-fall/"/>
+    
+      <category term="numeric" scheme="https://ibelieveicanfly.gq/tags/numeric/"/>
+    
+  </entry>
   
   <entry>
     <title>LearnCode</title>
