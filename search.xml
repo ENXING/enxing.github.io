@@ -2,8 +2,19 @@
 <search>
   <entry>
     <title><![CDATA[Numeric-hw04]]></title>
-    <url>%2F2018%2FNumeric-hw04.html</url>
+    <url>%2F2018%2Fencryption.html</url>
     <content type="text"><![CDATA[problem 1 [ Page 148, 3.30] Solution As the normal vector is: $v = \bf{a} - \alpha \bf{e_1}$, we need avoid cancellation. So the sign should be : $$\bf{-}sign(\bf{a}^T \cdot \bf{e_1})$$]]></content>
+      <categories>
+        <category>Numeric</category>
+      </categories>
+      <tags>
+        <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Numeric-hw04]]></title>
+    <url>%2F2018%2FNumeric-hw04.html</url>
+    <content type="text"><![CDATA[problem 1 Solution for any eigenvalue $\lambda$ of matrix $A$, there exists a corresponding eigenvector$X = \bf{0}$: $AX=\lambda X$.And we have $||A|| \cdot ||X||\geq||AX|| = ||\lambda X|| = |\lambda| ||X||$.So we get$|\lambda| \leq ||A||$, then $\rho(A) = {max}_{\lambda_i}{|\lambda_i| } \leq ||A||$ problem 2 Solution $A^2 - A = 0; A^2 X - A X = 0; \lambda ^2 - \lambda = 0;$So we have $\lambda = 0 , 1$ problem 3 Solution a Hermitian matrix (or self-adjoint matrix) is a complex square matrix that is equal to its own conjugate transpose. notice that eigenvalue of Hermitian matrix is real number. a) $\lambda &lt;x, y&gt; = &lt;\lambda x, y&gt; = &lt;Ax, y&gt; = &lt;x, A^Hy&gt; = &lt;x, Ay&gt;= &lt;x, \mu y&gt; = \mu &lt;x, y&gt;, and \ \lambda \neq \mu$, So we get $y^Hx =0$. b) $\mu^H &lt;x, y&gt; = &lt;x, \mu^H y&gt; = &lt;x, A^Hy&gt; = &lt;Ax, y&gt; = &lt;\lambda x, y&gt;= \lambda^H &lt;x, y&gt;, and \ \lambda \neq \mu$, So we get $y^Hx =0$. c) give a counterexample: $A = \begin{bmatrix} 1 &amp; 2 \\ 0 &amp; 2\end{bmatrix}$, for$\lambda = 1$, its eigenvector: $x = [1, 0 ]^T, and \ \ y = [0.4472, -0.8944]$, obviously we find $y^Hx\neq0$. problem 4 Solution a) As A is a real matrix of rank one, we know it must have non zero row $r_i$ that can linearly represent all the other row $r_j; j\neq i$.So we get $$A = \begin{bmatrix}a_1 r_i \\ a_2 r_i \\ \vdots\\ a_{i-1} r_i \\ r_i \\ a_{i+1} r_i\\ \vdots \\ a_n * r_i\end{bmatrix} =\begin{bmatrix}a_1 \\ a_2 \\ \vdots\\ a_{i-1} \\ 1\\ a_{i+1} \\ \vdots \\ a_n \end{bmatrix} \cdot r_i = u\cdot v^T$$ $$v = r_i^T\ ;\ u =\begin{bmatrix}a_1 \\ a_2 \\ \vdots\\ a_{i-1} \\ 1\\ a_{i+1} \\ \vdots \\ a_n \end{bmatrix}$$ b) $uv^Tu = u\cdot v^Tu = v^Tu u$, so we get eigenvalue $v^Tu$ and corresponding eigenvector $u$. c) As A is a matrix of rank one, we know have $n-1$ eigenvalue equal to zero, and the rest one is $v^Tu$. d) problem 5 Solution we know there exists an inverse matrix P,such that $uv^T = P^{-1} diag{v^Tu, 0 , 0 , 0, \cdots ,0 }P$.So we have $det(\bf{I} + uv^T) = det(\bf{I} + diag{v^Tu, 0 , 0 , 0, \cdots ,0 }) = 1 + u^Tv$ problem 6 Solution problem 7 Solution problem 8 Solution problem 9if pivot should be used in the QR decomposition, how would you do in the QR iteration? Solution problem 10If a Martix is large and sparse, how would you find its largest 10 eigenvalues and eigenvectors? Solution problem 11Computer problem (in C or C++): Write the functions to achieve (1) Arnoldi iteration and Lanczos iteration; (2) QR iteration for Hessenburg matrix to find the eigenvalue decomposition. Test these algorithms for a few matrix. Solution problem 12 Solution problem 13 Solution problem 14Computer problem (in C or C++): Write the functions to achieve Newton’s method and Broyden’s method. Test these methods for a few equation systems. Solution]]></content>
       <categories>
         <category>Numeric</category>
       </categories>
