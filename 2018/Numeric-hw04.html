@@ -109,9 +109,12 @@
 <meta property="og:image" content="https://ibelieveicanfly.gq/figure/hw04/P210_4.27.JPG">
 <meta property="og:image" content="https://ibelieveicanfly.gq/figure/hw04/P210_4.31.JPG">
 <meta property="og:image" content="https://ibelieveicanfly.gq/figure/hw04/P210_4.32.JPG">
+<meta property="og:image" content="https://ibelieveicanfly.gq/figure/hw04/Arnoldi.JPG">
+<meta property="og:image" content="https://ibelieveicanfly.gq/figure/hw04/Arnoldi-reducible.JPG">
+<meta property="og:image" content="https://ibelieveicanfly.gq/figure/hw04/Arnoldi-reducible-extreme.JPG">
 <meta property="og:image" content="https://ibelieveicanfly.gq/figure/hw04/P248_5.5.JPG">
 <meta property="og:image" content="https://ibelieveicanfly.gq/figure/hw04/P250_5.10.JPG">
-<meta property="og:updated_time" content="2018-10-27T20:18:48.898Z">
+<meta property="og:updated_time" content="2018-11-07T13:58:27.661Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Numeric-hw04">
 <meta name="twitter:description" content="Problem 1 [P208_4.13]   Solution for any eigenvalue $\lambda$ of matrix $A$, there exists a corresponding eigenvector$X = \bf{0}$: $AX=\lambda X$.And we have $||A|| \cdot ||X||\geq||AX|| = ||\lambda X">
@@ -367,8 +370,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-10-28T04:18:48+08:00">
-                2018-10-28
+              <time title="更新于" itemprop="dateModified" datetime="2018-11-07T21:58:27+08:00">
+                2018-11-07
               </time>
             
           </span>
@@ -417,7 +420,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  772
+                  829
                 </span>
               
 
@@ -487,8 +490,10 @@
 </li>
 <li><p>b) $uv^Tu = u\cdot v^Tu = v^Tu u$, so we get eigenvalue $v^Tu$ and corresponding eigenvector $u$.</p>
 </li>
-<li>c) As A is a matrix of rank one, we know have $n-1$ eigenvalue equal to zero, and the rest one is $v^Tu$.</li>
-<li>d) only one step. Let $x = \Sigma_{i=2}^n \alpha_i v_i + \alpha u$, then $Ax = 0 + \alpha u^Tv u = const * u$</li>
+<li><p>c) As A is a matrix of rank one, we know have $n-1$ eigenvalue equal to zero, and the rest one is $v^Tu$.</p>
+</li>
+<li><p>d) Only one step. Let $x = \Sigma_{i=2}^n \alpha_i v_i + \alpha u$, then $Ax = 0 + \alpha u^Tv u = C * u$</p>
+</li>
 </ul>
 </li>
 </ul>
@@ -533,7 +538,7 @@
 <li>$A_0 = A$ </li>
 <li>for $k = 1, 2, ..$ <ol>
 <li>Calculate QR Factorization with pivot <ul>
-<li>$A_{k-1}P_k = Q_kR_k$<br>,($A_{k-1} = Q_kR_k P_k^{-1} =Q_kR_k P_k$)</li>
+<li>$A_{k-1}P_k = Q_kR_k$<br>($A_{k-1} = Q_kR_k P_k^{-1} =Q_kR_k P_k$)</li>
 </ul>
 </li>
 <li>$A_{k} = P_kR_kQ_k$</li>
@@ -546,13 +551,22 @@
 <h2 id="Problem-10"><a href="#Problem-10" class="headerlink" title="Problem 10"></a>Problem 10</h2><p>If a Martix is large and sparse, how would you find its largest 10 eigenvalues and eigenvectors?</p>
 <ul>
 <li>Solution<ul>
-<li>Use Householder transform to let sparse matrix be Hessenberg matrix, and use  Orthogonal Iteration with $X_0$, a $n\times 10$ rank-full matrix.</li>
+<li>Use Householder transform or Arnoldi Iteration to let sparse matrix be Hessenberg matrix, and use  Orthogonal Iteration with $X_0$, a rank-full matrix with n rows and 10 columns.</li>
 </ul>
 </li>
 </ul>
 <h2 id="Problem-11"><a href="#Problem-11" class="headerlink" title="Problem 11"></a>Problem 11</h2><p>Computer Problem (in C or C++): Write the functions to achieve (1) Arnoldi iteration and Lanczos iteration; (2) QR iteration for Hessenburg matrix to find the eigenvalue decomposition. Test these algorithms for a few matrix.</p>
 <ul>
-<li>Solution</li>
+<li>Solution<ul>
+<li>Lanczos iteration is one of special cases of Arnoldi iteration,<br>so  only the complex one–Arnoldi iteration is programmed.<br>I consider the situation that matrix is reducible and solve it. You can input any square matrix.<ol>
+<li>Here is a test case.<br><img src="https://ibelieveicanfly.gq/figure/hw04/Arnoldi.JPG" alt="Arnoldi iteration"></li>
+<li>reducible Matrix:<br><img src="https://ibelieveicanfly.gq/figure/hw04/Arnoldi-reducible.JPG" alt="Arnoldi iteration"></li>
+<li>extreme special Matrix:<br><img src="https://ibelieveicanfly.gq/figure/hw04/Arnoldi-reducible-extreme.JPG" alt="Arnoldi iteration"></li>
+</ol>
+</li>
+<li>QR iteration</li>
+</ul>
+</li>
 </ul>
 <h2 id="Problem-12-P248-5-5"><a href="#Problem-12-P248-5-5" class="headerlink" title="Problem 12 [P248_5.5]"></a>Problem 12 [P248_5.5]</h2><p><img src="https://ibelieveicanfly.gq/figure/hw04/P248_5.5.JPG" alt="Problem"> </p>
 <ul>
@@ -586,7 +600,7 @@
   <p><span>本文标题:</span><a href="/2018/Numeric-hw04.html">Numeric-hw04</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 Enxing 的个人博客">Enxing</a></p>
   <p><span>发布时间:</span>2018年10月22日 - 18:10</p>
-  <p><span>最后更新:</span>2018年10月28日 - 04:10</p>
+  <p><span>最后更新:</span>2018年11月07日 - 21:11</p>
 
   <p><span>原始链接:</span><a href="/2018/Numeric-hw04.html" title="Numeric-hw04">https://ibelieveicanfly.gq/2018/Numeric-hw04.html</a>
   <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://ibelieveicanfly.gq/2018/Numeric-hw04.html"  aria-label="复制成功！"></i></span>
@@ -675,8 +689,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/LearnCode.html" rel="next" title="LearnCode">
-                <i class="fa fa-chevron-left"></i> LearnCode
+              <a href="/2018/encryption.html" rel="next" title="encryption">
+                <i class="fa fa-chevron-left"></i> encryption
               </a>
             
           </div>
@@ -684,10 +698,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/encryption.html" rel="prev" title="encryption">
-                encryption <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -768,7 +778,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">11</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -779,7 +789,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -923,7 +933,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共7.1k字</span>
+  <span class="post-count">博客全站共5.3k字</span>
 </div>
 
         
