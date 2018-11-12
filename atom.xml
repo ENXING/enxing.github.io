@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ibelieveicanfly.gq/"/>
-  <updated>2018-11-11T16:30:55.399Z</updated>
+  <updated>2018-11-12T05:39:00.045Z</updated>
   <id>https://ibelieveicanfly.gq/</id>
   
   <author>
@@ -21,9 +21,16 @@
     <link href="https://ibelieveicanfly.gq/2018/Numeric-hw05.html"/>
     <id>https://ibelieveicanfly.gq/2018/Numeric-hw05.html</id>
     <published>2018-11-11T16:30:08.000Z</published>
-    <updated>2018-11-11T16:30:55.399Z</updated>
+    <updated>2018-11-12T05:39:00.045Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Problem-1-P301-6-2"><a href="#Problem-1-P301-6-2" class="headerlink" title="Problem 1 [P301_6.2]"></a>Problem 1 [P301_6.2]</h2><p><img src="https://ibelieveicanfly.gq/figure/hw05/P301_6.2.JPG" alt="Problem"> </p><ul><li>Solution</li></ul><h2 id="Problem-2-P301-6-3"><a href="#Problem-2-P301-6-3" class="headerlink" title="Problem 2 [P301_6.3]"></a>Problem 2 [P301_6.3]</h2><p><img src="https://ibelieveicanfly.gq/figure/hw05/P301_6.3.JPG" alt="Problem"> </p><ul><li>Solution</li></ul><h2 id="Problem-3-P301-6-7"><a href="#Problem-3-P301-6-7" class="headerlink" title="Problem 3 [P301_6.7]"></a>Problem 3 [P301_6.7]</h2><p><img src="https://ibelieveicanfly.gq/figure/hw05/P301_6.7.JPG" alt="Problem"> </p><ul><li>Solution</li></ul><h2 id="Problem-4-P301-6-9"><a href="#Problem-4-P301-6-9" class="headerlink" title="Problem 4 [P301_6.9]"></a>Problem 4 [P301_6.9]</h2><p><img src="https://ibelieveicanfly.gq/figure/hw05/P301_6.9.JPG" alt="Problem"> </p><ul><li>Solution</li></ul><h2 id="Problem-5-P302-6-12"><a href="#Problem-5-P302-6-12" class="headerlink" title="Problem 5 [P302_6.12]"></a>Problem 5 [P302_6.12]</h2><p><img src="https://ibelieveicanfly.gq/figure/hw05/P302_6.12.JPG" alt="Problem"> </p><ul><li>Solution</li></ul><h2 id="Problem-6"><a href="#Problem-6" class="headerlink" title="Problem 6"></a>Problem 6</h2><pre><code>For a sparse positive definite martix A, if you have a way to find a sparse lower triangle matrix L so that L’AL has much a smaller condition number than A, how would you solve the linear equation Ax=b with Conjugate Gradient method?</code></pre><ul><li>Solution</li></ul><h2 id="Problem-7"><a href="#Problem-7" class="headerlink" title="Problem 7"></a>Problem 7</h2><pre><code>Computer problem (in C or C++): Write the functions to achieve (1) CG method with a linear search method; (2) CG method for linear systems with positive definite matrix. Test these algorithms for a few matrix and check the orthogonal properties for the residuals for a large scale linear system.</code></pre><ul><li>Solution</li></ul><h2 id="Problem-8"><a href="#Problem-8" class="headerlink" title="Problem 8"></a>Problem 8</h2><pre><code>Computer problem (in C or C++): Achieve the interpolants of Runge’s function at equally spaced points.</code></pre><ul><li>Solution</li></ul><h2 id="Problem-9"><a href="#Problem-9" class="headerlink" title="Problem 9"></a>Problem 9</h2><pre><code>Computer problem (in C or C++): Write the functions to find the natural cubic spline function using the shooting method and the B-spline method.</code></pre><ul><li>Solution</li></ul>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Problem-1-P301-6-2&quot;&gt;&lt;a href=&quot;#Problem-1-P301-6-2&quot; class=&quot;headerlink&quot; title=&quot;Problem 1 [P301_6.2]&quot;&gt;&lt;/a&gt;Problem 1 [P301_6.2]&lt;/h2&gt;&lt;p&gt;&lt;i
+      
     
     </summary>
     
