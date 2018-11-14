@@ -106,7 +106,7 @@
 <meta property="og:image" content="https://ibelieveicanfly.gq/figure/hw05/P302_6.7.JPG">
 <meta property="og:image" content="https://ibelieveicanfly.gq/figure/hw05/P302_6.9.JPG">
 <meta property="og:image" content="https://ibelieveicanfly.gq/figure/hw05/P302_6.12.JPG">
-<meta property="og:updated_time" content="2018-11-13T08:20:03.863Z">
+<meta property="og:updated_time" content="2018-11-13T16:14:43.931Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Numeric-hw05">
 <meta name="twitter:description" content="Problem 1 [P301_6.2]   Solution $f(x) =x^2$ Strictly Convex. $f(x) =x^3$ NonConvex. $f(x) =e^{-1}$ Strictly Convex. $f(x) =|x|$ Convex not Strictly Convex.    Problem 2 [P301_6.3]   Solution $H_f =2$,">
@@ -362,8 +362,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-11-13T16:20:03+08:00">
-                2018-11-13
+              <time title="更新于" itemprop="dateModified" datetime="2018-11-14T00:14:43+08:00">
+                2018-11-14
               </time>
             
           </span>
@@ -412,7 +412,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  322
+                  321
                 </span>
               
 
@@ -471,13 +471,21 @@
 </ul>
 <h2 id="Problem-3-P301-6-7"><a href="#Problem-3-P301-6-7" class="headerlink" title="Problem 3 [P301_6.7]"></a>Problem 3 [P301_6.7]</h2><p><img src="https://ibelieveicanfly.gq/figure/hw05/P302_6.7.JPG" alt="Problem"> </p>
 <ul>
-<li>Solution<br>$L = f(x) + \lambda g(x)$</li>
+<li><p>Solution</p>
+<ul>
+<li><p>$L = f(x) + \lambda g(x)$</p>
+</li>
+<li><p>$\nabla L = \begin{bmatrix}2x_1 -2 +\lambda \\2x_2 - \lambda \\ -2x_3+4 + 2\lambda \\ g(x)\end{bmatrix}$</p>
+</li>
+<li><p>$B = H_f + \Sigma \lambda H_{g_i}= \begin{bmatrix} 2&amp;0&amp;0\\ 0&amp;2&amp;0\\0&amp;0&amp;-2\end{bmatrix}$</p>
+</li>
+<li><p>$J_g = \begin{bmatrix} 1\\ -1 \\ 2\end{bmatrix}$, $J_g^\perp  = \begin{bmatrix}-1 &amp; 1\\ 1 &amp; 1 \\ 1 &amp;0\end{bmatrix}$</p>
+</li>
+<li><p>${J_g^\perp}’ B J_g = \begin{bmatrix}2 &amp; 0\\ 0 &amp;2\end{bmatrix}$ is positive efinite Matrix.  So $x^*$ is constrained minimum.</p>
+</li>
 </ul>
-<p>$\nabla L = \begin{bmatrix}2x_1 -2 +\lambda \\2x_2 - \lambda \-2x_3+4 + 2\lambda\\g(x)\end{bmatrix}$</p>
-<p>$B(x^<em>,\lambda) = H_f + \Sigma_i\lambda_i </em> H_{g_i} = \begin{bmatrix} 2&amp;0&amp;0\\ 0&amp;2&amp;0\\0&amp;0&amp;-2\end{bmatrix}$</p>
-<p>$J_g = \begin{bmatrix} 1\-1\\2\end{bmatrix}$</p>
-<p>$J_g^\perp  = \begin{bmatrix}-1 &amp; 1\\ 1 &amp; 1 \\ 1 &amp;0\end{bmatrix}$</p>
-<p>${J_g^\perp}’ H_f J_g = \begin{bmatrix}2 &amp; 0\\ 0 &amp;2\end{bmatrix}$ is positive efinite Matrix.  SO $x*$ is constrained minimum.</p>
+</li>
+</ul>
 <h2 id="Problem-4-P301-6-9"><a href="#Problem-4-P301-6-9" class="headerlink" title="Problem 4 [P301_6.9]"></a>Problem 4 [P301_6.9]</h2><p><img src="https://ibelieveicanfly.gq/figure/hw05/P302_6.9.JPG" alt="Problem"> </p>
 <ul>
 <li>Solution</li>
@@ -496,7 +504,10 @@
 </ul>
 <h2 id="Problem-8"><a href="#Problem-8" class="headerlink" title="Problem 8"></a>Problem 8</h2><p>Computer problem (in C or C++): Achieve the interpolants of Runge’s function at equally spaced points.</p>
 <ul>
-<li>Solution</li>
+<li>Solution<ul>
+<li><a href="http://faculty.nps.edu/jekozdon/courses/ma3232_1602/2016_01_26/html/runge_function.html" target="_blank" rel="noopener">Link</a></li>
+</ul>
+</li>
 </ul>
 <h2 id="Problem-9"><a href="#Problem-9" class="headerlink" title="Problem 9"></a>Problem 9</h2><p>Computer problem (in C or C++): Write the functions to find the natural cubic spline function using the shooting method and the B-spline method.</p>
 <ul>
@@ -522,7 +533,7 @@
   <p><span>本文标题:</span><a href="/2018/Numeric-hw05.html">Numeric-hw05</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 Enxing 的个人博客">Enxing</a></p>
   <p><span>发布时间:</span>2018年11月12日 - 00:11</p>
-  <p><span>最后更新:</span>2018年11月13日 - 16:11</p>
+  <p><span>最后更新:</span>2018年11月14日 - 00:11</p>
 
   <p><span>原始链接:</span><a href="/2018/Numeric-hw05.html" title="Numeric-hw05">https://ibelieveicanfly.gq/2018/Numeric-hw05.html</a>
   <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://ibelieveicanfly.gq/2018/Numeric-hw05.html"  aria-label="复制成功！"></i></span>
