@@ -106,7 +106,7 @@
 <meta property="og:image" content="https://ibelieveicanfly.gq/figure/hw05/P302_6.7.JPG">
 <meta property="og:image" content="https://ibelieveicanfly.gq/figure/hw05/P302_6.9.JPG">
 <meta property="og:image" content="https://ibelieveicanfly.gq/figure/hw05/P302_6.12.JPG">
-<meta property="og:updated_time" content="2018-11-13T16:14:43.931Z">
+<meta property="og:updated_time" content="2018-11-14T06:05:11.554Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Numeric-hw05">
 <meta name="twitter:description" content="Problem 1 [P301_6.2]   Solution $f(x) =x^2$ Strictly Convex. $f(x) =x^3$ NonConvex. $f(x) =e^{-1}$ Strictly Convex. $f(x) =|x|$ Convex not Strictly Convex.    Problem 2 [P301_6.3]   Solution $H_f =2$,">
@@ -362,7 +362,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-11-14T00:14:43+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-11-14T14:05:11+08:00">
                 2018-11-14
               </time>
             
@@ -412,7 +412,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  321
+                  470
                 </span>
               
 
@@ -428,7 +428,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  2
+                  3
                 </span>
               
             </div>
@@ -488,11 +488,28 @@
 </ul>
 <h2 id="Problem-4-P301-6-9"><a href="#Problem-4-P301-6-9" class="headerlink" title="Problem 4 [P301_6.9]"></a>Problem 4 [P301_6.9]</h2><p><img src="https://ibelieveicanfly.gq/figure/hw05/P302_6.9.JPG" alt="Problem"> </p>
 <ul>
-<li>Solution</li>
-</ul>
-<h2 id="Problem-5-P302-6-12"><a href="#Problem-5-P302-6-12" class="headerlink" title="Problem 5 [P302_6.12]"></a>Problem 5 [P302_6.12]</h2><p><img src="https://ibelieveicanfly.gq/figure/hw05/P302_6.12.JPG" alt="Problem"> </p>
+<li><p>Solution</p>
 <ul>
-<li>Solution</li>
+<li><p>$f(x ) =\frac{1}{2} x’Ax - x’b +c$</p>
+<p>$\nabla f = Ax -b$</p>
+<p>$H_f = \nabla^2 f = A$</p>
+<p>$x_1 = x_0 +s$</p>
+<p>$s = H_f^{-1} (-\nabla f)|_{x = x_0}$</p>
+<p>$x_1= x_0  -A^{-1} (Ax_0-b) = A^{-1}b$</p>
+<p>When $\nabla f = 0$ (equivalently $x = A^{-1}b$) this function is minimized.So for any starting point $x_0$ , Newton’s method for minimizing this function converges in one iteration.</p>
+</li>
+<li><p>If $x_0 - x^*$ is  an eigenvector of A, the steepest descent method for minimizing this function converges in one iteration. </p>
+<p>$\nabla f(x_0) = Ax_0 - b$, $Ax^<em> -b = 0$, two equations    subtraction.  $A(x_0 - x^</em>) = \nabla f(x_0) = \lambda (x_0 -x^<em>)$.As matrix A is a definite matrix, $\lambda &gt;0$. Next iteration $x_1 = x_0 - \nabla f(x_0) \cdot \alpha = x_0 - \lambda(x_0 -x^</em> )\alpha = (1-\lambda \alpha)x_0 + \lambda \alpha x^<em>$. Let search step $\alpha = \lambda^{-1}$, then $x_1 = x^</em>$.</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="Problem-5-P302"><a href="#Problem-5-P302" class="headerlink" title="Problem 5 [P302"></a>Problem 5 [P302</h2><h2 id="6-12"><a href="#6-12" class="headerlink" title="_6.12]"></a>_6.12]</h2><p><img src="https://ibelieveicanfly.gq/figure/hw05/P302_6.12.JPG" alt="Problem"> </p>
+<ul>
+<li>Solution<ul>
+<li></li>
+</ul>
+</li>
 </ul>
 <h2 id="Problem-6"><a href="#Problem-6" class="headerlink" title="Problem 6"></a>Problem 6</h2><p>For a sparse positive definite martix A, if you have a way to find a sparse lower triangle matrix L so that L’AL has much a smaller condition number than A, how would you solve the linear equation Ax=b with Conjugate Gradient method?</p>
 <ul>
@@ -533,7 +550,7 @@
   <p><span>本文标题:</span><a href="/2018/Numeric-hw05.html">Numeric-hw05</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 Enxing 的个人博客">Enxing</a></p>
   <p><span>发布时间:</span>2018年11月12日 - 00:11</p>
-  <p><span>最后更新:</span>2018年11月14日 - 00:11</p>
+  <p><span>最后更新:</span>2018年11月14日 - 14:11</p>
 
   <p><span>原始链接:</span><a href="/2018/Numeric-hw05.html" title="Numeric-hw05">https://ibelieveicanfly.gq/2018/Numeric-hw05.html</a>
   <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://ibelieveicanfly.gq/2018/Numeric-hw05.html"  aria-label="复制成功！"></i></span>
@@ -816,7 +833,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-1-P301-6-2"><span class="nav-number">1.</span> <span class="nav-text">Problem 1 [P301_6.2]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-2-P301-6-3"><span class="nav-number">2.</span> <span class="nav-text">Problem 2 [P301_6.3]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-3-P301-6-7"><span class="nav-number">3.</span> <span class="nav-text">Problem 3 [P301_6.7]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-4-P301-6-9"><span class="nav-number">4.</span> <span class="nav-text">Problem 4 [P301_6.9]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-5-P302-6-12"><span class="nav-number">5.</span> <span class="nav-text">Problem 5 [P302_6.12]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-6"><span class="nav-number">6.</span> <span class="nav-text">Problem 6</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-7"><span class="nav-number">7.</span> <span class="nav-text">Problem 7</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-8"><span class="nav-number">8.</span> <span class="nav-text">Problem 8</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-9"><span class="nav-number">9.</span> <span class="nav-text">Problem 9</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-1-P301-6-2"><span class="nav-number">1.</span> <span class="nav-text">Problem 1 [P301_6.2]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-2-P301-6-3"><span class="nav-number">2.</span> <span class="nav-text">Problem 2 [P301_6.3]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-3-P301-6-7"><span class="nav-number">3.</span> <span class="nav-text">Problem 3 [P301_6.7]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-4-P301-6-9"><span class="nav-number">4.</span> <span class="nav-text">Problem 4 [P301_6.9]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-5-P302"><span class="nav-number">5.</span> <span class="nav-text">Problem 5 [P302</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-12"><span class="nav-number">6.</span> <span class="nav-text">_6.12]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-6"><span class="nav-number">7.</span> <span class="nav-text">Problem 6</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-7"><span class="nav-number">8.</span> <span class="nav-text">Problem 7</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-8"><span class="nav-number">9.</span> <span class="nav-text">Problem 8</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-9"><span class="nav-number">10.</span> <span class="nav-text">Problem 9</span></a></li></ol></div>
             
 
           </div>
@@ -866,7 +883,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共5.9k字</span>
+  <span class="post-count">博客全站共6.1k字</span>
 </div>
 
         
