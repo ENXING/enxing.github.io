@@ -93,13 +93,13 @@
 
 
 
-<meta name="description" content="Problem 1 [P208_4.13]   Solution for any eigenvalue $\lambda$ of matrix $A$, there exists a corresponding eigenvector$X = \bf{0}$: $AX=\lambda X$.And we have $||A|| \cdot ||X||\geq||AX|| = ||\lambda X">
+<meta name="description" content="Problem 1 [P208_4.13]  * Solution * for any eigenvalue \(\lambda\) of matrix \(A\), there exists a corresponding eigenvector \(X = \bf{0}\): \(AX=\lambda X\). And we have \(||A|| \cdot ||X||\geq||AX|">
 <meta name="keywords" content="2018-fall,numeric">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Numeric-hw04">
 <meta property="og:url" content="https://ibelieveicanfly.gq/2018/Numeric-hw04.html">
 <meta property="og:site_name" content="小熊的博客">
-<meta property="og:description" content="Problem 1 [P208_4.13]   Solution for any eigenvalue $\lambda$ of matrix $A$, there exists a corresponding eigenvector$X = \bf{0}$: $AX=\lambda X$.And we have $||A|| \cdot ||X||\geq||AX|| = ||\lambda X">
+<meta property="og:description" content="Problem 1 [P208_4.13]  * Solution * for any eigenvalue \(\lambda\) of matrix \(A\), there exists a corresponding eigenvector \(X = \bf{0}\): \(AX=\lambda X\). And we have \(||A|| \cdot ||X||\geq||AX|">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://ibelieveicanfly.gq/figure/hw04/P208_4.13.JPG">
 <meta property="og:image" content="https://ibelieveicanfly.gq/figure/hw04/P209_4.19.JPG">
@@ -123,7 +123,7 @@
 <meta property="og:updated_time" content="2018-11-11T16:28:34.152Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Numeric-hw04">
-<meta name="twitter:description" content="Problem 1 [P208_4.13]   Solution for any eigenvalue $\lambda$ of matrix $A$, there exists a corresponding eigenvector$X = \bf{0}$: $AX=\lambda X$.And we have $||A|| \cdot ||X||\geq||AX|| = ||\lambda X">
+<meta name="twitter:description" content="Problem 1 [P208_4.13]  * Solution * for any eigenvalue \(\lambda\) of matrix \(A\), there exists a corresponding eigenvector \(X = \bf{0}\): \(AX=\lambda X\). And we have \(||A|| \cdot ||X||\geq||AX|">
 <meta name="twitter:image" content="https://ibelieveicanfly.gq/figure/hw04/P208_4.13.JPG">
 
 
@@ -426,7 +426,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1,066
+                  1,063
                 </span>
               
 
@@ -463,149 +463,40 @@
       
 
       
-        <h2 id="Problem-1-P208-4-13"><a href="#Problem-1-P208-4-13" class="headerlink" title="Problem 1 [P208_4.13]"></a>Problem 1 [P208_4.13]</h2><p><img src="https://ibelieveicanfly.gq/figure/hw04/P208_4.13.JPG" alt="Problem"> </p>
-<ul>
-<li>Solution<ul>
-<li>for any eigenvalue $\lambda$ of matrix $A$, there exists a corresponding eigenvector<br>$X = \bf{0}$: $AX=\lambda X$.<br>And we have $||A|| \cdot ||X||\geq||AX|| = ||\lambda X|| = |\lambda| ||X||$.So we get<br>$|\lambda| \leq ||A||$, then $\rho(A) = {max}_{\lambda_i}\{|\lambda_i| \} \leq ||A||$</li>
-</ul>
-</li>
-</ul>
-<h2 id="Problem-2-P209-4-19"><a href="#Problem-2-P209-4-19" class="headerlink" title="Problem 2 [P209_4.19]"></a>Problem 2 [P209_4.19]</h2><p><img src="https://ibelieveicanfly.gq/figure/hw04/P209_4.19.JPG" alt="Problem"> </p>
-<ul>
-<li>Solution<ul>
-<li>$A^2 - A = 0; A^2 X - A X = 0; \lambda ^2 - \lambda = 0;$So we have $\lambda = 0 , 1$ </li>
-</ul>
-</li>
-</ul>
-<h2 id="Problem-3-P209-4-20"><a href="#Problem-3-P209-4-20" class="headerlink" title="Problem 3 [P209_4.20]"></a>Problem 3 [P209_4.20]</h2><p><img src="https://ibelieveicanfly.gq/figure/hw04/P209_4.20.JPG" alt="Problem"> </p>
-<ul>
-<li>Solution<ul>
-<li>a Hermitian matrix (or self-adjoint matrix) is a complex square matrix that is equal to its own conjugate transpose.</li>
-<li>notice that eigenvalue of Hermitian matrix is real number.</li>
-<li>a) $$\begin{align}&amp;\lambda &lt;x, y&gt; = &lt;\lambda x, y&gt; = &lt;Ax, y&gt; =  &lt;x, A^Hy&gt; \\ &amp;= &lt;x, Ay&gt;= &lt;x, \mu y&gt; = \mu &lt;x, y&gt;, and \ \lambda \neq \mu \end{align}$$ So we get $y^Hx =0$.</li>
-<li>b) $$\begin{align}&amp;\mu^H &lt;x, y&gt; = &lt;x, \mu^H y&gt; = &lt;x, A^Hy&gt; = \\ &amp;&lt;Ax, y&gt; = &lt;\lambda x, y&gt;= \lambda^H &lt;x, y&gt;\end{align}$$and$ \lambda \neq \mu$ So we get $y^Hx =0$.</li>
-<li>c) give a counterexample: $A = \begin{bmatrix} 1 &amp; 2 \\\ 0 &amp; 2\end{bmatrix}$, for$\lambda = 1$, its eigenvector: $x = [1, 0 ]^T,  and \ \ y = [0.4472, -0.8944]$, obviously we find $y^Hx\neq0$.</li>
-</ul>
-</li>
-</ul>
-<h2 id="Problem-4-P209-4-24"><a href="#Problem-4-P209-4-24" class="headerlink" title="Problem 4 [P209_4.24]"></a>Problem 4 [P209_4.24]</h2><p><img src="https://ibelieveicanfly.gq/figure/hw04/P209_4.24.JPG" alt="Problem"> </p>
-<ul>
-<li><p>Solution</p>
-<ul>
-<li><p>a) As A is a real matrix of rank one, we know it must have non zero row $r_i$ that can linearly represent all the other row $r_j; j\neq i$.So we get<br>$\begin{align}A&amp;=[ a_ 1 r_ i,a_2r_i,\cdots,a_ {i-1} r_ i, r_ i, a_ {i+1} r_ i , \cdots ,a_ n  r_ i]^T \\\ &amp;=[a_1 , a_2 ,\cdots , a_ {i-1} ,1 , a_ {i+1} ,\cdots ,a_n ]^T \cdot r_ i  = u \cdot v^T\end{align}$<br>and $v = r_i^T\ ;\  u =[a_1 , a_2 ,\cdot , a_{i-1} ,1, a_{i+1} ,\cdot ,a_n ]^T$</p>
-</li>
-<li><p>b) $uv^Tu = u\cdot v^Tu = v^Tu u$, so we get eigenvalue $v^Tu$ and corresponding eigenvector $u$.</p>
-</li>
-<li><p>c) As A is a matrix of rank one, we know have $n-1$ eigenvalue equal to zero, and the rest one is $v^Tu$.</p>
-</li>
-<li><p>d) Only one step. Let $x = \Sigma_{i=2}^n \alpha_i v_i + \alpha u$, then $Ax = 0 + \alpha u^Tv u = C * u$</p>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="Problem-5-P210-4-25"><a href="#Problem-5-P210-4-25" class="headerlink" title="Problem 5 [P210_4.25]"></a>Problem 5 [P210_4.25]</h2><p><img src="https://ibelieveicanfly.gq/figure/hw04/P210_4.25.JPG" alt="Problem"> </p>
-<ul>
-<li><p>Solution</p>
-<ul>
-<li><p>As matrix of rank one has a property of Algebraic multiplicity equal to Geometric multiplicity, we know there exists an inverse matrix P,such that $uv^T = P^{-1} diag [v^Tu, 0 , 0 , 0, \cdots ,0 ] P$.</p>
-</li>
-<li><p>So we have $det(I + uv^T) = det(I + diag[v^Tu, 0 , 0 , 0, \cdots ,0 ]) = 1 + u^Tv$</p>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="Problem-6-P210-4-27"><a href="#Problem-6-P210-4-27" class="headerlink" title="Problem 6 [P210_4.27]"></a>Problem 6 [P210_4.27]</h2><p><img src="https://ibelieveicanfly.gq/figure/hw04/P210_4.27.JPG" alt="Problem"> </p>
-<ul>
-<li>Solution<ul>
-<li>Matrix A is similar to Jordan matrix J, So there is a inverse matrix P such that $P^{-1}AP = J$. Then $|I-A| = |I- J| = \prod_{i = 1}^{n}(1-J_{ii}) &gt; (1-\rho(A))^n \neq 0$</li>
-<li>$(I- A) \cdot \Sigma_{k = 0}^{\infty}A^k = I$</li>
-</ul>
-</li>
-</ul>
-<h2 id="Problem-7-P210-4-31"><a href="#Problem-7-P210-4-31" class="headerlink" title="Problem 7 [P210_4.31]"></a>Problem 7 [P210_4.31]</h2><p><img src="https://ibelieveicanfly.gq/figure/hw04/P210_4.31.JPG" alt="Problem"> </p>
-<ul>
-<li>Solution<ul>
-<li>a) $||Qx||_2 = ||\lambda x||_2= |\lambda|\cdot ||x||_2$<br>  also we hava $||Qx||_2 =\sqrt{(Qx)^TQx} =||x||_2$ and we know eigenvector $x \neq 0$. So $|\lambda| = 1$</li>
-<li>b) $Q = Q\cdot I \cdot I$, So singular values of an orthogonal matrix is 1.</li>
-</ul>
-</li>
-</ul>
-<h2 id="Problem-8-P210-4-32"><a href="#Problem-8-P210-4-32" class="headerlink" title="Problem 8 [P210_4.32]"></a>Problem 8 [P210_4.32]</h2><p><img src="https://ibelieveicanfly.gq/figure/hw04/P210_4.32.JPG" alt="Problem"> </p>
-<ul>
-<li>Solution<ul>
-<li>a) we have $Hv = -v, Hv^{\perp} = v^\perp$,So we know eigenvalues of the Householder transformation is $[-1, 1, 1,\cdots , 1]$.( $n-1$ multiplicities  of eigenvalue $1$)</li>
-<li>b) $e^{-i\theta}, e^{i\theta}$,where $c = cos(\theta),s = sin(\theta)$.</li>
-</ul>
-</li>
-</ul>
-<h2 id="Problem-9"><a href="#Problem-9" class="headerlink" title="Problem 9"></a>Problem 9</h2><p>if pivot should be used in the QR decomposition, how would you do in the QR iteration?</p>
-<ul>
-<li>Solution<ul>
-<li>$A_0 = A$ </li>
-<li>for $k = 1, 2, ..$ <ol>
-<li>Calculate QR Factorization with pivot <ul>
-<li>$A_{k-1}P_k = Q_kR_k$<br>($A_{k-1} = Q_kR_k P_k^{-1} =Q_kR_k P_k$)</li>
-</ul>
-</li>
-<li>$A_{k} = P_kR_kQ_k$</li>
-</ol>
-</li>
-<li>end</li>
-</ul>
-</li>
-</ul>
-<h2 id="Problem-10"><a href="#Problem-10" class="headerlink" title="Problem 10"></a>Problem 10</h2><p>If a Martix is large and sparse, how would you find its largest 10 eigenvalues and eigenvectors?</p>
-<ul>
-<li>Solution<ul>
-<li>Use Householder transform or Arnoldi Iteration to let sparse matrix be Hessenberg matrix, and use  Orthogonal Iteration with $X_0$, a rank-full matrix with n rows and 10 columns.</li>
-</ul>
-</li>
-</ul>
-<h2 id="Problem-11"><a href="#Problem-11" class="headerlink" title="Problem 11"></a>Problem 11</h2><p><a href="https://jbox.sjtu.edu.cn/l/R092gi" target="_blank" rel="noopener">Source Code Download</a></p>
-<p>Computer Problem (in C or C++): Write the functions to achieve (1) Arnoldi iteration and Lanczos iteration; (2) QR iteration for Hessenburg matrix to find the eigenvalue decomposition. Test these algorithms for a few matrix.</p>
-<ul>
-<li>Solution<ul>
-<li>Lanczos iteration is one of special cases of Arnoldi iteration,<br>so  only the complex one–Arnoldi iteration is programmed.<br>I consider the situation that matrix is reducible and solve it. You can input any square matrix.<ol>
-<li>Here is a test case.<br><img src="https://ibelieveicanfly.gq/figure/hw04/Arnoldi.JPG" alt="Arnoldi iteration"></li>
-<li>reducible Matrix:<br><img src="https://ibelieveicanfly.gq/figure/hw04/Arnoldi-reducible.JPG" alt="Arnoldi iteration"></li>
-<li>extreme special Matrix:<br><img src="https://ibelieveicanfly.gq/figure/hw04/Arnoldi-reducible-extreme.JPG" alt="Arnoldi iteration"></li>
-</ol>
-</li>
-<li>QR iteration (the following photos are testing case!)<ol>
-<li>Up-Hessenberge Matrix:<br><img src="https://ibelieveicanfly.gq/figure/hw04/QR-UpHessenberg.JPG" alt="QR iteration"></li>
-<li>Rank One Matrix:<br><img src="https://ibelieveicanfly.gq/figure/hw04/QR-RANKone.JPG" alt="QR iteration"></li>
-<li>Matrix with Complex Eigenvalue (from Sub-square matrix 2*2 in row = 2, column = 2):<br><img src="https://ibelieveicanfly.gq/figure/hw04/QR-ConjugateComplexRoot.JPG" alt="QR iteration"></li>
-<li>Symmetry Dominant Diagonal Matrix:<br><img src="https://ibelieveicanfly.gq/figure/hw04/QR-SymmetryDominantdiagonal.JPG" alt="QR iteration"></li>
-</ol>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="Problem-12-P248-5-5"><a href="#Problem-12-P248-5-5" class="headerlink" title="Problem 12 [P248_5.5]"></a>Problem 12 [P248_5.5]</h2><p><img src="https://ibelieveicanfly.gq/figure/hw04/P248_5.5.JPG" alt="Problem"> </p>
-<ul>
-<li>Solution<br>  a.<br>$\begin{split} x_{k+1} &amp;=\frac{x_{k-1} f(x_k) -x_k f(x_{k-1})}{f(x_k) - f(x_{k-1})} \\&amp;= \frac{x_{k-1} f(x_k) -x_k  (f(x_{k-1}) -f(x_k)) - x_kf(x_k)}{f(x_k) -f(x_{k-1})} \\&amp;=x_k - \frac{f(x_k)}{ \frac{f(x_k) - f(x_{k-1})}{x_k  - x_{k-1}} } \end{split}$<br>  b. formula given in part a) is better than the formula for the secant method given in Section 5.5.4. the secant method will lose accuracy.</li>
-</ul>
-<h2 id="Problem-13-P250-5-10"><a href="#Problem-13-P250-5-10" class="headerlink" title="Problem 13 [P250_5.10]"></a>Problem 13 [P250_5.10]</h2><p><img src="https://ibelieveicanfly.gq/figure/hw04/P250_5.10.JPG" alt="Problem"> </p>
-<ul>
-<li>Solution<ul>
-<li>root = 1.307;</li>
-<li>$2x \cdot cot(x) - (x^2 -1) = 0$</li>
-<li>this zero must be bigger than 0;<br><img src="https://ibelieveicanfly.gq/figure/hw04/fuel_rod.JPG" alt="fuel rod graph"></li>
-</ul>
-</li>
-</ul>
-<h2 id="Problem-14"><a href="#Problem-14" class="headerlink" title="Problem 14"></a>Problem 14</h2><p><a href="https://ibelieveicanfly.gq/figure/hw04/NewtonBroyden.zip">Source Code Download</a><br>Computer Problem (in C or C++): Write the functions to achieve Newton’s method and Broyden’s method. Test these methods for a few equation systems.</p>
-<ul>
-<li>Solution<ul>
-<li>Equation System Solved by Newton’s Method:<br>  $f(x) = \begin{bmatrix} x_1 + 2_2 -2\\  x_1^2 +4x_2^2 -4\end{bmatrix} =  \begin{bmatrix} 0\\  0\end{bmatrix}$<br>  $J_f(x) = \begin{bmatrix} 1&amp;2\\  2x_1 &amp;8x_2\end{bmatrix}$<br><img src="https://ibelieveicanfly.gq/figure/hw04/NewtonMd.png" alt="NewtonMd"></li>
-<li>Equation System Solved by Broyden’s Method:<ul>
-<li><a href="https://ibelieveicanfly.gq/figure/hw04/dataBroyden.txt">data.txt</a></li>
-</ul>
-</li>
-<li>Compare two method’s iteration numbers when achieving the same accuracy.<br>Iteration number of Newton’s method is 7, and  Broyden’s method is 16. Newton’s methods is more faster to converge, however Jacobi Matrix is needed to be compute explicitly in advance . </li>
-</ul>
-</li>
-</ul>
+        <h2 id="problem-1-p208_4.13">Problem 1 [P208_4.13]</h2>
+<p><img src="https://ibelieveicanfly.gq/figure/hw04/P208_4.13.JPG" alt="Problem"> * Solution * for any eigenvalue <span class="math inline">\(\lambda\)</span> of matrix <span class="math inline">\(A\)</span>, there exists a corresponding eigenvector <span class="math inline">\(X = \bf{0}\)</span>: <span class="math inline">\(AX=\lambda X\)</span>. And we have <span class="math inline">\(||A|| \cdot ||X||\geq||AX|| = ||\lambda X|| = |\lambda| ||X||\)</span>.So we get <span class="math inline">\(|\lambda| \leq ||A||\)</span>, then <span class="math inline">\(\rho(A) = {max}_{\lambda_i}\{|\lambda_i| \} \leq ||A||\)</span></p>
+<h2 id="problem-2-p209_4.19">Problem 2 [P209_4.19]</h2>
+<p><img src="https://ibelieveicanfly.gq/figure/hw04/P209_4.19.JPG" alt="Problem"> * Solution * <span class="math inline">\(A^2 - A = 0; A^2 X - A X = 0; \lambda ^2 - \lambda = 0;\)</span>So we have <span class="math inline">\(\lambda = 0 , 1\)</span></p>
+<h2 id="problem-3-p209_4.20">Problem 3 [P209_4.20]</h2>
+<p><img src="https://ibelieveicanfly.gq/figure/hw04/P209_4.20.JPG" alt="Problem"> * Solution * a Hermitian matrix (or self-adjoint matrix) is a complex square matrix that is equal to its own conjugate transpose. * notice that eigenvalue of Hermitian matrix is real number. * a) <span class="math display">\[\begin{align}&amp;\lambda &lt;x, y&gt; = &lt;\lambda x, y&gt; = &lt;Ax, y&gt; =  &lt;x, A^Hy&gt; \\ &amp;= &lt;x, Ay&gt;= &lt;x, \mu y&gt; = \mu &lt;x, y&gt;, and \ \lambda \neq \mu \end{align}\]</span> So we get <span class="math inline">\(y^Hx =0\)</span>. * b) <span class="math display">\[\begin{align}&amp;\mu^H &lt;x, y&gt; = &lt;x, \mu^H y&gt; = &lt;x, A^Hy&gt; = \\ &amp;&lt;Ax, y&gt; = &lt;\lambda x, y&gt;= \lambda^H &lt;x, y&gt;\end{align}\]</span>and$ $ So we get <span class="math inline">\(y^Hx =0\)</span>. * c) give a counterexample: <span class="math inline">\(A = \begin{bmatrix} 1 &amp; 2 \\\ 0 &amp; 2\end{bmatrix}\)</span>, for<span class="math inline">\(\lambda = 1\)</span>, its eigenvector: <span class="math inline">\(x = [1, 0 ]^T, and \ \ y = [0.4472, -0.8944]\)</span>, obviously we find <span class="math inline">\(y^Hx\neq0\)</span>.</p>
+<h2 id="problem-4-p209_4.24">Problem 4 [P209_4.24]</h2>
+<p><img src="https://ibelieveicanfly.gq/figure/hw04/P209_4.24.JPG" alt="Problem"> * Solution * a) As A is a real matrix of rank one, we know it must have non zero row <span class="math inline">\(r_i\)</span> that can linearly represent all the other row <span class="math inline">\(r_j; j\neq i\)</span>.So we get <span class="math inline">\(\begin{align}A&amp;=[ a_ 1 r_ i,a_2r_i,\cdots,a_ {i-1} r_ i, r_ i, a_ {i+1} r_ i , \cdots ,a_ n r_ i]^T \\\ &amp;=[a_1 , a_2 ,\cdots , a_ {i-1} ,1 , a_ {i+1} ,\cdots ,a_n ]^T \cdot r_ i = u \cdot v^T\end{align}\)</span> and <span class="math inline">\(v = r_i^T\ ;\  u =[a_1 , a_2 ,\cdot , a_{i-1} ,1, a_{i+1} ,\cdot ,a_n ]^T\)</span></p>
+<pre><code>* b) $uv^Tu = u\cdot v^Tu = v^Tu u$, so we get eigenvalue $v^Tu$ and corresponding eigenvector $u$.
+* c) As A is a matrix of rank one, we know have $n-1$ eigenvalue equal to zero, and the rest one is $v^Tu$.
+
+* d) Only one step. Let $x = \Sigma_{i=2}^n \alpha_i v_i + \alpha u$, then $Ax = 0 + \alpha u^Tv u = C * u$</code></pre>
+<h2 id="problem-5-p210_4.25">Problem 5 [P210_4.25]</h2>
+<p><img src="https://ibelieveicanfly.gq/figure/hw04/P210_4.25.JPG" alt="Problem"> * Solution * As matrix of rank one has a property of Algebraic multiplicity equal to Geometric multiplicity, we know there exists an inverse matrix P,such that <span class="math inline">\(uv^T = P^{-1} diag [v^Tu, 0 , 0 , 0, \cdots ,0 ] P\)</span>.</p>
+<pre><code>* So we have $det(I + uv^T) = det(I + diag[v^Tu, 0 , 0 , 0, \cdots ,0 ]) = 1 + u^Tv$</code></pre>
+<h2 id="problem-6-p210_4.27">Problem 6 [P210_4.27]</h2>
+<p><img src="https://ibelieveicanfly.gq/figure/hw04/P210_4.27.JPG" alt="Problem"> * Solution * Matrix A is similar to Jordan matrix J, So there is a inverse matrix P such that <span class="math inline">\(P^{-1}AP = J\)</span>. Then <span class="math inline">\(|I-A| = |I- J| = \prod_{i = 1}^{n}(1-J_{ii}) &gt; (1-\rho(A))^n \neq 0\)</span> * <span class="math inline">\((I- A) \cdot \Sigma_{k = 0}^{\infty}A^k = I\)</span></p>
+<h2 id="problem-7-p210_4.31">Problem 7 [P210_4.31]</h2>
+<p><img src="https://ibelieveicanfly.gq/figure/hw04/P210_4.31.JPG" alt="Problem"> * Solution * a) <span class="math inline">\(||Qx||_2 = ||\lambda x||_2= |\lambda|\cdot ||x||_2\)</span> also we hava <span class="math inline">\(||Qx||_2 =\sqrt{(Qx)^TQx} =||x||_2\)</span> and we know eigenvector <span class="math inline">\(x \neq 0\)</span>. So <span class="math inline">\(|\lambda| = 1\)</span> * b) <span class="math inline">\(Q = Q\cdot I \cdot I\)</span>, So singular values of an orthogonal matrix is 1.</p>
+<h2 id="problem-8-p210_4.32">Problem 8 [P210_4.32]</h2>
+<p><img src="https://ibelieveicanfly.gq/figure/hw04/P210_4.32.JPG" alt="Problem"> * Solution * a) we have <span class="math inline">\(Hv = -v, Hv^{\perp} = v^\perp\)</span>,So we know eigenvalues of the Householder transformation is <span class="math inline">\([-1, 1, 1,\cdots , 1]\)</span>.( <span class="math inline">\(n-1\)</span> multiplicities of eigenvalue <span class="math inline">\(1\)</span>) * b) <span class="math inline">\(e^{-i\theta}, e^{i\theta}\)</span>,where <span class="math inline">\(c = cos(\theta),s = sin(\theta)\)</span>.</p>
+<h2 id="problem-9">Problem 9</h2>
+<p>if pivot should be used in the QR decomposition, how would you do in the QR iteration? * Solution * <span class="math inline">\(A_0 = A\)</span> * for <span class="math inline">\(k = 1, 2, ..\)</span> 1. Calculate QR Factorization with pivot * <span class="math inline">\(A_{k-1}P_k = Q_kR_k\)</span> (<span class="math inline">\(A_{k-1} = Q_kR_k P_k^{-1} =Q_kR_k P_k\)</span>) 2. <span class="math inline">\(A_{k} = P_kR_kQ_k\)</span> * end</p>
+<h2 id="problem-10">Problem 10</h2>
+<p>If a Martix is large and sparse, how would you find its largest 10 eigenvalues and eigenvectors? * Solution * Use Householder transform or Arnoldi Iteration to let sparse matrix be Hessenberg matrix, and use Orthogonal Iteration with <span class="math inline">\(X_0\)</span>, a rank-full matrix with n rows and 10 columns.</p>
+<h2 id="problem-11">Problem 11</h2>
+<p><a href="https://jbox.sjtu.edu.cn/l/R092gi" target="_blank" rel="noopener">Source Code Download</a></p>
+<p>Computer Problem (in C or C++): Write the functions to achieve (1) Arnoldi iteration and Lanczos iteration; (2) QR iteration for Hessenburg matrix to find the eigenvalue decomposition. Test these algorithms for a few matrix. * Solution * Lanczos iteration is one of special cases of Arnoldi iteration, so only the complex one--Arnoldi iteration is programmed. I consider the situation that matrix is reducible and solve it. You can input any square matrix. 1. Here is a test case. <img src="https://ibelieveicanfly.gq/figure/hw04/Arnoldi.JPG" alt="Arnoldi iteration"> 2. reducible Matrix: <img src="https://ibelieveicanfly.gq/figure/hw04/Arnoldi-reducible.JPG" alt="Arnoldi iteration"> 2. extreme special Matrix: <img src="https://ibelieveicanfly.gq/figure/hw04/Arnoldi-reducible-extreme.JPG" alt="Arnoldi iteration"> * QR iteration (the following photos are testing case!) 1. Up-Hessenberge Matrix: <img src="https://ibelieveicanfly.gq/figure/hw04/QR-UpHessenberg.JPG" alt="QR iteration"> 2. Rank One Matrix: <img src="https://ibelieveicanfly.gq/figure/hw04/QR-RANKone.JPG" alt="QR iteration"> 3. Matrix with Complex Eigenvalue (from Sub-square matrix 2*2 in row = 2, column = 2): <img src="https://ibelieveicanfly.gq/figure/hw04/QR-ConjugateComplexRoot.JPG" alt="QR iteration"> 4. Symmetry Dominant Diagonal Matrix: <img src="https://ibelieveicanfly.gq/figure/hw04/QR-SymmetryDominantdiagonal.JPG" alt="QR iteration"></p>
+<h2 id="problem-12-p248_5.5">Problem 12 [P248_5.5]</h2>
+<p><img src="https://ibelieveicanfly.gq/figure/hw04/P248_5.5.JPG" alt="Problem"> * Solution a. <span class="math inline">\(\begin{split} x_{k+1} &amp;=\frac{x_{k-1} f(x_k) -x_k f(x_{k-1})}{f(x_k) - f(x_{k-1})} \\&amp;= \frac{x_{k-1} f(x_k) -x_k (f(x_{k-1}) -f(x_k)) - x_kf(x_k)}{f(x_k) -f(x_{k-1})} \\&amp;=x_k - \frac{f(x_k)}{ \frac{f(x_k) - f(x_{k-1})}{x_k - x_{k-1}} } \end{split}\)</span> b. formula given in part a) is better than the formula for the secant method given in Section 5.5.4. the secant method will lose accuracy.</p>
+<h2 id="problem-13-p250_5.10">Problem 13 [P250_5.10]</h2>
+<p><img src="https://ibelieveicanfly.gq/figure/hw04/P250_5.10.JPG" alt="Problem"> * Solution * root = 1.307; * <span class="math inline">\(2x \cdot cot(x) - (x^2 -1) = 0\)</span> * this zero must be bigger than 0; <img src="https://ibelieveicanfly.gq/figure/hw04/fuel_rod.JPG" alt="fuel rod graph"></p>
+<h2 id="problem-14">Problem 14</h2>
+<p><a href="https://ibelieveicanfly.gq/figure/hw04/NewtonBroyden.zip">Source Code Download</a> Computer Problem (in C or C++): Write the functions to achieve Newton’s method and Broyden’s method. Test these methods for a few equation systems. * Solution * Equation System Solved by Newton's Method: <span class="math inline">\(f(x) = \begin{bmatrix} x_1 + 2_2 -2\\ x_1^2 +4x_2^2 -4\end{bmatrix} = \begin{bmatrix} 0\\ 0\end{bmatrix}\)</span> <span class="math inline">\(J_f(x) = \begin{bmatrix} 1&amp;2\\ 2x_1 &amp;8x_2\end{bmatrix}\)</span> <img src="https://ibelieveicanfly.gq/figure/hw04/NewtonMd.png" alt="NewtonMd"> * Equation System Solved by Broyden's Method: * <a href="https://ibelieveicanfly.gq/figure/hw04/dataBroyden.txt">data.txt</a> * Compare two method's iteration numbers when achieving the same accuracy. Iteration number of Newton's method is 7, and Broyden's method is 16. Newton's methods is more faster to converge, however Jacobi Matrix is needed to be compute explicitly in advance .</p>
 
       
     </div>
@@ -715,8 +606,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/VIM-NOTE.html" rel="next" title="VIM_NOTE">
-                <i class="fa fa-chevron-left"></i> VIM_NOTE
+              <a href="/2018/encryption.html" rel="next" title="encryption">
+                <i class="fa fa-chevron-left"></i> encryption
               </a>
             
           </div>
@@ -725,8 +616,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/encryption.html" rel="prev" title="encryption">
-                encryption <i class="fa fa-chevron-right"></i>
+              <a href="/2018/Numeric-hw05.html" rel="prev" title="Numeric-hw05">
+                Numeric-hw05 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -913,7 +804,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-1-P208-4-13"><span class="nav-number">1.</span> <span class="nav-text">Problem 1 [P208_4.13]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-2-P209-4-19"><span class="nav-number">2.</span> <span class="nav-text">Problem 2 [P209_4.19]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-3-P209-4-20"><span class="nav-number">3.</span> <span class="nav-text">Problem 3 [P209_4.20]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-4-P209-4-24"><span class="nav-number">4.</span> <span class="nav-text">Problem 4 [P209_4.24]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-5-P210-4-25"><span class="nav-number">5.</span> <span class="nav-text">Problem 5 [P210_4.25]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-6-P210-4-27"><span class="nav-number">6.</span> <span class="nav-text">Problem 6 [P210_4.27]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-7-P210-4-31"><span class="nav-number">7.</span> <span class="nav-text">Problem 7 [P210_4.31]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-8-P210-4-32"><span class="nav-number">8.</span> <span class="nav-text">Problem 8 [P210_4.32]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-9"><span class="nav-number">9.</span> <span class="nav-text">Problem 9</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-10"><span class="nav-number">10.</span> <span class="nav-text">Problem 10</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-11"><span class="nav-number">11.</span> <span class="nav-text">Problem 11</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-12-P248-5-5"><span class="nav-number">12.</span> <span class="nav-text">Problem 12 [P248_5.5]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-13-P250-5-10"><span class="nav-number">13.</span> <span class="nav-text">Problem 13 [P250_5.10]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-14"><span class="nav-number">14.</span> <span class="nav-text">Problem 14</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-1-p208_4.13"><span class="nav-number">1.</span> <span class="nav-text">Problem 1 [P208_4.13]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-2-p209_4.19"><span class="nav-number">2.</span> <span class="nav-text">Problem 2 [P209_4.19]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-3-p209_4.20"><span class="nav-number">3.</span> <span class="nav-text">Problem 3 [P209_4.20]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-4-p209_4.24"><span class="nav-number">4.</span> <span class="nav-text">Problem 4 [P209_4.24]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-5-p210_4.25"><span class="nav-number">5.</span> <span class="nav-text">Problem 5 [P210_4.25]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-6-p210_4.27"><span class="nav-number">6.</span> <span class="nav-text">Problem 6 [P210_4.27]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-7-p210_4.31"><span class="nav-number">7.</span> <span class="nav-text">Problem 7 [P210_4.31]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-8-p210_4.32"><span class="nav-number">8.</span> <span class="nav-text">Problem 8 [P210_4.32]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-9"><span class="nav-number">9.</span> <span class="nav-text">Problem 9</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-10"><span class="nav-number">10.</span> <span class="nav-text">Problem 10</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-11"><span class="nav-number">11.</span> <span class="nav-text">Problem 11</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-12-p248_5.5"><span class="nav-number">12.</span> <span class="nav-text">Problem 12 [P248_5.5]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-13-p250_5.10"><span class="nav-number">13.</span> <span class="nav-text">Problem 13 [P250_5.10]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-14"><span class="nav-number">14.</span> <span class="nav-text">Problem 14</span></a></li></ol></div>
             
 
           </div>
