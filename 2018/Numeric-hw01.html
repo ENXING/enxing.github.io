@@ -111,7 +111,7 @@
 <meta property="og:image" content="https://ibelieveicanfly.gq/figure/hw01/tiimeCounter00.jpg">
 <meta property="og:image" content="https://ibelieveicanfly.gq/figure/hw01/tiimeCounter01.jpg">
 <meta property="og:image" content="https://ibelieveicanfly.gq/figure/hw01/logToLog.JPG">
-<meta property="og:updated_time" content="2018-11-16T20:38:10.391Z">
+<meta property="og:updated_time" content="2018-11-16T20:47:10.806Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Numeric-hw01">
 <meta name="twitter:description" content="#  2018年9月19日 Homework01  本次作业的源码下载链接 Problem 1 [Page 45 1.7]  Solution:  中心差分   Center_diff  可以看出当\(k=10^{-8}\) 达到误差最小，是由于其与分子的双精度误差 的开方可比拟的缘故。 和例子1.3 很契合。  向前差分  可以看出当\(k=10^{-6}\) 达到">
@@ -367,7 +367,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-11-17T04:38:10+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-11-17T04:47:10+08:00">
                 2018-11-17
               </time>
             
@@ -485,17 +485,11 @@
 <p>(Matlab test) For <span class="math inline">\(n=500, 1000,2000, 4000, 8000\)</span>, generate an <span class="math inline">\(n\times n\)</span> random matrix B, and an <span class="math inline">\(n\times 1\)</span> vector b.</p>
 <p>Find the symmetric matrix <span class="math inline">\(A=B^{\tau} \cdot B\)</span> 1) Using function “eig” to test the time cost for eigen decomposition; 2) Using <span class="math inline">\(x=A / b\)</span>, and <span class="math inline">\(x=A^{-1}\cdot b\)</span> to test the time cost in finding the solution of <span class="math inline">\(Ax=b\)</span>; 3) Plot all the time costs as a function of n and the power law for the time costs.</p>
 <p>Solution:</p>
-<ul>
-<li><ol type="1">
-<li>计算结果如下： 计算时间耗时： <img src="https://ibelieveicanfly.gq/figure/hw01/tiimeCounter00.jpg" alt="result eig"></li>
-</ol></li>
-<li><ol start="2" type="1">
-<li>计算结果如下： <span class="math inline">\(t_1\)</span>是没有求逆矩阵求解线性方程所用时间。 <span class="math inline">\(t_2\)</span>是有求逆矩阵求解线性方程所用时间。 不同分量对应不同的维数的矩阵求解时间。 <img src="https://ibelieveicanfly.gq/figure/hw01/tiimeCounter01.jpg" alt="result inverse or not compare"></li>
-</ol></li>
-<li><ol start="3" type="1">
-<li>如下图： 蓝线是有求逆矩阵的维数对时间的 <span class="math inline">\(log\)</span> 曲线。 红线是没有求逆矩阵的维数对时间的 <span class="math inline">\(log\)</span> 曲线。 <img src="https://ibelieveicanfly.gq/figure/hw01/logToLog.JPG" alt="log to log"></li>
-</ol></li>
-</ul>
+<ol type="1">
+<li><p>计算结果如下： 计算时间耗时： <img src="https://ibelieveicanfly.gq/figure/hw01/tiimeCounter00.jpg" alt="result eig"></p></li>
+<li><p>计算结果如下： <span class="math inline">\(t_1\)</span>是没有求逆矩阵求解线性方程所用时间。 <span class="math inline">\(t_2\)</span>是有求逆矩阵求解线性方程所用时间。 不同分量对应不同的维数的矩阵求解时间。 <img src="https://ibelieveicanfly.gq/figure/hw01/tiimeCounter01.jpg" alt="result inverse or not compare"></p></li>
+<li><p>如下图： 蓝线是有求逆矩阵的维数对时间的 <span class="math inline">\(log\)</span> 曲线。 红线是没有求逆矩阵的维数对时间的 <span class="math inline">\(log\)</span> 曲线。 <img src="https://ibelieveicanfly.gq/figure/hw01/logToLog.JPG" alt="log to log"></p></li>
+</ol>
 
       
     </div>
