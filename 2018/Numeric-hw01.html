@@ -111,7 +111,7 @@
 <meta property="og:image" content="https://ibelieveicanfly.gq/figure/hw01/tiimeCounter00.jpg">
 <meta property="og:image" content="https://ibelieveicanfly.gq/figure/hw01/tiimeCounter01.jpg">
 <meta property="og:image" content="https://ibelieveicanfly.gq/figure/hw01/logToLog.JPG">
-<meta property="og:updated_time" content="2018-11-16T20:23:38.529Z">
+<meta property="og:updated_time" content="2018-11-16T20:32:10.505Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Numeric-hw01">
 <meta name="twitter:description" content="#  2018年9月19日 Homework01  本次作业的源码下载链接 Problem 1 [Page 45 1.7]  Solution:  中心差分   Center_diff  可以看出当\(k=10^{-8}\) 达到误差最小，是由于其与分子的双精度误差 的开方可比拟的缘故。 和例子1.3 很契合。  向前差分  可以看出当\(k=10^{-6}\) 达到">
@@ -367,7 +367,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-11-17T04:23:38+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-11-17T04:32:10+08:00">
                 2018-11-17
               </time>
             
@@ -417,7 +417,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  519
+                  521
                 </span>
               
 
@@ -471,34 +471,17 @@
 <ul>
 <li>向前差分 <img src="https://ibelieveicanfly.gq/figure/hw01/forward_diff.png" alt="forward_diff"> 可以看出当<span class="math inline">\(k=10^{-6}\)</span> 达到误差最小，并不和<span class="math inline">\(h \approx \sqrt{\epsilon_{mach}}\)</span> 一致。</li>
 </ul>
-<table style="width:7%;">
-<colgroup>
-<col style="width: 6%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>## Problem 2 [Page 46 1.9] <img src="https://ibelieveicanfly.gq/figure/hw01/problem02.JPG" alt="problem"> Solution:</td>
-</tr>
-<tr class="even">
-<td>(b)通过计算: <span class="math inline">\(\frac{x^n}{n!}\)</span> 小于 计算机双精度<span class="math inline">\(10^{-16}\)</span>作为计算停止准则。</td>
-</tr>
-<tr class="odd">
-<td>(c)计算结果如下：</td>
-</tr>
-<tr class="even">
-<td><img src="https://ibelieveicanfly.gq/figure/hw01/err-noImpove.JPG" alt="result no improve"> * (d) 对于负数，由于级数相邻两项符号不一致，而且大小在一个数量级上，相减会丢失精度。所以对负数情况可以求对应的正数再取倒数，测试结果如下:</td>
-</tr>
-<tr class="odd">
-<td><img src="https://ibelieveicanfly.gq/figure/hw01/err-Impove.JPG" alt="result improve"> * (e) 对负数情况进行分组求和，如将正的放在一起和负的放在一起，最后相减(数值结果如下图)，等操作无法改善精度， 归根究底就是两个想近数相减引起的。因此可以下结论，交换重组项无法改善精度。</td>
-</tr>
-<tr class="even">
-<td><span class="math display">\[e^{-x} = (\frac{x^{0}}{0!} +\frac{x^{2}}{2!}+ \frac{x^{4}}{4!}  +\cdots  ) -(\frac{x^{1}}{1!} +\frac{x^{3}}{3!}+ \frac{x^{5}}{5!}  +\cdots  )\]</span></td>
-</tr>
-<tr class="odd">
-<td><img src="https://ibelieveicanfly.gq/figure/hw01/err-regroup.JPG" alt="result compare"></td>
-</tr>
-</tbody>
-</table>
+<h2 id="problem-2-page-46-1.9">Problem 2 [Page 46 1.9]</h2>
+<p><img src="https://ibelieveicanfly.gq/figure/hw01/problem02.JPG" alt="problem"> Solution:</p>
+<p>(b)通过计算: <span class="math inline">\(\frac{x^n}{n!}\)</span> 小于 计算机双精度<span class="math inline">\(10^{-16}\)</span>作为计算停止准则。</p>
+<p>(c)计算结果如下：</p>
+<p><img src="https://ibelieveicanfly.gq/figure/hw01/err-noImpove.JPG" alt="result no improve"> * (d) 对于负数，由于级数相邻两项符号不一致，而且大小在一个数量级上，相减会丢失精度。所以对负数情况可以求对应的正数再取倒数，测试结果如下:</p>
+<p><img src="https://ibelieveicanfly.gq/figure/hw01/err-Impove.JPG" alt="result improve"> * (e) 对负数情况进行分组求和，如将正的放在一起和负的放在一起，最后相减(数值结果如下图)，等操作无法改善精度， 归根究底就是两个想近数相减引起的。因此可以下结论，交换重组项无法改善精度。</p>
+<p><span class="math display">\[e^{-x} = (\frac{x^{0}}{0!} +\frac{x^{2}}{2!}+ \frac{x^{4}}{4!}  +\cdots  ) -(\frac{x^{1}}{1!} +\frac{x^{3}}{3!}+ \frac{x^{5}}{5!}  +\cdots  )\]</span></p>
+<figure>
+<img src="https://ibelieveicanfly.gq/figure/hw01/err-regroup.JPG" alt="result compare"><figcaption>result compare</figcaption>
+</figure>
+<hr>
 <h2 id="problem-3-page-46-1.9">Problem 3 [Page 46 1.9]</h2>
 <p>(Matlab test) For <span class="math inline">\(n=500, 1000,2000, 4000, 8000\)</span>, generate an <span class="math inline">\(n\times n\)</span> random matrix B, and an <span class="math inline">\(n\times 1\)</span> vector b.</p>
 <p>Find the symmetric matrix <span class="math inline">\(A=B^{\tau} \cdot B\)</span> 1) Using function “eig” to test the time cost for eigen decomposition; 2) Using <span class="math inline">\(x=A / b\)</span>, and <span class="math inline">\(x=A^{-1}\cdot b\)</span> to test the time cost in finding the solution of <span class="math inline">\(Ax=b\)</span>; 3) Plot all the time costs as a function of n and the power law for the time costs.</p>
@@ -821,7 +804,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-1-page-45-1.7"><span class="nav-number">1.</span> <span class="nav-text">Problem 1 [Page 45 1.7]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-3-page-46-1.9"><span class="nav-number">2.</span> <span class="nav-text">Problem 3 [Page 46 1.9]</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-1-page-45-1.7"><span class="nav-number">1.</span> <span class="nav-text">Problem 1 [Page 45 1.7]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-2-page-46-1.9"><span class="nav-number">2.</span> <span class="nav-text">Problem 2 [Page 46 1.9]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-3-page-46-1.9"><span class="nav-number">3.</span> <span class="nav-text">Problem 3 [Page 46 1.9]</span></a></li></ol></div>
             
 
           </div>
