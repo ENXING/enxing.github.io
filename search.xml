@@ -97,18 +97,6 @@
       </categories>
   </entry>
   <entry>
-    <title><![CDATA[常用命令和工具]]></title>
-    <url>%2F2018%2F%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%92%8C%E5%B7%A5%E5%85%B7.html</url>
-    <content type="text"><![CDATA[vim vim 宏录制 在normal 模式下输入 qa ，开始记录操作，其中 a 代表vim下 a 寄存器（可以改成其他寄存器如 b, c ,d )。 结束录制按 q。 使用宏：normal 模式下 输入 n@a , n 代表使用次数， a 是宏存放的位置。]]></content>
-      <categories>
-        <category>vim</category>
-      </categories>
-      <tags>
-        <tag>vim</tag>
-        <tag>linux</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[Markdown Note]]></title>
     <url>%2F2018%2FMarkdown-Note.html</url>
     <content type="text"><![CDATA[加粗 倾斜 jiacu heiti 倾斜加粗 delete line 分割线 mypage 简书 引用 &gt;引用 &gt;&gt;引用 &gt;&gt;&gt;引用 12345[![name](markdown-note/download.jpg &apos;百度&apos;)](http://www.baidu.com)![helloworld][first link][first link]: markdown-note/download.jpg helloworld baidu 文本结构 text 1 text 2 text 3 text 1 text 2 text 3 Tintin A reporter Has poofy orange hair Friends with the world's most awesome dog Friends with the world's most awesome dog Haddock A sea captain Has a fantastic beard Loves whiskey Possibly also scotch? 数学公式 行间公式 恒等式: \[cos^2(x) + sin^2(x) = 1\] \[x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\] ### 行内公式 恒等式：\(cos^2(x) + sin^2(x) = 1\), \(x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}\) 插入代码 单行 printf(&quot;helloworld&quot;); 多行 插入C++ 代码： 1234printf("helloworld");printf("helloworld");printf("helloworld");printf("helloworld"); 插入Java 代码： 12345public class test &#123; public static void main(String[] args) &#123; System.out.println("helloworld"); &#125;&#125; 插入 Bash 代码: 1$ g++ -O3 test.c -lGl -lGLu -lglut -o test 表格 Tables Are Cool col 3 is right-aligned $1600 col 2 is centered $12 zebra stripes are neat $1 dog bird cat foo foo foo bar bar bar baz baz baz 质能方程 download.jpg download.jpg 1printf("helloworld"); 插入视频 upload video : https://openload.co/ have sex ad https://mega.nz/fm/xo9RgIba 下载源码 Download Markdown-Note.md A=\(\begin{bmatrix}4 &amp; 0 &amp; 0\\\ 0 &amp; -6 &amp; 0 \\\ 0&amp; 0&amp;2 \end{bmatrix}\) 换行三个slash \(cond(A) = |A|_1 \cdot |A^{-1}|_1 = 6 * 0.5 = 3\) \(cond(A) = |A|_ {\infty} \cdot |A^{-1}|_ {\infty} = 6 * 0.5 = 3\) 空格在 infty前 花括号 \{ \} math formula error 行内公式有*， 或重打一遍。]]></content>
