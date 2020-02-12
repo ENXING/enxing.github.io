@@ -93,18 +93,18 @@
 
 
 
-<meta name="description" content="Book: 输运理论 黄祖洽 # multiscale Transport modeling &amp;amp; computation gas dynamics:  navier-stokes equation :  \(k_n = \frac{l}{L}\)  flud element hydrodyamic （宏观）   boltzmam equation  “particle” mean free">
+<meta name="description" content="Book: 输运理论 黄祖洽 multiscale Transport modeling &amp;amp; computationgas dynamics: navier-stokes equation :  $k_n = \frac{l}{L}$  flud element hydrodyamic （宏观）   boltzmam equation “particle” mean free path k">
 <meta name="keywords" content="C++, opengl, Linux">
 <meta property="og:type" content="article">
 <meta property="og:title" content="transport01">
 <meta property="og:url" content="https://enxing.tk/2018/transport01.html">
 <meta property="og:site_name" content="小熊的博客">
-<meta property="og:description" content="Book: 输运理论 黄祖洽 # multiscale Transport modeling &amp;amp; computation gas dynamics:  navier-stokes equation :  \(k_n = \frac{l}{L}\)  flud element hydrodyamic （宏观）   boltzmam equation  “particle” mean free">
+<meta property="og:description" content="Book: 输运理论 黄祖洽 multiscale Transport modeling &amp;amp; computationgas dynamics: navier-stokes equation :  $k_n = \frac{l}{L}$  flud element hydrodyamic （宏观）   boltzmam equation “particle” mean free path k">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:updated_time" content="2018-08-13T13:43:46.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="transport01">
-<meta name="twitter:description" content="Book: 输运理论 黄祖洽 # multiscale Transport modeling &amp;amp; computation gas dynamics:  navier-stokes equation :  \(k_n = \frac{l}{L}\)  flud element hydrodyamic （宏观）   boltzmam equation  “particle” mean free">
+<meta name="twitter:description" content="Book: 输运理论 黄祖洽 multiscale Transport modeling &amp;amp; computationgas dynamics: navier-stokes equation :  $k_n = \frac{l}{L}$  flud element hydrodyamic （宏观）   boltzmam equation “particle” mean free path k">
 
 
 
@@ -416,7 +416,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1,631
+                  995
                 </span>
               
 
@@ -432,7 +432,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  9
+                  5
                 </span>
               
             </div>
@@ -453,59 +453,52 @@
       
 
       
-        <p><a href="https://ibelieveicanfly.gq/video/book/现代物理基础丛书_输运理论_黄祖洽.pdf" target="_blank" rel="noopener">Book: 输运理论 黄祖洽</a> # multiscale Transport modeling &amp; computation</p>
-<h2 id="gas-dynamics">gas dynamics:</h2>
-<ol type="1">
+        <p><a href="https://ibelieveicanfly.gq/video/book/现代物理基础丛书_输运理论_黄祖洽.pdf" target="_blank" rel="noopener">Book: 输运理论 黄祖洽</a></p>
+<h1 id="multiscale-Transport-modeling-amp-computation"><a href="#multiscale-Transport-modeling-amp-computation" class="headerlink" title="multiscale Transport modeling &amp; computation"></a>multiscale Transport modeling &amp; computation</h1><h2 id="gas-dynamics"><a href="#gas-dynamics" class="headerlink" title="gas dynamics:"></a>gas dynamics:</h2><ol>
 <li>navier-stokes equation :</li>
 </ol>
-<p><span class="math inline">\(k_n = \frac{l}{L}\)</span></p>
+<p>$k_n = \frac{l}{L}$</p>
 <ul>
 <li>flud element</li>
 <li>hydrodyamic</li>
 <li>（宏观）</li>
 </ul>
-<ol start="2" type="1">
-<li>boltzmam equation
-<ul>
+<ol>
+<li>boltzmam equation<ul>
 <li>“particle”</li>
 <li>mean free path</li>
 <li>kinetic scale （介观）</li>
-</ul></li>
+</ul>
+</li>
 </ol>
-<h2 id="radiative-transfer-optical-thick">radiative transfer (optical thick)</h2>
-<ul>
+<h2 id="radiative-transfer-optical-thick"><a href="#radiative-transfer-optical-thick" class="headerlink" title="radiative transfer (optical thick)"></a>radiative transfer (optical thick)</h2><ul>
 <li>光子和物质相互作用</li>
 <li>optical thick diffusion</li>
 <li>plasma -vlasov eqn 无碰撞 + maxwell + two phase flow</li>
-<li>magnetic-hydrodynamics
-<ul>
+<li>magnetic-hydrodynamics<ul>
 <li>two fluid model</li>
 <li>hall MHD</li>
 <li>~ ~ ~</li>
-</ul></li>
+</ul>
+</li>
 <li>idea magnetic-hydrodynamics</li>
 </ul>
-<h2 id="different-level-of-description">different level of description</h2>
-<ol type="1">
-<li>microscopic （微观）( resolution to particle )</li>
-</ol>
-<ul>
+<h2 id="different-level-of-description"><a href="#different-level-of-description" class="headerlink" title="different level of description"></a>different level of description</h2><ol>
+<li>microscopic （微观）( resolution to particle )<ul>
 <li>Hamiltonian - Newton’s Law</li>
 <li>indiviual paritcle</li>
 </ul>
-<p><span class="math display">\[P_r = -\frac{\partial H}{\partial q_r}\]</span></p>
-<p><span class="math display">\[q_r = - \frac{\partial H}{\partial p_r}, r = 1,2,...3N\]</span></p>
-<p><span class="math display">\[ H = \sum_{1}^{N} kinetic + potential 
-\]</span></p>
-<ol start="2" type="1">
+</li>
+</ol>
+<script type="math/tex; mode=display">P_r = -\frac{\partial H}{\partial q_r}</script><script type="math/tex; mode=display">q_r = - \frac{\partial H}{\partial p_r}, r = 1,2,...3N</script><script type="math/tex; mode=display">H = \sum_{1}^{N} kinetic + potential</script><ol>
 <li>mesoscopic （介观）</li>
 </ol>
 <p>(不能跟踪每个粒子 )</p>
-<p>mean free path 空间自由程<span class="math inline">\(l_1\)</span></p>
-<p>collustion time <span class="math inline">\(\tau_1\)</span></p>
-<p>botzmann eqn &amp; distribution function <span class="math inline">\(\rho(x,t,u)\)</span> 7-dim</p>
+<p>mean free path 空间自由程$l_1$</p>
+<p>collustion time $\tau_1$</p>
+<p>botzmann eqn &amp; distribution function $\rho(x,t,u)$ 7-dim</p>
 <p>微观 推导 介观 （BBGKY) 无法给出中间尺度</p>
-<ol start="3" type="1">
+<ol>
 <li>macroscopic (宏观)</li>
 </ol>
 <ul>
@@ -514,44 +507,40 @@
 <li>two phase flow</li>
 <li>multiphase flow</li>
 </ul>
-<p><span class="math display">\[ \rho , V, T (x, t): 4-dim \]</span></p>
-<p>Newtone -&gt; boltzmann -&gt; NS single particle .. 尺度逐渐变大 Boltzmann -&gt; NS</p>
+<script type="math/tex; mode=display">\rho , V, T (x, t): 4-dim</script><p>Newtone -&gt; boltzmann -&gt; NS<br>single particle .. 尺度逐渐变大<br>Boltzmann -&gt; NS</p>
 <ul>
 <li>chapmann enskog expansion</li>
 <li>burelt supris~</li>
 <li>moments – Grad 13, 26, 35 距方程</li>
 </ul>
-<p>中间尺度 (非平衡物理 unexplore)： “shock Structure” 可能的理论</p>
-<h2 id="difficulties">Difficulties</h2>
-<ol type="1">
+<p>中间尺度 (非平衡物理 unexplore)： “shock Structure”<br>可能的理论</p>
+<h2 id="Difficulties"><a href="#Difficulties" class="headerlink" title="Difficulties"></a>Difficulties</h2><ol>
 <li>degree of freedom</li>
 </ol>
 <ul>
-<li>NS (5 degree)
-<ul>
-<li>conservation law <span class="math inline">\(\rho , \rho v,\rho E\)</span></li>
-<li>Boltzmann(<span class="math inline">\(\infty\)</span> degree)</li>
-</ul></li>
+<li>NS (5 degree)<ul>
+<li>conservation law $\rho , \rho v,\rho E$</li>
+<li>Boltzmann($\infty$ degree)</li>
+</ul>
+</li>
 </ul>
 <p>不是守恒量的确定方程 自然界没有:</p>
-<p><span class="math display">\[ \frac{\partial T_x}{\partial t} + ......\]</span> <span class="math display">\[ \frac{\partial T_{xy}}{\partial t} + ......\]</span></p>
-<p>Discontinuous Galerkin “DG” * 网格有更多自由度提高精度 (相当于对原控制方程求)</p>
-<p><span class="math display">\[
-\frac{\partial}{\partial x} : \rho _x + (\rho u)_x =0
-\]</span></p>
+<script type="math/tex; mode=display">\frac{\partial T_x}{\partial t} + ......</script><script type="math/tex; mode=display">\frac{\partial T_{xy}}{\partial t} + ......</script><p>Discontinuous Galerkin “DG”</p>
 <ul>
+<li>网格有更多自由度提高精度 (相当于对原控制方程求)</li>
+</ul>
+<script type="math/tex; mode=display">
+\frac{\partial}{\partial x} : \rho _x + (\rho u)_x =0</script><ul>
 <li>compact high-order</li>
 <li>不是直接建模不可能成功</li>
 <li>从Boltzmann 方程直接推出中间尺度 ，难成功</li>
 </ul>
-<h2 id="bolzmann-两体碰撞">Bolzmann 两体碰撞</h2>
-<ul>
+<h2 id="Bolzmann-两体碰撞"><a href="#Bolzmann-两体碰撞" class="headerlink" title="Bolzmann 两体碰撞"></a>Bolzmann 两体碰撞</h2><ul>
 <li>trasnsport &amp; collision decouple</li>
-<li><span class="math inline">\(\delta t \leq \tau, \delta x \leq l\)</span> 前提</li>
-<li>如果<span class="math inline">\(\Delta x \approx 5l, \Delta t \approx 5\tau\)</span> ，未知领域</li>
+<li>$\delta t \leq \tau, \delta x \leq l$ 前提</li>
+<li>如果$\Delta x \approx 5l, \Delta t \approx 5\tau$ ，未知领域</li>
 </ul>
-<h2 id="numericall-metheds">Numericall metheds</h2>
-<ul>
+<h2 id="Numericall-metheds"><a href="#Numericall-metheds" class="headerlink" title="Numericall metheds"></a>Numericall metheds</h2><ul>
 <li>macro</li>
 <li>NS</li>
 <li>MHD</li>
@@ -559,38 +548,38 @@
 </ul>
 <p>Numerical PDE</p>
 <ul>
-<li>Boltzmann
-<ul>
+<li>Boltzmann<ul>
 <li>DVM</li>
 <li>SN</li>
-</ul></li>
+</ul>
+</li>
 <li>vlasov</li>
 </ul>
-<h2 id="particle-methods">particle methods</h2>
-<ul>
+<h2 id="particle-methods"><a href="#particle-methods" class="headerlink" title="particle methods"></a>particle methods</h2><ul>
 <li>Direct simulation monte carlo (DSMC, bird 1960) 稀波流 稀薄气体</li>
 <li>IMC</li>
 <li>PIC</li>
-<li><span class="math inline">\(\Delta x\sim \frac{l}{3}, \Delta t \sim \frac{\tau}{3} , 64nm\)</span> 计算量巨大</li>
+<li>$\Delta x\sim \frac{l}{3}, \Delta t \sim \frac{\tau}{3} , 64nm$ 计算量巨大</li>
 </ul>
-<h1 id="multiscale-modeling">multiscale modeling</h1>
-<ul>
-<li>Scale <span class="math inline">\((\Delta x,\Delta t)\)</span></li>
+<h1 id="multiscale-modeling"><a href="#multiscale-modeling" class="headerlink" title="multiscale modeling"></a>multiscale modeling</h1><ul>
+<li>Scale $(\Delta x,\Delta t)$</li>
 <li>discrete governing eqn</li>
 <li>computation (多尺度)</li>
-<li><span class="math inline">\(m=10\)</span>,飞机头部密度非常大，飞机尾部几乎真空。</li>
+<li>$m=10$,飞机头部密度非常大，飞机尾部几乎真空。</li>
 <li>空天飞机，网格机头部分粒子很多NS eqn，尾翼粒子稀薄Boltzmann eqn</li>
 <li>卫星喷管，箱内密度很高NS方程，喷嘴外真空。</li>
 </ul>
-<h1 id="contents">Contents</h1>
-<ol type="1">
-<li>NS eqn
-<ul>
+<h1 id="Contents"><a href="#Contents" class="headerlink" title="Contents"></a>Contents</h1><ol>
+<li>NS eqn<ul>
 <li>continuum mechanics 连续介质流体 用微积分 离散更有优势。</li>
 <li>两个粒子黏在一块。</li>
 <li>流体微团没有物质交换</li>
-</ul></li>
-<li><p>Boltzmann Eqn</p></li>
+</ul>
+</li>
+</ol>
+<ol>
+<li><p>Boltzmann Eqn</p>
+</li>
 <li><p>Unified gas Kinetic Scheme</p>
 <ul>
 <li>rarefied gas</li>
@@ -600,191 +589,119 @@
 <li>two phase</li>
 <li>Particle Version 化学反应</li>
 <li>Navier-Stokes Equation : flud gas</li>
-</ul></li>
+</ul>
+</li>
 </ol>
-<h2 id="navier-stokes-equation-flud-gas">Navier-Stokes Equation : flud gas</h2>
-<p><span class="math inline">\(\rho = \frac{\Delta m}{\Delta v}\)</span></p>
+<h2 id="Navier-Stokes-Equation-flud-gas"><a href="#Navier-Stokes-Equation-flud-gas" class="headerlink" title="Navier-Stokes Equation : flud gas"></a>Navier-Stokes Equation : flud gas</h2><p>$\rho = \frac{\Delta m}{\Delta v}$ </p>
 <ul>
-<li>kinematic properties:
-<ul>
+<li>kinematic properties:<ul>
 <li>Velocity acceleration vorticity</li>
-</ul></li>
-<li>transport properties:
-<ul>
+</ul>
+</li>
+<li>transport properties:<ul>
 <li>viscosity , thermal conductivity</li>
-</ul></li>
-<li>Thermodynamic properties:
-<ul>
+</ul>
+</li>
+<li>Thermodynamic properties:<ul>
 <li>pressure, density temperature</li>
-</ul></li>
-<li>location:
-<ul>
-<li><span class="math inline">\(X(t),Q(X(t),t)\)</span></li>
-<li><span class="math inline">\(\frac{dQ}{dt} = \frac{\partial Q}{\partial t} + \frac{\partial Q}{\partial X}\frac{\partial X}{\partial t} +\frac{\partial Q}{\partial Y}\frac{\partial Y}{\partial t} + \frac{\partial Q}{\partial Z}*\frac{\partial Z}{\partial t}\)</span></li>
-<li><span class="math inline">\(= \frac{\partial Q}{\partial t} +V \cdot \nabla Q\)</span></li>
 </ul>
-<span class="math display">\[\frac{DQ}{Dt} = \frac{dQ}{t} = \frac{\partial Q}{\partial t} + \vec{V} \cdot \nabla Q \]</span> <span class="math display">\[ \vec{V} \cdot \nabla \vec{V} = \nabla \frac{\vec{V}^2}{2} - \vec{V} \times (\nabla \times \vec{V})\]</span></li>
-</ul>
-<p><span class="math display">\[ \vec{w} = \nabla \times \vec{V}\]</span></p>
-<p>Vorticity:</p>
-<p><span class="math display">\[ \frac{DV_i}{Dt} = \frac{\partial V_i}{\partial t} + V_j \partial V_i\]</span></p>
+</li>
+<li><p>location:</p>
 <ul>
+<li>$X(t),Q(X(t),t)$</li>
+<li>$\frac{dQ}{dt} = \frac{\partial Q}{\partial t} + \frac{\partial Q}{\partial X}\frac{\partial X}{\partial t} +\frac{\partial Q}{\partial Y}\frac{\partial Y}{\partial t} + \frac{\partial Q}{\partial Z}*\frac{\partial Z}{\partial t}$</li>
+<li><p>$= \frac{\partial Q}{\partial t} +V \cdot \nabla Q$</p>
+<script type="math/tex; mode=display">\frac{DQ}{Dt} = \frac{dQ}{t} = \frac{\partial Q}{\partial t} + \vec{V} \cdot \nabla Q</script><script type="math/tex; mode=display">\vec{V} \cdot \nabla \vec{V} = \nabla \frac{\vec{V}^2}{2} - \vec{V} \times (\nabla \times \vec{V})</script></li>
+</ul>
+</li>
+</ul>
+<script type="math/tex; mode=display">\vec{w} = \nabla \times \vec{V}</script><p>Vorticity:</p>
+<script type="math/tex; mode=display">\frac{DV_i}{Dt} = \frac{\partial V_i}{\partial t} + V_j \partial V_i</script><ul>
 <li>translation (3-degree)</li>
 <li>rotation (3-degree)</li>
 <li>extensional strain(3-degree)</li>
 <li>shear strain(3-degree)</li>
 </ul>
-<ol type="1">
+<ol>
 <li>Scale Vector</li>
 <li>second order tensor</li>
 </ol>
-<p><span class="math display">\[\nabla V = 0.5 (\nabla V + (\nabla V)^T)_ (shear Strain) + 0.5 (\nabla V - (\nabla V)^T)_ (rotation)\]</span></p>
-<p>反对称张量只有三个自由度</p>
+<script type="math/tex; mode=display">\nabla V = 0.5 (\nabla V + (\nabla V)^T)_ (shear Strain) + 0.5 (\nabla V - (\nabla V)^T)_ (rotation)</script><p>反对称张量只有三个自由度</p>
 <p>对称张量有六个自由度</p>
 <ul>
-<li><span class="math inline">\(\epsilon_{ij} = 0.5(\partial_j V_i + \partial_i V_j)\)</span> 应变</li>
-<li>stress：<span class="math inline">\(\tau_{ij} = f(\epsilon_{ij})\)</span>应力
-<ul>
-<li>Newton fluid
-<ul>
-<li><span class="math inline">\(\tau_{ij} \sim \epsilon_{ij}\)</span></li>
-</ul></li>
-<li>Non Newton fluid</li>
-</ul></li>
+<li>$\epsilon_{ij} = 0.5(\partial_j V_i + \partial_i V_j)$ 应变</li>
+<li>stress：$\tau_{ij} = f(\epsilon_{ij})$应力<ul>
+<li>Newton fluid<ul>
+<li>$\tau_{ij} \sim \epsilon_{ij}$</li>
 </ul>
-<p><span class="math inline">\(F \sim \alpha \frac{dV}{dy}\)</span> 满足此式是牛顿流体</p>
+</li>
+<li>Non Newton fluid</li>
+</ul>
+</li>
+</ul>
+<p>$F \sim \alpha \frac{dV}{dy}$  满足此式是牛顿流体</p>
 <ul>
-<li><span class="math inline">\(\tau_{\alpha \beta}e_{\alpha}e_{\beta}\)</span>
+<li><p>$\tau_{\alpha \beta}e_{\alpha}e_{\beta}$</p>
 <ul>
-<li><span class="math inline">\(\alpha\)</span> direction of normal</li>
-<li><span class="math inline">\(\alpha\)</span> direction of force</li>
-</ul></li>
-<li><span class="math inline">\(f = n \cdot \tau = f_n + f_t\)</span></li>
-<li><span class="math inline">\(f_n = (n \cdot f)\)</span></li>
-<li><span class="math inline">\(f_n = (n \cdot f) n = n \cdot (n \cdot \tau) n = (n n : \tau) n\)</span></li>
-<li><span class="math inline">\(f_t = f - f_n = n \cdot \tau - (nn: \tau) n = f \cdot (I - n n)\)</span></li>
-<li><span class="math inline">\(\tau \sim (\nabla V + (\nabla V)^{T})\)</span></li>
+<li>$\alpha$ direction of normal</li>
+<li>$\alpha$ direction of force</li>
+</ul>
+</li>
+<li><p>$f = n \cdot \tau = f_n + f_t$</p>
+</li>
+<li>$f_n = (n \cdot f)$</li>
+<li>$f_n = (n \cdot f) n = n \cdot (n \cdot \tau) n = (n n : \tau) n$</li>
+<li>$f_t = f - f_n = n \cdot \tau  - (nn: \tau) n = f \cdot (I - n n)$</li>
+<li>$\tau \sim (\nabla V + (\nabla V)^{T})$</li>
 </ul>
 <p>Symmetric tensor</p>
-<p><span class="math inline">\(moment = I\frac{dW}{dt} -&gt; 0\)</span> 力矩</p>
-<p><span class="math inline">\(\int\int (r \times f) ds = I \frac{dw}{dt}\)</span></p>
-<p><span class="math inline">\(f = n\cdot \tau\)</span></p>
-<p>流体微团趋于零：<span class="math inline">\(\tau_{ij} = \tau_{ji}\)</span></p>
-<table style="width:6%;">
-<colgroup>
-<col style="width: 5%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><span class="math display">\[\tau_{ij} = -P \delta_{ij} (hyrostatic Pressure) + \mu[\frac{\partial V_i}{\partial x_j}+\frac{\partial V_i}{\partial x_j} - \frac{2}{3} \nabla \cdot \vec{V}]\]</span></td>
-</tr>
-<tr class="even">
-<td>## Equation of compressible Viscous flow</td>
-</tr>
-<tr class="odd">
-<td>1. mass conservation 流体微团: * 跟着流体微团：<span class="math inline">\(\frac{Dm}{Dt} = 0\)</span> * $  (V) =  + V = 0$ * <span class="math inline">\(=\rho v \nabla v + v \frac{D\rho}{Dt}\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(\frac{D V}{Dt} / V = \nabla \cdot V\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math display">\[V (\rho \nabla \cdot V + \frac{\partial\rho}{\partial t} + V \cdot \nabla \rho)  =0\]</span> <span class="math display">\[\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho V)= 0\]</span></td>
-</tr>
-<tr class="even">
-<td>## monmentum Eq:</td>
-</tr>
-<tr class="odd">
-<td><span class="math display">\[\frac{\rho v V}{Dt} = body force + surface force\]</span> <span class="math display">\[\rho v \frac{DV}{Dt} = \rho V g + v V \cdot \tau\]</span> <span class="math display">\[\rho \frac{DV}{Dt} = \rho \vec{g} + \nabla \tau\]</span></td>
-</tr>
-<tr class="even">
-<td><span class="math display">\[\frac{\partial \rho V}{\partial t} + V\cdot (\rho VV - \tau) = \rho g\]</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math display">\[\vec{f}_{surface} = \int \int \tau \cdot n dt = \int \int \int \nabla \cdot \tau dv = \nabla \cdot \tau V\]</span></td>
-</tr>
-<tr class="even">
-<td>## Energy Eqn: (流体微团)</td>
-</tr>
-<tr class="odd">
-<td>### 1st-laws of thermaodynamics: <span class="math display">\[
-E = \rho \hat{V}(e + 0.5 V^2 - g \cdot r)
-\]</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(m= \rho \hat{V}= const\)</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math display">\[\frac{DE}{Dt} = \frac{DQ}{Dt} + \frac{DW}{Dt}\]</span></td>
-</tr>
-<tr class="even">
-<td>* 热交换 * 对外做功</td>
-</tr>
-<tr class="odd">
-<td><span class="math display">\[
-\frac{DQ}{Dt} = \int\int -q \cdot n dx = -\int \int \int - \nabla \cdot q dV = -\nabla \cdot q \hat{V}
-\]</span></td>
-</tr>
-<tr class="even">
-<td>Assumption Fourier’s Law : <span class="math inline">\(q = -R \nabla T\)</span> (其中一个假设，可换成其他 不一定对)</td>
-</tr>
-<tr class="odd">
-<td><span class="math display">\[q \approx g\]</span></td>
-</tr>
-<tr class="even">
-<td><span class="math display">\[
-\frac{DW}{Dt} = \int \int (\tau \cdot n)\cdot V dS = \int \int v \cdot (\tau \cdot n) ds
-\]</span></td>
-</tr>
-<tr class="odd">
-<td><span class="math display">\[
-= \int \int \int \nabla \cdot (V \cdot \tau)dV = \nabla\cdot (V\cdot \tau)\cdot  V
-\]</span></td>
-</tr>
-</tbody>
-</table>
+<p>$moment =  I\frac{dW}{dt} -&gt; 0$ 力矩</p>
+<p>$\int\int (r \times f) ds = I \frac{dw}{dt}$</p>
+<p>$f = n\cdot \tau$</p>
+<p>流体微团趋于零：$\tau_{ij} = \tau_{ji}$</p>
+<hr>
+<script type="math/tex; mode=display">\tau_{ij} = -P \delta_{ij} (hyrostatic Pressure) + \mu[\frac{\partial V_i}{\partial x_j}+\frac{\partial V_i}{\partial x_j} - \frac{2}{3} \nabla \cdot \vec{V}]</script><h2 id="Equation-of-compressible-Viscous-flow"><a href="#Equation-of-compressible-Viscous-flow" class="headerlink" title="Equation of compressible Viscous flow"></a>Equation of compressible Viscous flow</h2><ol>
+<li>mass conservation 流体微团: </li>
+</ol>
+<ul>
+<li>跟着流体微团：$\frac{Dm}{Dt} = 0$<ul>
+<li>$ \frac{D}{Dt} (\rho V)  = \rho \frac{DV} {Dt} + V \frac{D\rho }{Dt}= 0$</li>
+<li>$=\rho v \nabla v + v \frac{D\rho}{Dt}$</li>
+</ul>
+</li>
+</ul>
+<p>$\frac{D V}{Dt} / V = \nabla \cdot V$</p>
+<script type="math/tex; mode=display">V (\rho \nabla \cdot V + \frac{\partial\rho}{\partial t} + V \cdot \nabla \rho)  =0</script><script type="math/tex; mode=display">\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho V)= 0</script><h2 id="monmentum-Eq"><a href="#monmentum-Eq" class="headerlink" title="monmentum Eq:"></a>monmentum Eq:</h2><script type="math/tex; mode=display">\frac{\rho v V}{Dt} = body force + surface force</script><script type="math/tex; mode=display">\rho v \frac{DV}{Dt} = \rho V g + v V \cdot \tau</script><script type="math/tex; mode=display">\rho \frac{DV}{Dt} = \rho \vec{g} + \nabla \tau</script><script type="math/tex; mode=display">\frac{\partial \rho V}{\partial t} + V\cdot (\rho VV - \tau) = \rho g</script><script type="math/tex; mode=display">\vec{f}_{surface} = \int \int \tau \cdot n dt = \int \int \int \nabla \cdot \tau dv = \nabla \cdot \tau V</script><h2 id="Energy-Eqn-流体微团"><a href="#Energy-Eqn-流体微团" class="headerlink" title="Energy Eqn: (流体微团)"></a>Energy Eqn: (流体微团)</h2><h3 id="1st-laws-of-thermaodynamics"><a href="#1st-laws-of-thermaodynamics" class="headerlink" title="1st-laws of thermaodynamics:"></a>1st-laws of thermaodynamics:</h3><script type="math/tex; mode=display">
+E = \rho \hat{V}(e + 0.5 V^2 - g \cdot r)</script><p>$m= \rho \hat{V}= const$</p>
+<script type="math/tex; mode=display">\frac{DE}{Dt} = \frac{DQ}{Dt} + \frac{DW}{Dt}</script><ul>
+<li>热交换</li>
+<li>对外做功</li>
+</ul>
+<script type="math/tex; mode=display">
+\frac{DQ}{Dt} = \int\int -q \cdot n dx = -\int \int \int - \nabla \cdot q dV = -\nabla \cdot q \hat{V}</script><p>Assumption Fourier’s Law : $q = -R \nabla T$ (其中一个假设，可换成其他 不一定对) </p>
+<script type="math/tex; mode=display">q \approx g</script><script type="math/tex; mode=display">
+\frac{DW}{Dt} = \int \int (\tau \cdot n)\cdot V dS = \int \int v \cdot (\tau \cdot n) ds</script><script type="math/tex; mode=display">
+= \int \int \int \nabla \cdot (V \cdot \tau)dV = \nabla\cdot (V\cdot \tau)\cdot  V</script><hr>
 <p>(力点乘速度等于功)</p>
-<p><span class="math display">\[\rho (\frac{De}{Dt} + \frac{D(\frac{1}{2} V^2)}{Dt} + \frac{D}{Dt} (-g \cdot r)) = \nabla \cdot (k \nabla T) + \nabla \cdot (V \cdot \tau)\]</span></p>
-<p>e : internal energy (therinal )for unit mass</p>
+<script type="math/tex; mode=display">\rho (\frac{De}{Dt} + \frac{D(\frac{1}{2} V^2)}{Dt} + \frac{D}{Dt} (-g \cdot r)) = \nabla \cdot (k \nabla T) + \nabla \cdot (V \cdot \tau)</script><p>e : internal energy (therinal )for unit mass</p>
 <p>粒子3个translation degree ， 粒子内部旋转振动有k个自由度。</p>
 <p>each egreee of reedom shares the same amount of energy</p>
 <p>m: molecula mass</p>
-<p><span class="math display">\[
-e = \frac{1}{m} ( k + 3) \frac{1}{2}\hat{k} T
-\]</span></p>
-<p><span class="math inline">\(\hat{k}\)</span> : : Boltzomann constant , T temperature</p>
+<script type="math/tex; mode=display">
+e = \frac{1}{m} ( k + 3) \frac{1}{2}\hat{k} T</script><p>$\hat{k}$ : : Boltzomann constant , T temperature</p>
 <ul>
-<li><span class="math inline">\(C_v\)</span> specific heat at constant volume</li>
-<li><span class="math inline">\(C_p\)</span>, at constant pressure</li>
-<li><span class="math inline">\(r,R\)</span></li>
+<li>$C_v$ specific heat at constant volume</li>
+<li>$C_p$, at constant pressure</li>
+<li>$r,R$</li>
 </ul>
-<p><span class="math display">\[ \delta Q= C_v dT\]</span></p>
-<p><span class="math display">\[de = \frac{1}{m} \frac{k+3}{2} \hat{k} dT = C_v dT = \frac{k + 3}{2} R dT\]</span></p>
-<p><span class="math display">\[C_v = \frac{k + 3}{2}R , \frac{k}{m} =R\]</span></p>
-<p>加多少热量保持压力不变：</p>
-<p><span class="math display">\[\delta Q = C_p dT = C_v dT + P dV = C_vdT + R dT\]</span></p>
-<p><span class="math inline">\(p = \rho R T , p = \frac{1}{V} RT, PV = RT\)</span></p>
-<p><span class="math display">\[C_p = C_v +  R = \frac{k + 3 +2 }{2}R\]</span></p>
-<p><span class="math display">\[\gamma = \frac{C_p}{C_v} = \frac{k + 5}{k + 3} = 5/3 ,k =0; 7/5 = 1.4,k=2; isothermal, k= \infty;\]</span></p>
-<h2 id="energy">energy:</h2>
-<p><span class="math display">\[\rho (\frac{De}{Dt} + \frac{D \frac{1}{2}V^2}{Dt}) = \nabla \cdot (V\cdot \tau) \text{流体加速运动} + \nabla\cdot (\hat{k} \nabla T) \text{热量}\]</span></p>
-<h2 id="momentum">momentum:</h2>
-<p><span class="math display">\[\rho \frac{DV}{Dt} = \nabla \cdot \tau\]</span></p>
-<p><span class="math display">\[\nabla \cdot (V \cdot \tau) = V \cdot (\nabla \cdot \tau) + \tau_{ij} \frac{\partial V_i}{\partial x_j}\]</span></p>
-<p>thermal energy eqn:</p>
-<p><span class="math display">\[\rho \frac{De}{Dt} = \nabla \cdot (\hat{k} \nabla T) + \tau_{ij} \frac{\partial u_i}{\partial x_j}\]</span></p>
-<p><span class="math display">\[\tau = -P \delta_{ij} + \sigma_{ij}\]</span></p>
-<p><span class="math display">\[
-P \nabla \cdot V = -\frac{P}{\rho} \frac{D\rho}{Dt} = \rho \frac{D}{Dt} \frac{p}{\rho} - \frac{D\rho}{Dt}
-\]</span></p>
-<p><span class="math display">\[
-\rho \frac{D}{Dt} (e + \frac{p}{\rho}) = \frac{DP}{Dt} + \nabla\cdot (\hat{k} \nabla T) + \sigma_{ij} \frac{\partial V_i}{\partial x_j} (heat)\geq 0
-\]</span></p>
-<p><span class="math display">\[\rho \frac{Dh}{Dt} = \frac{Dp}{Dt} + \nabla \cdot (\hat{k} \nabla T) + \Phi \]</span></p>
-<p>termodynamic identity:</p>
-<p><span class="math display">\[dh = C_p T + (1+ 1/\rho (\frac{\partial \rho}{\partial T})_p T \frac{dp}\rho\]</span></p>
-<p>low speed incompressible flow:</p>
-<p><span class="math display">\[\rho c_p \frac{DT}{Dt} = \nabla \cdot (\hat{k} \nabla T)\]</span></p>
-<p><span class="math display">\[
+<script type="math/tex; mode=display">\delta Q= C_v dT</script><script type="math/tex; mode=display">de = \frac{1}{m} \frac{k+3}{2} \hat{k} dT = C_v dT = \frac{k + 3}{2} R dT</script><script type="math/tex; mode=display">C_v = \frac{k + 3}{2}R , \frac{k}{m} =R</script><p>加多少热量保持压力不变：</p>
+<script type="math/tex; mode=display">\delta Q = C_p dT = C_v dT + P dV = C_vdT + R dT</script><p>$p = \rho R T , p = \frac{1}{V} RT, PV = RT$</p>
+<script type="math/tex; mode=display">C_p = C_v +  R = \frac{k + 3 +2 }{2}R</script><script type="math/tex; mode=display">\gamma = \frac{C_p}{C_v} = \frac{k + 5}{k + 3} = 5/3 ,k =0; 7/5 = 1.4,k=2; isothermal, k= \infty;</script><h2 id="energy"><a href="#energy" class="headerlink" title="energy:"></a>energy:</h2><script type="math/tex; mode=display">\rho (\frac{De}{Dt} + \frac{D \frac{1}{2}V^2}{Dt}) = \nabla \cdot (V\cdot \tau) \text{流体加速运动} + \nabla\cdot (\hat{k} \nabla T) \text{热量}</script><h2 id="momentum"><a href="#momentum" class="headerlink" title="momentum:"></a>momentum:</h2><script type="math/tex; mode=display">\rho \frac{DV}{Dt} = \nabla \cdot \tau</script><script type="math/tex; mode=display">\nabla \cdot (V \cdot \tau) = V \cdot (\nabla \cdot \tau) + \tau_{ij} \frac{\partial V_i}{\partial x_j}</script><p>thermal energy eqn:</p>
+<script type="math/tex; mode=display">\rho \frac{De}{Dt} = \nabla \cdot (\hat{k} \nabla T) + \tau_{ij} \frac{\partial u_i}{\partial x_j}</script><script type="math/tex; mode=display">\tau = -P \delta_{ij} + \sigma_{ij}</script><script type="math/tex; mode=display">
+P \nabla \cdot V = -\frac{P}{\rho} \frac{D\rho}{Dt} = \rho \frac{D}{Dt} \frac{p}{\rho} - \frac{D\rho}{Dt}</script><script type="math/tex; mode=display">
+\rho \frac{D}{Dt} (e + \frac{p}{\rho}) = \frac{DP}{Dt} + \nabla\cdot (\hat{k} \nabla T) + \sigma_{ij} \frac{\partial V_i}{\partial x_j} (heat)\geq 0</script><script type="math/tex; mode=display">\rho \frac{Dh}{Dt} = \frac{Dp}{Dt} + \nabla \cdot (\hat{k} \nabla T) + \Phi</script><p>termodynamic identity: </p>
+<script type="math/tex; mode=display">dh = C_p T + (1+ 1/\rho (\frac{\partial \rho}{\partial T})_p T \frac{dp}\rho</script><p>low speed incompressible flow:</p>
+<script type="math/tex; mode=display">\rho c_p \frac{DT}{Dt} = \nabla \cdot (\hat{k} \nabla T)</script><script type="math/tex; mode=display">
 \tau_{ij} = -P \delta_{ij} + \mu [
 \frac{\partial V_i}{\partial x_j} +
 \frac{\partial V_j}{\partial x_i}
@@ -793,14 +710,10 @@ P \nabla \cdot V = -\frac{P}{\rho} \frac{D\rho}{Dt} = \rho \frac{D}{Dt} \frac{p}
 \mu \frac{2k}{3(k+3)} \nabla V +
 \mu \frac{2k}{3(k+3)} \nabla V
 \approx
-T_{rot} -T_t
-\]</span></p>
-<p>各个方向的温度 <span class="math inline">\(\approx T_{ij} - T_{eq}\)</span></p>
-<p><span class="math inline">\(\mu\)</span> : dynamic viscosity coefficient <span class="math inline">\(\hat{k}\)</span>::heat conduction coefficient</p>
-<p><span class="math display">\[
-\mu \approx \frac{1}{3}c l
-\]</span></p>
-<ul>
+T_{rot} -T_t</script><p>各个方向的温度  $\approx T_{ij} - T_{eq}$</p>
+<p>$\mu$  : dynamic viscosity coefficient<br>$\hat{k}$::heat conduction coefficient</p>
+<script type="math/tex; mode=display">
+\mu \approx \frac{1}{3}c l</script><ul>
 <li>c: 声速,</li>
 <li>l: mean free path</li>
 </ul>
@@ -1084,7 +997,7 @@ T_{rot} -T_t
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#gas-dynamics"><span class="nav-number">1.</span> <span class="nav-text">gas dynamics:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#radiative-transfer-optical-thick"><span class="nav-number">2.</span> <span class="nav-text">radiative transfer (optical thick)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#different-level-of-description"><span class="nav-number">3.</span> <span class="nav-text">different level of description</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#difficulties"><span class="nav-number">4.</span> <span class="nav-text">Difficulties</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#bolzmann-两体碰撞"><span class="nav-number">5.</span> <span class="nav-text">Bolzmann 两体碰撞</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#numericall-metheds"><span class="nav-number">6.</span> <span class="nav-text">Numericall metheds</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#particle-methods"><span class="nav-number">7.</span> <span class="nav-text">particle methods</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#multiscale-modeling"><span class="nav-number"></span> <span class="nav-text">multiscale modeling</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#contents"><span class="nav-number"></span> <span class="nav-text">Contents</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#navier-stokes-equation-flud-gas"><span class="nav-number">1.</span> <span class="nav-text">Navier-Stokes Equation : flud gas</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#energy"><span class="nav-number">2.</span> <span class="nav-text">energy:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#momentum"><span class="nav-number">3.</span> <span class="nav-text">momentum:</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#multiscale-Transport-modeling-amp-computation"><span class="nav-number">1.</span> <span class="nav-text">multiscale Transport modeling &amp; computation</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#gas-dynamics"><span class="nav-number">1.1.</span> <span class="nav-text">gas dynamics:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#radiative-transfer-optical-thick"><span class="nav-number">1.2.</span> <span class="nav-text">radiative transfer (optical thick)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#different-level-of-description"><span class="nav-number">1.3.</span> <span class="nav-text">different level of description</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Difficulties"><span class="nav-number">1.4.</span> <span class="nav-text">Difficulties</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Bolzmann-两体碰撞"><span class="nav-number">1.5.</span> <span class="nav-text">Bolzmann 两体碰撞</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Numericall-metheds"><span class="nav-number">1.6.</span> <span class="nav-text">Numericall metheds</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#particle-methods"><span class="nav-number">1.7.</span> <span class="nav-text">particle methods</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#multiscale-modeling"><span class="nav-number">2.</span> <span class="nav-text">multiscale modeling</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Contents"><span class="nav-number">3.</span> <span class="nav-text">Contents</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Navier-Stokes-Equation-flud-gas"><span class="nav-number">3.1.</span> <span class="nav-text">Navier-Stokes Equation : flud gas</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Equation-of-compressible-Viscous-flow"><span class="nav-number">3.2.</span> <span class="nav-text">Equation of compressible Viscous flow</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#monmentum-Eq"><span class="nav-number">3.3.</span> <span class="nav-text">monmentum Eq:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Energy-Eqn-流体微团"><span class="nav-number">3.4.</span> <span class="nav-text">Energy Eqn: (流体微团)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1st-laws-of-thermaodynamics"><span class="nav-number">3.4.1.</span> <span class="nav-text">1st-laws of thermaodynamics:</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#energy"><span class="nav-number">3.5.</span> <span class="nav-text">energy:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#momentum"><span class="nav-number">3.6.</span> <span class="nav-text">momentum:</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -1134,7 +1047,7 @@ T_{rot} -T_t
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共11.8k字</span>
+  <span class="post-count">博客全站共11.1k字</span>
 </div>
 
         
