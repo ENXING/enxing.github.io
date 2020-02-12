@@ -93,13 +93,13 @@
 
 
 
-<meta name="description" content="problem 1 [ Page 148, 3.30]Solution:  As the normal vector is: $v = \bf{a} - \alpha \bf{e_1}$, we need avoid cancellation. So the sign should be : \bf{-}sign(\bf{a}^T \cdot \bf{e_1})  problem 2 [ Page">
+<meta name="description" content="problem 1 [ Page 148, 3.30]  Solution:  As the normal vector is: \(v = \bf{a} - \alpha \bf{e_1}\), we need avoid cancellation. So the sign should be : \[\bf{-}sign(\bf{a}^T \cdot \bf{e_1})\]  problem">
 <meta name="keywords" content="2018-fall,numeric">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Numeric-hw03">
 <meta property="og:url" content="https://enxing.tk/2018/Numeric-hw03.html">
 <meta property="og:site_name" content="小熊的博客">
-<meta property="og:description" content="problem 1 [ Page 148, 3.30]Solution:  As the normal vector is: $v = \bf{a} - \alpha \bf{e_1}$, we need avoid cancellation. So the sign should be : \bf{-}sign(\bf{a}^T \cdot \bf{e_1})  problem 2 [ Page">
+<meta property="og:description" content="problem 1 [ Page 148, 3.30]  Solution:  As the normal vector is: \(v = \bf{a} - \alpha \bf{e_1}\), we need avoid cancellation. So the sign should be : \[\bf{-}sign(\bf{a}^T \cdot \bf{e_1})\]  problem">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://applebrew.tk/figure/hw03/P01_3_30.JPG">
 <meta property="og:image" content="http://applebrew.tk/figure/hw03/P02_3_33.JPG">
@@ -119,7 +119,7 @@
 <meta property="og:updated_time" content="2019-12-23T15:24:03.556Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Numeric-hw03">
-<meta name="twitter:description" content="problem 1 [ Page 148, 3.30]Solution:  As the normal vector is: $v = \bf{a} - \alpha \bf{e_1}$, we need avoid cancellation. So the sign should be : \bf{-}sign(\bf{a}^T \cdot \bf{e_1})  problem 2 [ Page">
+<meta name="twitter:description" content="problem 1 [ Page 148, 3.30]  Solution:  As the normal vector is: \(v = \bf{a} - \alpha \bf{e_1}\), we need avoid cancellation. So the sign should be : \[\bf{-}sign(\bf{a}^T \cdot \bf{e_1})\]  problem">
 <meta name="twitter:image" content="http://applebrew.tk/figure/hw03/P01_3_30.JPG">
 
 
@@ -432,7 +432,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  769
+                  775
                 </span>
               
 
@@ -469,98 +469,103 @@
       
 
       
-        <h2 id="problem-1-Page-148-3-30"><a href="#problem-1-Page-148-3-30" class="headerlink" title="problem 1 [ Page 148, 3.30]"></a>problem 1 [ Page 148, 3.30]</h2><p><img src="http://applebrew.tk/figure/hw03/P01_3_30.JPG" alt="problem"><br>Solution:</p>
+        <h2 id="problem-1-page-148-3.30">problem 1 [ Page 148, 3.30]</h2>
+<p><img src="http://applebrew.tk/figure/hw03/P01_3_30.JPG" alt="problem"> Solution:</p>
 <ul>
-<li>As the normal vector is: $v = \bf{a} - \alpha \bf{e_1}$, we need avoid cancellation. So the sign should be : <script type="math/tex">\bf{-}sign(\bf{a}^T \cdot \bf{e_1})</script></li>
+<li>As the normal vector is: <span class="math inline">\(v = \bf{a} - \alpha \bf{e_1}\)</span>, we need avoid cancellation. So the sign should be : <span class="math display">\[\bf{-}sign(\bf{a}^T \cdot \bf{e_1})\]</span></li>
 </ul>
-<h2 id="problem-2-Page-148-3-33"><a href="#problem-2-Page-148-3-33" class="headerlink" title="problem 2 [ Page 148, 3.33]"></a>problem 2 [ Page 148, 3.33]</h2><p><img src="http://applebrew.tk/figure/hw03/P02_3_33.JPG" alt="problem"><br>Solution: (<a href="https://www.inf.ethz.ch/personal/gander/papers/qrneu.pdf" target="_blank" rel="noopener">Reference</a>)</p>
+<h2 id="problem-2-page-148-3.33">problem 2 [ Page 148, 3.33]</h2>
+<p><img src="http://applebrew.tk/figure/hw03/P02_3_33.JPG" alt="problem"> Solution: (<a href="https://www.inf.ethz.ch/personal/gander/papers/qrneu.pdf" target="_blank" rel="noopener">Reference</a>)</p>
 <ul>
-<li>LU factorization Of A: if no using partial pivoting, No additional storage of memory is needed except storage of matrix A. if using partial pivoting, the permutation matrix P need to be stored, and only need an extra storage of $(n - 1) \times 2$ array.</li>
-<li>QR factorization of A: only need an extra storage of $m \times 1$ array.<ul>
-<li>Following Graph: <img src="http://applebrew.tk/figure/hw03/P03_3_33_2.JPG" alt="following graph"> </li>
+<li>LU factorization Of A: if no using partial pivoting, No additional storage of memory is needed except storage of matrix A. if using partial pivoting, the permutation matrix P need to be stored, and only need an extra storage of <span class="math inline">\((n - 1) \times 2\)</span> array.</li>
+<li>QR factorization of A: only need an extra storage of <span class="math inline">\(m \times 1\)</span> array.
+<ul>
+<li>Following Graph: <img src="http://applebrew.tk/figure/hw03/P03_3_33_2.JPG" alt="following graph"></li>
+</ul></li>
 </ul>
-</li>
-</ul>
-<h2 id="problem-3-Page-149-3-44"><a href="#problem-3-Page-149-3-44" class="headerlink" title="problem 3 [ Page 149, 3.44]"></a>problem 3 [ Page 149, 3.44]</h2><p><img src="http://applebrew.tk/figure/hw03/P03_3_44.JPG" alt="problem"><br>Solution:</p>
+<h2 id="problem-3-page-149-3.44">problem 3 [ Page 149, 3.44]</h2>
+<p><img src="http://applebrew.tk/figure/hw03/P03_3_44.JPG" alt="problem"> Solution:</p>
 <ul>
 <li>Matrix elementary transformation.</li>
-<li>find max integer r, such that there is a sub-square-matrix formed by  entries intersected by r rows and r columns  of rectangular matrix and that determinant  is no equal to zero.</li>
+<li>find max integer r, such that there is a sub-square-matrix formed by entries intersected by r rows and r columns of rectangular matrix and that determinant is no equal to zero.</li>
 <li>QR-Householder decomposition, observe matrix R, can easily get rank.</li>
 <li>Singluar Value Decomposition, observe non-zero of diagonal matrix.</li>
 </ul>
-<h2 id="problem-4-Page-149-3-45"><a href="#problem-4-Page-149-3-45" class="headerlink" title="problem 4 [ Page 149, 3.45]"></a>problem 4 [ Page 149, 3.45]</h2><p><img src="http://applebrew.tk/figure/hw03/P04_3_45.JPG" alt="problem"><br>Solution:</p>
+<h2 id="problem-4-page-149-3.45">problem 4 [ Page 149, 3.45]</h2>
+<p><img src="http://applebrew.tk/figure/hw03/P04_3_45.JPG" alt="problem"> Solution:</p>
 <ul>
-<li>$(c) &gt; (a) &gt; (b)$</li>
+<li><span class="math inline">\((c) &gt; (a) &gt; (b)\)</span></li>
 </ul>
-<h2 id="problem-5-Page-149-3-1"><a href="#problem-5-Page-149-3-1" class="headerlink" title="problem 5 [ Page 149, 3.1 ]"></a>problem 5 [ Page 149, 3.1 ]</h2><p><img src="http://applebrew.tk/figure/hw03/P05_3_1.JPG" alt="problem"><br>Solution:</p>
+<h2 id="problem-5-page-149-3.1">problem 5 [ Page 149, 3.1 ]</h2>
+<p><img src="http://applebrew.tk/figure/hw03/P05_3_1.JPG" alt="problem"> Solution:</p>
 <ul>
-<li>$\begin{bmatrix}1 &amp; 10 \\\  1 &amp; 15 \\\ 1&amp; 20 \end{bmatrix}  \begin{bmatrix}x_1\\\ x_2\end{bmatrix}=\begin{bmatrix}11.60\\\ 11.85\\\ 12.25 \end{bmatrix}$</li>
-<li>inconstitent. <ul>
-<li>$x_1 = 11.10 ,\  x_2 = 0.05 (eqn \ 1 \ and \ 2)$ </li>
-<li>$x_1 = 10.65,\  x_2 = 0.08 (eqn \ 2 \ and \ 3)$</li>
+<li><span class="math inline">\(\begin{bmatrix}1 &amp; 10 \\\  1 &amp; 15 \\\ 1&amp; 20 \end{bmatrix} \begin{bmatrix}x_1\\\ x_2\end{bmatrix}=\begin{bmatrix}11.60\\\ 11.85\\\ 12.25 \end{bmatrix}\)</span></li>
+<li>inconstitent.
+<ul>
+<li><span class="math inline">\(x_1 = 11.10 ,\  x_2 = 0.05 (eqn \ 1 \ and \ 2)\)</span></li>
+<li><span class="math inline">\(x_1 = 10.65,\  x_2 = 0.08 (eqn \ 2 \ and \ 3)\)</span></li>
 <li>There is no reason to prefer any one of these result.</li>
-</ul>
-</li>
-<li>normal equation:<ul>
-<li>$A = \begin{bmatrix}1 &amp; 10 \\\  1 &amp; 15  \\\ 1&amp; 20 \end{bmatrix}$ ; $b= \begin{bmatrix}11.60\\\ 11.85\\\ 12.25 \end{bmatrix}$</li>
-<li>$A^{T} \cdot A x = A^T b$</li>
-<li>$x_1 = 10.9250, \ x_2 = 0.0650$ </li>
-<li>the result got by normal equation is better than those obtain in part b, and that seems to be certain average of possible pair of values obtained by selecting  any two of the equation from the system.</li>
-</ul>
-</li>
-</ul>
-<h2 id="problem-6-Page-149-3-3"><a href="#problem-6-Page-149-3-3" class="headerlink" title="problem 6 [ Page 149, 3.3 ]"></a>problem 6 [ Page 149, 3.3 ]</h2><p><img src="http://applebrew.tk/figure/hw03/P06_3_2.JPG" alt="problem"><br>Solution:</p>
+</ul></li>
+<li>normal equation:
 <ul>
-<li>$\begin{bmatrix}1 &amp; e \\\  2 &amp; e^2 \\\ 3 &amp; e^3 \end{bmatrix}  \begin{bmatrix}x_1 \\\ x_2\end{bmatrix}=\begin{bmatrix}2 \\\ 3\\\ 5 \end{bmatrix}$</li>
-<li>$A = \begin{bmatrix}1 &amp; e \\\  2 &amp; e^2 \\\ 3 &amp; e^3 \end{bmatrix} \ and \  b = \begin{bmatrix}2\\\ 3\\\ 5 \end{bmatrix}$</li>
-<li>normal equation:  $A^{T} \cdot A x = A^T b$</li>
-<li>$(x_1,\  x_2) =  ( 1.5942, \ 0.0088)$</li>
+<li><span class="math inline">\(A = \begin{bmatrix}1 &amp; 10 \\\  1 &amp; 15 \\\ 1&amp; 20 \end{bmatrix}\)</span> ; <span class="math inline">\(b= \begin{bmatrix}11.60\\\ 11.85\\\ 12.25 \end{bmatrix}\)</span></li>
+<li><span class="math inline">\(A^{T} \cdot A x = A^T b\)</span></li>
+<li><span class="math inline">\(x_1 = 10.9250, \ x_2 = 0.0650\)</span></li>
+<li>the result got by normal equation is better than those obtain in part b, and that seems to be certain average of possible pair of values obtained by selecting any two of the equation from the system.</li>
+</ul></li>
 </ul>
-<h2 id="problem-7-Page-150-3-14"><a href="#problem-7-Page-150-3-14" class="headerlink" title="problem 7 [ Page 150, 3.14 ]"></a>problem 7 [ Page 150, 3.14 ]</h2><p><img src="http://applebrew.tk/figure/hw03/P07_3_14.JPG" alt="problem"><br>Solution:</p>
+<h2 id="problem-6-page-149-3.3">problem 6 [ Page 149, 3.3 ]</h2>
+<p><img src="http://applebrew.tk/figure/hw03/P06_3_2.JPG" alt="problem"> Solution:</p>
 <ul>
-<li>orthogonal : $H^T* H =  I$<ul>
-<li>$H^T*H = (I - 2\frac{vv^T}{v^Tv})^T\cdot (I - 2\frac{vv^T}{v^Tv})$</li>
-<li>$=I - 2 \frac{vv^T}{v^T v} - 2 [\frac{vv^T}{v^T v}]^T +4 [\frac{vv^T}{v^T v}]^T * [\frac{vv^T}{v^T v}] = I$</li>
+<li><span class="math inline">\(\begin{bmatrix}1 &amp; e \\\  2 &amp; e^2 \\\ 3 &amp; e^3 \end{bmatrix} \begin{bmatrix}x_1 \\\ x_2\end{bmatrix}=\begin{bmatrix}2 \\\ 3\\\ 5 \end{bmatrix}\)</span></li>
+<li><span class="math inline">\(A = \begin{bmatrix}1 &amp; e \\\  2 &amp; e^2 \\\ 3 &amp; e^3 \end{bmatrix} \ and \  b = \begin{bmatrix}2\\\ 3\\\ 5 \end{bmatrix}\)</span></li>
+<li>normal equation: <span class="math inline">\(A^{T} \cdot A x = A^T b\)</span></li>
+<li><span class="math inline">\((x_1,\  x_2) = ( 1.5942, \ 0.0088)\)</span></li>
 </ul>
-</li>
-<li>symmetric: $H^T = H$ ; Obviously.</li>
-</ul>
-<h2 id="problem-8-Page-152-3-31"><a href="#problem-8-Page-152-3-31" class="headerlink" title="problem 8 [ Page 152, 3.31 ]"></a>problem 8 [ Page 152, 3.31 ]</h2><p><img src="http://applebrew.tk/figure/hw03/P08_3_31.JPG" alt="problem"><br>Solution: (<a href="https://math.stackexchange.com/questions/974193/why-does-svd-provide-the-least-squares-and-least-norm-solution-to-a-x-b" target="_blank" rel="noopener">Reference</a>)</p>
+<h2 id="problem-7-page-150-3.14">problem 7 [ Page 150, 3.14 ]</h2>
+<p><img src="http://applebrew.tk/figure/hw03/P07_3_14.JPG" alt="problem"> Solution:</p>
 <ul>
-<li>$A^T A X= A^Tb$</li>
-<li>$\Rightarrow X = (A^TA)^{-1} A^T b; \ A = U\Sigma V^T$</li>
-<li>$\Rightarrow X = ( [U\Sigma V^T]^TU\Sigma V^T)^{-1} [U\Sigma V^T]^T b$</li>
-<li>$\Rightarrow X = ( V\Sigma^T\Sigma V^T)^{-1} V\Sigma^T U^T b$</li>
-<li>$\Rightarrow X =  V\Sigma^{-1}(\Sigma^T)^{-1} V^{-1} V\Sigma^T U^T b$</li>
-<li>$\Rightarrow X =  V\Sigma^{-1}(\Sigma^T)^{-1} \Sigma^T U^T b$</li>
-<li>$\Rightarrow X =  V\Sigma^{-1} U^T b$</li>
-<li>$\Rightarrow X =  V\Sigma^{+} U^T b$</li>
-<li>$U = [u_1 , u_2, \cdots , u_n]; V=[v_1, v_2, \cdots, u_n]; $</li>
-<li>$\Sigma^{+} = diag[1/\sigma_1 , 1/\sigma_2, \cdots, 1/\sigma_r, 0 ,0 ]$</li>
-<li>So we get $X = \sum_{\sigma_i \neq 0} \frac{u_i^Tb}{\sigma_i}v_i$</li>
-</ul>
-<h2 id="problem-9-Page-152-3-32"><a href="#problem-9-Page-152-3-32" class="headerlink" title="problem 9 [ Page 152, 3.32 ]"></a>problem 9 [ Page 152, 3.32 ]</h2><p><img src="http://applebrew.tk/figure/hw03/P09_3_32.JPG" alt="problem"><br>Solution:</p>
+<li>orthogonal : <span class="math inline">\(H^T* H = I\)</span>
 <ul>
-<li>$AA^+A = U\Sigma V^T \cdot V\Sigma ^+U^T\cdot U\Sigma V^T = U\Sigma V^T= A$</li>
-<li>$A^+AA^+ =V\Sigma ^+U^T\cdot U\Sigma V^T \cdot V\Sigma ^+U^T =V\Sigma ^+U^T= A^+$</li>
-<li>$(A^+A)^T= A^+A$ <ul>
-<li>$(A^+A)^T =(V\Sigma ^+U^T\cdot U\Sigma V^T )^T=V{ \Sigma ^T \Sigma ^+}^T V^T$</li>
-<li>$A^+A =V\Sigma ^+U^T \cdot U\Sigma V^T=V\Sigma ^+\Sigma V^T$</li>
-<li>Obviously $\Sigma^+\Sigma = (\Sigma^+\Sigma)^T$<br><img src="http://applebrew.tk/figure/hw03/Pseudoinverse.JPG" alt="Pseudoinverse"> </li>
+<li><span class="math inline">\(H^T*H = (I - 2\frac{vv^T}{v^Tv})^T\cdot (I - 2\frac{vv^T}{v^Tv})\)</span></li>
+<li><span class="math inline">\(=I - 2 \frac{vv^T}{v^T v} - 2 [\frac{vv^T}{v^T v}]^T +4 [\frac{vv^T}{v^T v}]^T * [\frac{vv^T}{v^T v}] = I\)</span></li>
+</ul></li>
+<li>symmetric: <span class="math inline">\(H^T = H\)</span> ; Obviously.</li>
 </ul>
-</li>
-<li>$(AA^+)^T= AA^+$  for the same reason, can be proved.</li>
-</ul>
-<h2 id="problem-10"><a href="#problem-10" class="headerlink" title="problem 10"></a><a href="https://rosettacode.org/wiki/QR_decomposition" target="_blank" rel="noopener">problem 10</a></h2><p>Computer problem (in C or C++): Using Householder transform to achieve the QR decomposition with and without a column pivoting. Then, using QR decomposition to finish 3.8 on page 154.<br><img src="http://applebrew.tk/figure/hw03/P10_3_8_0.JPG" alt="problem"> </p>
+<h2 id="problem-8-page-152-3.31">problem 8 [ Page 152, 3.31 ]</h2>
+<p><img src="http://applebrew.tk/figure/hw03/P08_3_31.JPG" alt="problem"> Solution: (<a href="https://math.stackexchange.com/questions/974193/why-does-svd-provide-the-least-squares-and-least-norm-solution-to-a-x-b" target="_blank" rel="noopener">Reference</a>)</p>
 <ul>
-<li><p><a href="https://jbox.sjtu.edu.cn/l/I510xy" target="_blank" rel="noopener">Code Download</a></p>
+<li><span class="math inline">\(A^T A X= A^Tb\)</span></li>
+<li><span class="math inline">\(\Rightarrow X = (A^TA)^{-1} A^T b; \ A = U\Sigma V^T\)</span></li>
+<li><span class="math inline">\(\Rightarrow X = ( [U\Sigma V^T]^TU\Sigma V^T)^{-1} [U\Sigma V^T]^T b\)</span></li>
+<li><span class="math inline">\(\Rightarrow X = ( V\Sigma^T\Sigma V^T)^{-1} V\Sigma^T U^T b\)</span></li>
+<li><span class="math inline">\(\Rightarrow X = V\Sigma^{-1}(\Sigma^T)^{-1} V^{-1} V\Sigma^T U^T b\)</span></li>
+<li><span class="math inline">\(\Rightarrow X = V\Sigma^{-1}(\Sigma^T)^{-1} \Sigma^T U^T b\)</span></li>
+<li><span class="math inline">\(\Rightarrow X = V\Sigma^{-1} U^T b\)</span></li>
+<li><span class="math inline">\(\Rightarrow X = V\Sigma^{+} U^T b\)</span></li>
+<li>$U = [u_1 , u_2, , u_n]; V=[v_1, v_2, , u_n]; $</li>
+<li><span class="math inline">\(\Sigma^{+} = diag[1/\sigma_1 , 1/\sigma_2, \cdots, 1/\sigma_r, 0 ,0 ]\)</span></li>
+<li>So we get <span class="math inline">\(X = \sum_{\sigma_i \neq 0} \frac{u_i^Tb}{\sigma_i}v_i\)</span></li>
+</ul>
+<h2 id="problem-9-page-152-3.32">problem 9 [ Page 152, 3.32 ]</h2>
+<p><img src="http://applebrew.tk/figure/hw03/P09_3_32.JPG" alt="problem"> Solution:</p>
 <ul>
-<li>Cholesky factorization is more sensitive, I think.</li>
-<li>QR method comes closer to recovering the x that we  used to generate the data!</li>
-<li>Not affect. As it exists the random error, having different solutions is not weird, and we can average the solutions generate by QR method.<br><img src="http://applebrew.tk/figure/hw03/A.JPG" alt="A"><br><img src="http://applebrew.tk/figure/hw03/QR.JPG" alt="QR"><br><img src="http://applebrew.tk/figure/hw03/Solution.JPG" alt="Solution"> </li>
+<li><span class="math inline">\(AA^+A = U\Sigma V^T \cdot V\Sigma ^+U^T\cdot U\Sigma V^T = U\Sigma V^T= A\)</span></li>
+<li><span class="math inline">\(A^+AA^+ =V\Sigma ^+U^T\cdot U\Sigma V^T \cdot V\Sigma ^+U^T =V\Sigma ^+U^T= A^+\)</span></li>
+<li><span class="math inline">\((A^+A)^T= A^+A\)</span>
+<ul>
+<li><span class="math inline">\((A^+A)^T =(V\Sigma ^+U^T\cdot U\Sigma V^T )^T=V{ \Sigma ^T \Sigma ^+}^T V^T\)</span></li>
+<li><span class="math inline">\(A^+A =V\Sigma ^+U^T \cdot U\Sigma V^T=V\Sigma ^+\Sigma V^T\)</span></li>
+<li>Obviously <span class="math inline">\(\Sigma^+\Sigma = (\Sigma^+\Sigma)^T\)</span> <img src="http://applebrew.tk/figure/hw03/Pseudoinverse.JPG" alt="Pseudoinverse"></li>
+</ul></li>
+<li><span class="math inline">\((AA^+)^T= AA^+\)</span> for the same reason, can be proved.</li>
 </ul>
-</li>
-</ul>
+<h2 id="problem-10"><a href="https://rosettacode.org/wiki/QR_decomposition" target="_blank" rel="noopener">problem 10</a></h2>
+<p>Computer problem (in C or C++): Using Householder transform to achieve the QR decomposition with and without a column pivoting. Then, using QR decomposition to finish 3.8 on page 154. <img src="http://applebrew.tk/figure/hw03/P10_3_8_0.JPG" alt="problem"> * <a href="https://jbox.sjtu.edu.cn/l/I510xy" target="_blank" rel="noopener">Code Download</a></p>
+<pre><code>* Cholesky factorization is more sensitive, I think.
+* QR method comes closer to recovering the x that we  used to generate the data!
+*  Not affect. As it exists the random error, having different solutions is not weird, and we can average the solutions generate by QR method.</code></pre>
+<p><img src="http://applebrew.tk/figure/hw03/A.JPG" alt="A"> <img src="http://applebrew.tk/figure/hw03/QR.JPG" alt="QR"> <img src="http://applebrew.tk/figure/hw03/Solution.JPG" alt="Solution"></p>
 
       
     </div>
@@ -766,7 +771,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">11</span>
+                  <span class="site-state-item-count">12</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -849,7 +854,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-1-Page-148-3-30"><span class="nav-number">1.</span> <span class="nav-text">problem 1 [ Page 148, 3.30]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-2-Page-148-3-33"><span class="nav-number">2.</span> <span class="nav-text">problem 2 [ Page 148, 3.33]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-3-Page-149-3-44"><span class="nav-number">3.</span> <span class="nav-text">problem 3 [ Page 149, 3.44]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-4-Page-149-3-45"><span class="nav-number">4.</span> <span class="nav-text">problem 4 [ Page 149, 3.45]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-5-Page-149-3-1"><span class="nav-number">5.</span> <span class="nav-text">problem 5 [ Page 149, 3.1 ]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-6-Page-149-3-3"><span class="nav-number">6.</span> <span class="nav-text">problem 6 [ Page 149, 3.3 ]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-7-Page-150-3-14"><span class="nav-number">7.</span> <span class="nav-text">problem 7 [ Page 150, 3.14 ]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-8-Page-152-3-31"><span class="nav-number">8.</span> <span class="nav-text">problem 8 [ Page 152, 3.31 ]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-9-Page-152-3-32"><span class="nav-number">9.</span> <span class="nav-text">problem 9 [ Page 152, 3.32 ]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-10"><span class="nav-number">10.</span> <span class="nav-text">problem 10</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-1-page-148-3.30"><span class="nav-number">1.</span> <span class="nav-text">problem 1 [ Page 148, 3.30]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-2-page-148-3.33"><span class="nav-number">2.</span> <span class="nav-text">problem 2 [ Page 148, 3.33]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-3-page-149-3.44"><span class="nav-number">3.</span> <span class="nav-text">problem 3 [ Page 149, 3.44]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-4-page-149-3.45"><span class="nav-number">4.</span> <span class="nav-text">problem 4 [ Page 149, 3.45]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-5-page-149-3.1"><span class="nav-number">5.</span> <span class="nav-text">problem 5 [ Page 149, 3.1 ]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-6-page-149-3.3"><span class="nav-number">6.</span> <span class="nav-text">problem 6 [ Page 149, 3.3 ]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-7-page-150-3.14"><span class="nav-number">7.</span> <span class="nav-text">problem 7 [ Page 150, 3.14 ]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-8-page-152-3.31"><span class="nav-number">8.</span> <span class="nav-text">problem 8 [ Page 152, 3.31 ]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-9-page-152-3.32"><span class="nav-number">9.</span> <span class="nav-text">problem 9 [ Page 152, 3.32 ]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-10"><span class="nav-number">10.</span> <span class="nav-text">problem 10</span></a></li></ol></div>
             
 
           </div>
@@ -899,7 +904,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共8.8k字</span>
+  <span class="post-count">博客全站共11.8k字</span>
 </div>
 
         
