@@ -1,38 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Enxing Xiong</title>
-    <link>https://enxing.github.io/</link>
-    <description>Recent content on Enxing Xiong</description>
+    <title>Ananke</title>
+    <link>https://gohugo-theme-ananke.pages.dev/</link>
+    <description>Recent content on Ananke</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 20 Nov 2022 03:25:07 -0500</lastBuildDate><atom:link href="https://enxing.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Nodejs</title>
-      <link>https://enxing.github.io/fullstack/nodejs/</link>
-      <pubDate>Sun, 20 Nov 2022 03:25:07 -0500</pubDate>
-      
-      <guid>https://enxing.github.io/fullstack/nodejs/</guid>
-      <description>mongoose </description>
-    </item>
-    
-    <item>
-      <title>Nginx</title>
-      <link>https://enxing.github.io/fullstack/nginx/</link>
-      <pubDate>Sun, 20 Nov 2022 03:03:14 -0500</pubDate>
-      
-      <guid>https://enxing.github.io/fullstack/nginx/</guid>
-      <description>GYM Backup: mongoexport -d exercise -c workouts -f _id,exercise.name,exercise._id,repeat,weight &amp;ndash;type=csv -o workout.csv mongoimport -d exercise -c workouts &amp;ndash;type=csv &amp;ndash;headerline &amp;ndash;file=workout.csv Restore mongodump mongorestore &amp;ndash;db exercise ./dump/exercise nodemon screen -ls screen -S myname screen -S myname -X quit screen -r myname ctrl+a d: detach Mongodb db.workouts.update({}, {$set:{&amp;ldquo;deleted&amp;rdquo;:false}}, false, true) db.workouts.deleteMany({deleted:true}); nginx: setting server { listen 80 default_server; server_name _; return 301 https://$host$request_uri; } server { listen 443 ssl; ssl_certificate /root/.acme.sh/workoutreport.ga/fullchain.cer; ssl_certificate_key /root/.</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://enxing.github.io/posts/my-first-post/</link>
-      <pubDate>Sun, 20 Nov 2022 02:42:44 -0500</pubDate>
-      
-      <guid>https://enxing.github.io/posts/my-first-post/</guid>
-      <description></description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://gohugo-theme-ananke.pages.dev/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
