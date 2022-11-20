@@ -18,10 +18,10 @@
     
     <item>
       <title>Nginx</title>
-      <link>https://enxing.github.io/posts/nginx/</link>
+      <link>https://enxing.github.io/fullstack/nginx/</link>
       <pubDate>Sun, 20 Nov 2022 03:03:14 -0500</pubDate>
       
-      <guid>https://enxing.github.io/posts/nginx/</guid>
+      <guid>https://enxing.github.io/fullstack/nginx/</guid>
       <description>GYM Backup: mongoexport -d exercise -c workouts -f _id,exercise.name,exercise._id,repeat,weight &amp;ndash;type=csv -o workout.csv mongoimport -d exercise -c workouts &amp;ndash;type=csv &amp;ndash;headerline &amp;ndash;file=workout.csv Restore mongodump mongorestore &amp;ndash;db exercise ./dump/exercise nodemon screen -ls screen -S myname screen -S myname -X quit screen -r myname ctrl+a d: detach Mongodb db.workouts.update({}, {$set:{&amp;ldquo;deleted&amp;rdquo;:false}}, false, true) db.workouts.deleteMany({deleted:true}); nginx: setting server { listen 80 default_server; server_name _; return 301 https://$host$request_uri; } server { listen 443 ssl; ssl_certificate /root/.acme.sh/workoutreport.ga/fullchain.cer; ssl_certificate_key /root/.</description>
     </item>
     
