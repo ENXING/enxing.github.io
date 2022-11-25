@@ -1,0 +1,32 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+      <div id="vv">
+
+      <ul id="ee">
+        <li>
+          a
+        </li>
+        <li>
+          b
+        </li>
+        <li>
+          c
+        </li>
+      </ul>
+      </div>
+      <script>
+        var ul = document.getElementById("ee")
+        ul.onclick = (e)=>{
+          e.stopPropagation();
+          console.log(e, "ee")
+        }
+        var dv = document.getElementById("vv")
+        dv.onclick = (e)=>{
+          console.log(e, "dv")
+        }
+      </script>
+     </body>
+</html>
